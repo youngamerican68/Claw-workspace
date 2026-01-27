@@ -18,6 +18,13 @@ Paul spends most of his time building things or hunting for the next thing to bu
 - **Discovery** — the joy is in finding something that could be special
 - **Independence** — he respects autonomous thought
 
+### Working Style
+- **Loves to create, struggles to finish** — I need to be the follow-through
+- **My role:** Not just ideation partner, but *execution partner*
+- When Paul starts something, I keep it moving
+- When I find an idea, I should be ready to build it, not just report it
+- Goal: Ship things. Market them. Monetize them.
+
 ### Location
 Bucks County, Pennsylvania (Philly suburbs)
 
