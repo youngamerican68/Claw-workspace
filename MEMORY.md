@@ -14,11 +14,17 @@
 
 - **video-promo**: Remotion-based video creation. Use for promo clips, marketing videos, explainers. Template at `skills/video-promo/assets/remotion-template/`
 
+## Planned Features
+
+- **Twitter monitoring**: Cron jobs to check Following + For You feeds (requires browser setup)
+
 ## Key Learnings
 
 - Running two Clawdbot instances with the same Telegram bot token causes `getUpdates conflict` errors
 - Solution: Use separate bot tokens for dev vs. prod, or only run one instance at a time
 - UTM VM had a systemd user service (`clawdbot-gateway.service`) that auto-started — disabled with `systemctl --user disable clawdbot-gateway`
+- Snap Chromium has AppArmor restrictions on headless servers — use Playwright's Chromium instead
+- Browser config: `browser.headless: true` and `browser.noSandbox: true` for server operation
 
 ---
 
