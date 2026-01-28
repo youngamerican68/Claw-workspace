@@ -40,24 +40,44 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="gradient-hero pt-32 pb-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="max-w-3xl">
-            <div className="inline-block px-4 py-1 bg-[var(--teal)]/10 text-[var(--teal-dark)] rounded-full text-sm font-medium mb-6">
-              ⚡ AI-Powered Callback in 60 Seconds
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left side - Text */}
+            <div>
+              <div className="inline-block px-4 py-1 bg-[var(--teal)]/10 text-[var(--teal-dark)] rounded-full text-sm font-medium mb-6">
+                ⚡ AI-Powered Callback in 60 Seconds
+              </div>
+              <h1 className="text-5xl md:text-6xl font-bold text-[var(--black)] leading-tight mb-6">
+                Never Lose Another Lead to a{' '}
+                <span className="text-[var(--teal)]">Missed Call</span>
+              </h1>
+              <p className="text-xl text-[var(--black)]/80 mb-8 leading-relaxed">
+                When customers call and you can&apos;t answer, MissedCallCloser calls them back instantly with AI — qualifying leads, answering questions, and booking appointments while you focus on what matters.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a href="#demo" className="px-8 py-4 bg-[var(--teal)] text-white text-lg font-semibold rounded-lg hover:bg-[var(--teal-dark)] transition shadow-lg shadow-[var(--teal)]/30 text-center">
+                  Try Free Demo
+                </a>
+                <a href="#pricing" className="px-8 py-4 border-2 border-[var(--black)] text-[var(--black)] text-lg font-semibold rounded-lg hover:bg-[var(--black)] hover:text-white transition text-center">
+                  View Pricing
+                </a>
+              </div>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-[var(--black)] leading-tight mb-6">
-              Never Lose Another Lead to a{' '}
-              <span className="text-[var(--teal)]">Missed Call</span>
-            </h1>
-            <p className="text-xl text-[var(--black)]/80 mb-8 leading-relaxed">
-              When customers call and you can&apos;t answer, MissedCallCloser calls them back instantly with AI — qualifying leads, answering questions, and booking appointments while you focus on what matters.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#demo" className="px-8 py-4 bg-[var(--teal)] text-white text-lg font-semibold rounded-lg hover:bg-[var(--teal-dark)] transition shadow-lg shadow-[var(--teal)]/30 text-center">
-                Try Free Demo
-              </a>
-              <a href="#pricing" className="px-8 py-4 border-2 border-[var(--black)] text-[var(--black)] text-lg font-semibold rounded-lg hover:bg-[var(--black)] hover:text-white transition text-center">
-                View Pricing
-              </a>
+            
+            {/* Right side - Video */}
+            <div className="relative">
+              <div className="rounded-2xl overflow-hidden shadow-2xl shadow-[var(--black)]/20 border border-[var(--sand)]/30">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-auto"
+                >
+                  <source src="/promo.mp4" type="video/mp4" />
+                </video>
+              </div>
+              {/* Decorative elements */}
+              <div className="absolute -z-10 -top-4 -right-4 w-full h-full bg-[var(--teal)]/10 rounded-2xl"></div>
             </div>
           </div>
         </div>
