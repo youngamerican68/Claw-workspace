@@ -1,0 +1,104 @@
+{
+  "date": "2026-02-01T03:41:41.474Z",
+  "totalTweets": 60,
+  "authorsMonitored": 1,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@DiscmanStudio @openclaw @Letta_AI Yes please",
+      "url": "https://x.com/MatthewBerman/status/2017740739737002067",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@ChrisPirillo @openclaw @Letta_AI Big fan!",
+      "url": "https://x.com/MatthewBerman/status/2017669569159303646",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@BrandGrowthOS @openclaw @Letta_AI Yes but also just cost savings (offloading inference to low traffic times) and becoming more proactive to user needs.",
+      "url": "https://x.com/MatthewBerman/status/2017645280339099663",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "This has tremendous potential for @openclaw (Clawdbot/Moltbot)\n\nAgents dreaming is not a new idea. Sleep time compute paper by @Letta_AI team for example.",
+      "url": "https://x.com/MatthewBerman/status/2017642944120164612",
+      "engagement": {
+        "likes": 37,
+        "retweets": 5,
+        "replies": 6
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "Good take by…AI",
+      "url": "https://x.com/MatthewBerman/status/2017466501650071808",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "Crypto twitter please stop trying to ride AI trends it’s so cringe",
+      "url": "https://x.com/MatthewBerman/status/2017463514798166374",
+      "engagement": {
+        "likes": 95,
+        "retweets": 2,
+        "replies": 28
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "I thought I was crazy. I started noticing weirdly low engagement rates on VERY well known YT channels in our niche. I also noticed many of those are creators that started first on IG. \n\nResults matter",
+      "url": "https://x.com/MatthewBerman/status/2017456424989954082",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@dflieb I tried explaining it to my non techie wife 🤷‍♂️",
+      "url": "https://x.com/MatthewBerman/status/2017453348363112675",
+      "engagement": {
+        "likes": 24,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "HIGH"
+    }
+  ],
+  "summary": []
+}

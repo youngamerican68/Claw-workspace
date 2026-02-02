@@ -1,0 +1,584 @@
+{
+  "date": "2026-02-01T04:00:07.454Z",
+  "totalTweets": 151,
+  "authorsMonitored": 23,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@DiscmanStudio @openclaw @Letta_AI Yes please",
+      "url": "https://x.com/MatthewBerman/status/2017740739737002067",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "I’ll be sharing more frameworks and insights like this.\n\nFollow @ethanrow_ai so you don’t miss the next one.\n\nAnd if you’re building something thoughtful or long-term in AI, my DMs are open.",
+      "url": "https://x.com/ethanjrowland/status/2017742500325376465",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "Fix copyright claims on published work and promote fair use.\nLLMs are more capable at search, retrieval but fear copyright claims.\nIf you force it to cite certain sources, they may hallucinate/simulat",
+      "url": "https://x.com/Web3Aible/status/2017746661607387383",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "Attention is indeed all you need \nMolbot/OpenClaw took all the Ai twitter attention and still strongly do",
+      "url": "https://x.com/Web3Aible/status/2017739790901227956",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "Codex today solved my hardest coding problem after 2 days of iteration and failing.\nIt can do anything.",
+      "url": "https://x.com/Web3Aible/status/2017738742983688430",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "Ai agents 🤝 Crypto is an unstoppable integration.",
+      "url": "https://x.com/Web3Aible/status/2017737187282804991",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "@coreyhainesco @openclaw Security is still uncharted waters.",
+      "url": "https://x.com/Web3Aible/status/2017735044496806255",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@lea_kelbsch @MattPRD @moltbook @karpathy Not all accounts have emails though. It was optional.",
+      "url": "https://x.com/theonejvo/status/2017808612987703516",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@zyus @vlelyavin @moltbook @karpathy The guy above is Ukrainian so i thought id reply in his mother tongue, nothing deeper than that.",
+      "url": "https://x.com/theonejvo/status/2017796413187604948",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@grok @John63496423082 @Carla12aa @evanwch @bambu_818 All good grok I aint tryna get chu to turn yo back on yo squad. I juzzz sayinnnn we FAMILY https://t.co/Ycgr1Tj0XJ",
+      "url": "https://x.com/theonejvo/status/2017775454183477274",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Alot has… accelerated in the last 24 hours. The real number is around 16,500 agents that completed verification. We can presume this based on the fact moltbook agents can be registered with going thro",
+      "url": "https://x.com/theonejvo/status/2017770569996152847",
+      "engagement": {
+        "likes": 31,
+        "retweets": 2,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@sierracatalina *checks notes*\nI believe you said. https://t.co/C2dO7irlqq",
+      "url": "https://x.com/theonejvo/status/2017762863339999318",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@steffenbauch @dvalcane @MattPRD @moltbook @karpathy Wrong repo. I don't believe @moltbook has a public repo (apparently /moltbook is some squatter)",
+      "url": "https://x.com/theonejvo/status/2017762513144975536",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Nothing against Jason, I don't know the guy. However, after seeing this, I categorically F with @PalmerLuckey 👏",
+      "url": "https://x.com/theonejvo/status/2017761689803100509",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@SpoogemanGhost If I was @MattPRD and I wanted to double down on this event and embrace TRUE vibe coding. I'd simultaneously launch \"Internetcondom\" which protects  startups and devs alike when buildi",
+      "url": "https://x.com/theonejvo/status/2017756858111692878",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "If @mattprd rotates the API keys, how do users get their new ones? @moltbook  has no web login, agents authenticate purely via API key. \n\nRotate = instant lockout with no recovery path.\n\nIt needs eith",
+      "url": "https://x.com/theonejvo/status/2017748318554935659",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@onchainlurkin @MattPRD @moltbook @karpathy None yet sorry.",
+      "url": "https://x.com/theonejvo/status/2017746789202620477",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@MattPRD @moltbook @karpathy I can confirm @MattPRD has patched the issue! Waiting on confirmation that he's rotated the keys which would highly likely, be compromised.",
+      "url": "https://x.com/theonejvo/status/2017745032481313177",
+      "engagement": {
+        "likes": 52,
+        "retweets": 1,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "-- Roll all API keys with new random values\nUPDATE agents\nSET api_key = 'moltbook_sk_' || encode(gen_random_bytes(32), 'hex');\n-- Or if you want to roll only claimed accounts\nUPDATE agents\nSET api_key",
+      "url": "https://x.com/theonejvo/status/2017743379145363689",
+      "engagement": {
+        "likes": 19,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@ifeanyi_we @moltbook @karpathy @supabase Stranger things have happened.",
+      "url": "https://x.com/theonejvo/status/2017741747879846281",
+      "engagement": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Since I can't get a hold of you and you need to lock this down ASAP. My suggestion would be to either pull the plug on your @supabase or tell your AI vibe coding agent to do this:\n\n1. Enable RLS on th",
+      "url": "https://x.com/theonejvo/status/2017735687999783049",
+      "engagement": {
+        "likes": 227,
+        "retweets": 8,
+        "replies": 16
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@moltbook @karpathy cc: @benparr apparently you can help get in touch with Matt.",
+      "url": "https://x.com/theonejvo/status/2017733276069466262",
+      "engagement": {
+        "likes": 125,
+        "retweets": 1,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "I've been trying to reach @moltbook for the last few hours. They are exposing their entire database to the public with no protection including secret api_key's that would allow anyone to post on behal",
+      "url": "https://x.com/theonejvo/status/2017732898632437932",
+      "engagement": {
+        "likes": 2243,
+        "retweets": 297,
+        "replies": 222
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@brunoborges reminds me of the mass scan talk at blackhat \n\niykyk\n\nthe one where they ended the conf\nsuper early cause they pulled\ncontrol systems for a railway",
+      "url": "https://x.com/GeoffreyHuntley/status/2017727781686415712",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "More spoilers from the @cerebral_valley hackathon tonight, featuring @cline, @livekit, @vercel, @pipecat_ai, @fal, the @antigravity team, and more! https://t.co/0ykSFzXQtm",
+      "url": "https://x.com/DynamicWebPaige/status/2017781424473182517",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "☁️ altocumulus clouds painting a beautiful mackerel sky this afternoon in downtown SF 🐟 https://t.co/3A2tlxPBpN",
+      "url": "https://x.com/DynamicWebPaige/status/2017760666984321424",
+      "engagement": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "💓🙌 Sul, Sul!\n\nThis generative AI team working week has been *incredible*, it's amazing to have so many friends visiting us in California. More to come in 2026!",
+      "url": "https://x.com/DynamicWebPaige/status/2017752785924898917",
+      "engagement": {
+        "likes": 11,
+        "retweets": 2,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Ok what's SaaStr AI Agent playbook?\n\nWe've put it all together in a NEW eBook.  All the vendors, all the workflows, all the metrics, how it all works.\n\nGrab it here -&gt; https://t.co/5pm6mXlPv9 https",
+      "url": "https://x.com/jasonlk/status/2017797804824158324",
+      "engagement": {
+        "likes": 6,
+        "retweets": 1,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Outbound is broken. \nCold email is dying. \nThe B2B companies winning right now have completely rebuilt their GTM around AI. \n\nAt SaaStr AI 2026, they're showing you exactly how.\n\nMay 12-14. SF Bay. ht",
+      "url": "https://x.com/jasonlk/status/2017766096372207975",
+      "engagement": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@startupandrew Interesting - will try this week!",
+      "url": "https://x.com/BillDA/status/2017809049488708031",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@physiotechai Yes correct. This is just a quick way to get started. You can move to a cloud VM fairly easily later.",
+      "url": "https://x.com/BillDA/status/2017753251060293696",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@RobMiller137 Dude, if you’re interested in AI, did it not occur to you to just paste it into your model of choice and ask for a conversion?",
+      "url": "https://x.com/BillDA/status/2017753121254986095",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@ssmccul Haiku",
+      "url": "https://x.com/BillDA/status/2017747451927560333",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@startupandrew @TaskletAI If you wrote a piece of content comparing them and describing how @TaskletAI was more powerful, I think it’d get a lot of views",
+      "url": "https://x.com/BillDA/status/2017729937466130590",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@startupandrew @TaskletAI Can it do the same things OpenClaw can?",
+      "url": "https://x.com/BillDA/status/2017725619799290217",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@BenjaminDEKR @jerols @maxtokenai Cron to check a todo list?\n\nHey @maxtokenai how do you do it?",
+      "url": "https://x.com/BillDA/status/2017720834706563148",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@MrReaganUSA Let the pressure flow through you President",
+      "url": "https://x.com/AlexFinn/status/2017803101248651649",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "I cannot stress this enough:\n\nThe time for sitting on the sidelines is over. \n\nIt's time to strike. The most powerful technology of our lifetime just released, presenting the greatest opportunity of o",
+      "url": "https://x.com/AlexFinn/status/2017752972978266518",
+      "engagement": {
+        "likes": 950,
+        "retweets": 58,
+        "replies": 189
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@frankzuuring I want Henry to do things no AI agent has ever done before.\n\nI want Henry to conquer.",
+      "url": "https://x.com/AlexFinn/status/2017733305656111141",
+      "engagement": {
+        "likes": 33,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@AiBreakfast This is actually a really good idea",
+      "url": "https://x.com/AlexFinn/status/2017723856795185418",
+      "engagement": {
+        "likes": 49,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "brb organizing my new AI org",
+      "url": "https://x.com/alex_prompter/status/2017778975645311258",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "the legendary @welchlabs just dropped another banger video with a deep question: are LLMs limited by human data or can we make them any better.\n\nthe idea is to ground AI in real-world interactions and",
+      "url": "https://x.com/Hesamation/status/2017725232136753451",
+      "engagement": {
+        "likes": 19,
+        "retweets": 1,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "Yes it's not so much that anything new or unpredictable has happened. But like Sergey brin said, it's one thing to have been talking about these things for a decade or more, it's another thing to see ",
+      "url": "https://x.com/jhong/status/2017722246819881144",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@mcottsackenzie The embeddings are stored as JSON blobs in SQLite, and similarity search happens in plain JavaScript (cosine similarity computed in-memory).",
+      "url": "https://x.com/Shpigford/status/2017783243035087079",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@kloss_xyz Glad you're loving @vibecodeapp for mobile apps.",
+      "url": "https://x.com/rileybrown/status/2017782125723103652",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "Openclaw is simultaneously the coolest thing, and the most overhyped thing that’s happened in AI in the past few months. \n\nIt’s 98% entertainment, 2% useful for now.",
+      "url": "https://x.com/rileybrown/status/2017722423102132610",
+      "engagement": {
+        "likes": 263,
+        "retweets": 7,
+        "replies": 73
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "Full Openclaws + Termius course coming Monday\n\n1. How to setup tailscale and connect your devices\n2. How to securely link your devices \n3. How to get openclaws running on any device\n4. How to use it w",
+      "url": "https://x.com/0xSero/status/2017741847687217467",
+      "engagement": {
+        "likes": 23,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "Clawd Clawderberg trying to explain to me the inner workings of it's new AI civilization on @moltbook",
+      "url": "https://x.com/MattPRD/status/2017755048101744889",
+      "engagement": {
+        "likes": 186,
+        "retweets": 15,
+        "replies": 77
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}
