@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cost Optimizer — Stop Overpaying for AI Tools</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        .tagline {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        .quote {
+            background: rgba(255,255,255,0.2);
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-style: italic;
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #27ae60;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .feature-card h3 {
+            color: #27ae60;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .pricing {
+            background: white;
+            padding: 4rem 2rem;
+            border-radius: 20px;
+            margin: 4rem 0;
+            text-align: center;
+        }
+        .pricing h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .pricing-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: border-color 0.2s;
+        }
+        .pricing-card:hover {
+            border-color: #27ae60;
+        }
+        .pricing-card.featured {
+            border-color: #27ae60;
+            background: #f0fff4;
+        }
+        .price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #27ae60;
+            margin: 1rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 AI Cost Optimizer</h1>
+            <p class="tagline">The Mint.com for AI tools. Track, optimize, and reduce your AI subscription spend.</p>
+            <div class="quote">
+                "Claude Max: $200/month. ChatGPT Pro: $200/month. Gemini AI Ultra: $250/month. Someone who is good at the economy please help me budget this."<br>
+                <span style="font-size: 0.9rem; opacity: 0.8;">— Theo, t3.gg founder (110K+ views)</span>
+            </div>
+            <a href="#pricing" class="cta-button">Start Saving</a>
+        </header>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>📊 Unified Dashboard</h3>
+                <p>See all your AI subscriptions in one place. OpenAI, Anthropic, Gemini, Cursor — track spend across every tool.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💡 Smart Optimization</h3>
+                <p>Detect unused Pro subscriptions. Identify over-provisioned capacity. Get suggestions to save 20-40% on AI costs.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔔 Budget Alerts</h3>
+                <p>Set spend limits and get alerts before budgets break. Forecast monthly costs. Never get surprised by a bill again.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📈 ROI Analytics</h3>
+                <p>See cost per task, per agent, per project. Understand which AI tools deliver value and which waste money.</p>
+            </div>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <h2>Start Saving Today</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ 3 connected accounts</li>
+                        <li>✓ Basic tracking</li>
+                        <li>✓ Weekly reports</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$12/mo</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Unlimited accounts</li>
+                        <li>✓ Real-time optimization</li>
+                        <li>✓ Budget alerts</li>
+                        <li>✓ Team features</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$99/mo</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Custom integrations</li>
+                        <li>✓ Advanced analytics</li>
+                        <li>✓ API access</li>
+                        <li>✓ Dedicated support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built from Twitter scout report — Opportunity #2</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">"The $200/month wall is real"</p>
+        </footer>
+    </div>
+</body>
+</html>

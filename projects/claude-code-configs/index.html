@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code Configs — Battle-tested AI coding configurations</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        .tagline {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #667eea;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            margin: 3rem 0;
+            color: white;
+            text-align: center;
+        }
+        .stat h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+        .pricing {
+            background: white;
+            padding: 4rem 2rem;
+            border-radius: 20px;
+            margin: 4rem 0;
+            text-align: center;
+        }
+        .pricing h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .pricing-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: border-color 0.2s;
+        }
+        .pricing-card:hover {
+            border-color: #667eea;
+        }
+        .pricing-card.featured {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+        .price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #667eea;
+            margin: 1rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛠️ Claude Code Configs</h1>
+            <p class="tagline">Battle-tested configurations for Claude Code and Cursor. Stop wasting hours on "trigger happy" AI — use configs that work.</p>
+            <a href="#pricing" class="cta-button">Get Started Free</a>
+        </header>
+
+        <div class="stats">
+            <div class="stat">
+                <h2>50+</h2>
+                <p>Community Configs</p>
+            </div>
+            <div class="stat">
+                <h2>1,200+</h2>
+                <p>Developers Using</p>
+            </div>
+            <div class="stat">
+                <h2>6</h2>
+                <p>Frameworks Covered</p>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>🎯 Fix "Trigger Happy" AI</h3>
+                <p>Our system prompts force Claude Code to ask before editing, verify understanding, and show its work. No more surprise file modifications.</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚡ Framework-Optimized</h3>
+                <p>React, Python, Rails, Node — each with specific patterns, best practices, and conventions built in. Match your stack perfectly.</p>
+            </div>
+            <div class="feature-card">
+                <h3>⭐ Community Rated</h3>
+                <p>Every config is upvoted by real developers. See what works before you try it. Contribute your own battle-tested setups.</p>
+            </div>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <h2>Simple Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Browse all configs</li>
+                        <li>✓ Download individual files</li>
+                        <li>✓ View community ratings</li>
+                        <li>✓ Submit configs (with approval)</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$9/mo</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Everything in Free</li>
+                        <li>✓ Team config syncing</li>
+                        <li>✓ Auto-updates when configs improve</li>
+                        <li>✓ Private config repository</li>
+                        <li>✓ Priority support</li>
+                    </ul>
+                    <a href="#" class="cta-button" style="margin-top: 1rem;">Start Free Trial</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built from the Twitter scout report — Opportunity #5</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">Open source on GitHub · Community driven</p>
+        </footer>
+    </div>
+</body>
+</html>
+            border-radius: 12px;
+            padding: 2rem;
+            transition: border-color 0.2s;
+        }
+        .pricing-card:hover {
+            border-color: #667eea;
+        }
+        .pricing-card.featured {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+        .price {
+            font-size: 2.5rem;

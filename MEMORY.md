@@ -9,6 +9,7 @@
 - **Primary instance:** DigitalOcean droplet (NYC3), IP `68.183.51.209`, ID `547365319`
 - **Local dev:** UTM VM on Paul's Mac (currently disabled to avoid Telegram polling conflicts)
 - **Bot:** @DaddyClawdbot on Telegram
+- **GitHub repo:** Workspace synced to `github.com/youngamerican68/Claw-workspace` — can push code using git commands
 
 ## Skills
 

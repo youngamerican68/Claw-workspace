@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Fleet — The Operating System for AI Agents</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        .tagline {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        .quote {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-style: italic;
+            max-width: 600px;
+            margin: 2rem auto;
+            font-size: 1.1rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #1e3c72;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .platform-visual {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 4rem 0;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .platform-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .platform-module {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 12px;
+            border-left: 4px solid #2a5298;
+        }
+        .platform-module h3 {
+            color: #1e3c72;
+            margin-bottom: 0.5rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .feature-card h3 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .integrations {
+            background: rgba(255,255,255,0.1);
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 4rem 0;
+            color: white;
+            text-align: center;
+        }
+        .integrations h2 {
+            margin-bottom: 2rem;
+        }
+        .integration-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .integration-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .pricing {
+            background: white;
+            padding: 4rem 2rem;
+            border-radius: 20px;
+            margin: 4rem 0;
+            text-align: center;
+        }
+        .pricing h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .pricing-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: border-color 0.2s;
+        }
+        .pricing-card:hover {
+            border-color: #1e3c72;
+        }
+        .pricing-card.featured {
+            border-color: #1e3c72;
+            background: #f0f4f8;
+        }
+        .price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1e3c72;
+            margin: 1rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Agent Fleet</h1>
+            <p class="tagline">The Operating System for AI Agents</p>
+            <div class="quote">
+                "If it's doing something in the background, I should at least be able to see this somewhere and get insights into what it's doing."<br>
+                <span style="font-size: 0.9rem; opacity: 0.8;">— Pat Walls, Starter Story founder</span>
+            </div>
+            <a href="#pricing" class="cta-button">Start Free</a>
+        </header>
+
+        <div class="platform-visual">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: #1e3c72;">The Platform Everything Plugs Into</h2>
+            <div class="platform-grid">
+                <div class="platform-module">
+                    <h3>🔍 Observability</h3>
+                    <p>Real-time activity feeds, session replay, file tracking, API logging</p>
+                </div>
+                <div class="platform-module">
+                    <h3>💰 Cost Management</h3>
+                    <p>Multi-provider tracking, token analytics, budget alerts, optimization</p>
+                </div>
+                <div class="platform-module">
+                    <h3>🔒 Security</h3>
+                    <p>Permission auditing, data access monitoring, policy enforcement</p>
+                </div>
+                <div class="platform-module">
+                    <h3>🎛️ Orchestration</h3>
+                    <p>Workflow designer, task queues, human approvals, A/B testing</p>
+                </div>
+                <div class="platform-module">
+                    <h3>📦 Templates</h3>
+                    <p>Share configurations, community ratings, framework-specific setups</p>
+                </div>
+                <div class="platform-module">
+                    <h3>🔌 Integrations</h3>
+                    <p>Connects to entire agent ops ecosystem — security, cost, configs</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>📊 One Dashboard, All Agents</h3>
+                <p>Stop switching between OpenClaw, Claude Code, Cursor logs. See every agent in one place — what they're doing, what they're costing, where they're stuck.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💡 Cost Intelligence</h3>
+                <p>Track spend across OpenAI, Anthropic, Gemini. Get alerts before budgets break. Find optimization opportunities — which agents waste tokens, which models work best.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🛡️ Security & Compliance</h3>
+                <p>Know what data your agents touch. Audit permissions. Enforce policies. Generate compliance reports for SOC2, GDPR. Sleep better at night.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔄 Agent Workflows</h3>
+                <p>Design multi-agent pipelines. Route tasks between agents. Insert human approvals where needed. Compare agent performance side-by-side.</p>
+            </div>
+        </div>
+
+        <div class="integrations">
+            <h2>Integrates With Your Entire Agent Stack</h2>
+            <div class="integration-grid">
+                <span class="integration-badge">🔐 Security Scanner</span>
+                <span class="integration-badge">💳 Cost Optimizer</span>
+                <span class="integration-badge">⚙️ Claude Code Configs</span>
+                <span class="integration-badge">📈 MCP Dashboards</span>
+                <span class="integration-badge">🎤 Voice Integration</span>
+                <span class="integration-badge">✅ Content Verification</span>
+            </div>
+            <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8;">
+                Every opportunity from the Twitter scout report plugs into Agent Fleet
+            </p>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <h2>Platform Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">Free</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ 3 agents monitored</li>
+                        <li>✓ 7-day data retention</li>
+                        <li>✓ Basic observability</li>
+                        <li>✓ Community templates</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$49/mo</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Unlimited agents</li>
+                        <li>✓ 90-day data retention</li>
+                        <li>✓ Cost tracking & optimization</li>
+                        <li>✓ Security auditing</li>
+                        <li>✓ Team collaboration</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$499/mo</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Unlimited everything</li>
+                        <li>✓ Custom data retention</li>
+                        <li>✓ SLA & dedicated support</li>
+                        <li>✓ On-premise deployment</li>
+                        <li>✓ Custom integrations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built from Twitter scout report — Opportunity #1</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">"The platform play that becomes the operating system for the agent economy"</p>
+        </footer>
+    </div>
+</body>
+</html>

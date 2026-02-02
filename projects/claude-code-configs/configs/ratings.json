@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "ratings": {
+    "claude-code/system-prompts/general.md": {
+      "upvotes": 42,
+      "downvotes": 3,
+      "comments": [
+        "Fixed the 'too trigger happy' issue for me",
+        "Much better than default, more careful"
+      ],
+      "lastUpdated": "2026-02-01",
+      "author": "@community"
+    },
+    "claude-code/system-prompts/react.md": {
+      "upvotes": 28,
+      "downvotes": 1,
+      "comments": [
+        "Great React 18 patterns",
+        "Saved me from over-engineering state"
+      ],
+      "lastUpdated": "2026-02-01",
+      "author": "@community"
+    },
+    "cursor/.cursorrules/general": {
+      "upvotes": 35,
+      "downvotes": 2,
+      "comments": [
+        "Cursor is much more reliable with these rules",
+        "Love the safety checks"
+      ],
+      "lastUpdated": "2026-02-01",
+      "author": "@community"
+    }
+  },
+  "frameworks": [
+    "react",
+    "python",
+    "rails",
+    "nodejs",
+    "go",
+    "rust"
+  ]
+}
