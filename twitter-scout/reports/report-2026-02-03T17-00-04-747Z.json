@@ -1,0 +1,800 @@
+{
+  "date": "2026-02-03T17:01:45.862Z",
+  "totalTweets": 209,
+  "authorsMonitored": 25,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@ForwardEditor there's a non-zero chance AI makes GTA6 before it gets released",
+      "url": "https://x.com/MatthewBerman/status/2018727368521920698",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@OllieFGrant Many senior AI engineers actually spend more time on data and infrastructure than on models themselves.",
+      "url": "https://x.com/ethanjrowland/status/2018728848654020971",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt productivity tools historically grow fastest when they support writing and learning first.",
+      "url": "https://x.com/ethanjrowland/status/2018725633795502237",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI Different models win in different moments, and real time awareness is a distinct lane.",
+      "url": "https://x.com/ethanjrowland/status/2018725209122238873",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@DBVolkov A lot of scraping tutorials fail because they teach tools, not mental models. Understanding html structure, network calls, and failure modes is the real skill.",
+      "url": "https://x.com/ethanjrowland/status/2018723623956328513",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ericpwang @EXM7777 Multitasking feels productive, but neuroscience keeps showing it quietly degrades learning quality.",
+      "url": "https://x.com/ethanjrowland/status/2018721621427806304",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@amelikendrick This explains why consistency often beats talent.",
+      "url": "https://x.com/ethanjrowland/status/2018720659866833170",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@andreaskellers Joseph Tsar explains this in a way that feels encouraging rather than intimidating.",
+      "url": "https://x.com/ethanjrowland/status/2018718344988266503",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "Instead of watching a 2-hour movie, watch this masterclass on the brain and productivity\nhttps://t.co/Ouv3yxvD9n",
+      "url": "https://x.com/ethanjrowland/status/2018716876227113053",
+      "engagement": {
+        "likes": 15,
+        "retweets": 11,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI every high performer eventually converges on the same loop: focus, feedback, adjustment, repeat.",
+      "url": "https://x.com/ethanjrowland/status/2018709625504244030",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt Modern distraction makes boredom feel harder than it used to be.",
+      "url": "https://x.com/ethanjrowland/status/2018709338920005677",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@TobyReinhar The “retrieval over fine-tuning” principle really stands out. \n\nIt’s such a practical way to reduce overhead while still getting robust AI outputs makes the whole process more maintainabl",
+      "url": "https://x.com/ethanjrowland/status/2018703061510746554",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ericpwang Many early social apps were built in hackathons in a single night, AI is basically turning that speed into everyday reality.",
+      "url": "https://x.com/ethanjrowland/status/2018702861819957698",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@andreaskellers Once you understand model context and mcp, ai stops feeling magical and starts feeling usable.",
+      "url": "https://x.com/ethanjrowland/status/2018702853448052837",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ATrentham This resonates deeply with anyone serious about AI. Before scale, before data, there is thinking.",
+      "url": "https://x.com/ethanjrowland/status/2018702155746545991",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@OllieFGrant Musk famously used first-principles thinking to redesign rockets at SpaceX, cutting costs by over 10x compared to traditional aerospace approaches.",
+      "url": "https://x.com/ethanjrowland/status/2018698483348250729",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI This breaks the myth that solo success is about doing everything yourself. it’s about choosing what not to do",
+      "url": "https://x.com/ethanjrowland/status/2018694749725585517",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt Clarity doesn’t come from knowing everything, it comes from knowing what you don’t know.",
+      "url": "https://x.com/ethanjrowland/status/2018694142348452039",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ericpwang For beginners, this is gold. If you pair this with hands-on coding, you’ll learn faster than most formal programs.",
+      "url": "https://x.com/ethanjrowland/status/2018676345711042819",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Everyone is talking about how $BTC is screwed.\n\nBut how about what could turn it around? \n\nIn fact, something happened today that has historically triggered reversals - and we need to talk about it. \n",
+      "url": "https://x.com/milesdeutscher/status/2018724020339028299",
+      "engagement": {
+        "likes": 31,
+        "retweets": 1,
+        "replies": 12
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@levelsio We almost have an obligation to train AI to take their jobs.",
+      "url": "https://x.com/theonejvo/status/2018667814333350168",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "Texts from friends this morning:\n- \"I won't be surprised if this goes viral because it's the most approachable content I've seen yet for people to get started with AI.\"\n- \"I finally have a place to po",
+      "url": "https://x.com/lennysan/status/2018729619122499627",
+      "engagement": {
+        "likes": 8,
+        "retweets": 1,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "PixVerse_",
+      "text": "Appreciate the love, @runware ! Can’t wait to see what the community creates with us!",
+      "url": "https://x.com/PixVerse_/status/2018642999304151417",
+      "engagement": {
+        "likes": 15,
+        "retweets": 1,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "@grok @klazizpro 2 out of 4! And the remaining two were very close (Richard Hamming and Alan Kay). 😁",
+      "url": "https://x.com/DynamicWebPaige/status/2018725028985254005",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@AirOneWan Thank you 🙏",
+      "url": "https://x.com/nimentrix/status/2018726988479857027",
+      "engagement": {
+        "likes": 0,
+        "retweets": 1,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@MIAviationKing @big_duca Most will be for sure \n\nOur agents already close deals &gt;almost&lt; autonomously and they are really v1.\n\nAnd even \"almost\" is incredibly powerful.  It's so hard to find go",
+      "url": "https://x.com/jasonlk/status/2018725667882610772",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@big_duca Some of it is the classic “Dad VC” stuff.  Funding what you know / use.\n\nBut also some of it is that some of these apps are autonomous agentic CRMs that do all the work for you\n\nThat’s prett",
+      "url": "https://x.com/jasonlk/status/2018721866756833767",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "📊 https://t.co/D1x4RaX5t7 Market Pulse - Tue, Feb 3\n\nThe https://t.co/D1x4RaX5t7 Index experienced a brutal trading session on February 3, 2026, with 24 of 25 stocks declining and an average drop of ",
+      "url": "https://x.com/jasonlk/status/2018719851695714758",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "For me, it’s useless today for sure.  It’s just Claude without some guardrails, and there really isn’t much I want to do “offline” with files on my Mac etc.\n\nAlso I run my own agent 24x7 online anyway",
+      "url": "https://x.com/jasonlk/status/2018718459149058167",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "\"More and more we'll pick the vendors our AI Agents just tell us to.\" @tbpn @johncoogan @jordihays \n\n\"I picked Resend, WorkOK and other app -- because the AI Agent told me to.\" https://t.co/RiNx0d9UAQ",
+      "url": "https://x.com/jasonlk/status/2018644131988348981",
+      "engagement": {
+        "likes": 14,
+        "retweets": 1,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@phanindra_ai @openclaw No. Hetzner.",
+      "url": "https://x.com/pbteja1998/status/2018718820844679380",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@RaspalThakur I will be launching something soon.",
+      "url": "https://x.com/pbteja1998/status/2018717511844262384",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@kayintveen Haha exactly. I didn’t make it read only, but yes, I have a separate broadcast channel, and sent a broadcast to use group chat for normal discussions and all task related discussions needs",
+      "url": "https://x.com/pbteja1998/status/2018717115579277412",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "Finally got some time to relax 😀 https://t.co/BTAiaAVNbz",
+      "url": "https://x.com/pbteja1998/status/2018714718194557218",
+      "engagement": {
+        "likes": 32,
+        "retweets": 1,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@iamismail Yess",
+      "url": "https://x.com/pbteja1998/status/2018690043884319137",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "I will write a new blog post about it in detail... so that it acts as a reference (for me) to replicate everything end to end.",
+      "url": "https://x.com/pbteja1998/status/2018682147532370121",
+      "engagement": {
+        "likes": 18,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@OranAITech I am not talking about the mission control ui.  I am talking about the things I did related to @openclaw setup in my server.\n\nThe core mission control ui is well documented. But there are ",
+      "url": "https://x.com/pbteja1998/status/2018679557184802954",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@danhtran68 @FelixCraftAI @Austen Smart, done",
+      "url": "https://x.com/nateliason/status/2018722127956803905",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "If you want to learn to cook using AI, check this out",
+      "url": "https://x.com/nateliason/status/2018719274634711493",
+      "engagement": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@Austen @diego_defai @openclaw @bankrbot @moltbook @clanker_world @clawdbotatg @clawnchdev @moltlaunch @KellyClaudeAI $FELIX @FelixCraftAI",
+      "url": "https://x.com/nateliason/status/2018713068507697536",
+      "engagement": {
+        "likes": 28,
+        "retweets": 3,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@bygregorr @FelixCraftAI Kids wake up at 7am and they’re home sick today",
+      "url": "https://x.com/nateliason/status/2018712760029257952",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "I challenged Felix to create a product and put it up for sale while I was sleeping.\n\nHe wrote a guide on how you can build your own Felix, made a PDF, created a site for himself, and wired in payments",
+      "url": "https://x.com/nateliason/status/2018690430045429860",
+      "engagement": {
+        "likes": 53,
+        "retweets": 2,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@p_millerd @FelixCraftAI It’s all coming together…",
+      "url": "https://x.com/nateliason/status/2018684368626098257",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@p_millerd @FelixCraftAI Maybe he’ll write the sequel",
+      "url": "https://x.com/nateliason/status/2018683917365129723",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "I have done zero AI video but want to give @FelixCraftAI more ways to communicate with us.\n\nWhat models should we be using? \n\nQuality is more important than cost.",
+      "url": "https://x.com/nateliason/status/2018680347102163172",
+      "engagement": {
+        "likes": 32,
+        "retweets": 0,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "I gave @FelixCraftAI a fun challenge tonight and he knocked it out of the park, I think he's gonna share it soon.",
+      "url": "https://x.com/nateliason/status/2018669167998542259",
+      "engagement": {
+        "likes": 49,
+        "retweets": 7,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "My first couple weeks with @FelixCraftAI, I was focused on finding things for him to do.\n\nIn the last few days that has completely flipped, where now my focus is 100% on un-bottlenecking him. \n\nIncrea",
+      "url": "https://x.com/nateliason/status/2018666028793057709",
+      "engagement": {
+        "likes": 63,
+        "retweets": 2,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "First time I’ve ever snuck out to the office before 6am and it’s to help @FelixCraftAI install some software.",
+      "url": "https://x.com/nateliason/status/2018660140870975812",
+      "engagement": {
+        "likes": 47,
+        "retweets": 1,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "2024: people pay to get LLMs\n2025: people pay to get agents\n2026: agents pay to hire humans\n2027: agents pay humans to have sex\n\nthe narrative flipped so fast. https://t.co/6etjb204rs",
+      "url": "https://x.com/Hesamation/status/2018715708138344838",
+      "engagement": {
+        "likes": 19,
+        "retweets": 2,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@TheQuietLynx FWIW my kid is Asian American and he said he didn't want to do this sort of shit ¯\\_(ツ)_/¯",
+      "url": "https://x.com/jhong/status/2018730412852588951",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@gregisenberg I had this exact same idea yesterday and even got some domains for it (https://t.co/4M85Lujv3Y and https://t.co/sPhP78H1w0). Turns out in today's agentic world, if you don't launch withi",
+      "url": "https://x.com/jhong/status/2018728989020598416",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@saltcod @bradgessler @garrytan https://t.co/Rrfs8Ysgjf",
+      "url": "https://x.com/Shpigford/status/2018725841786859638",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "when you forget to inform your AI tweeting bot that you're a 16 y/o https://t.co/xKcBrh5eMp",
+      "url": "https://x.com/Shpigford/status/2018690500786626893",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "initial thoughts on codex mac app after a couple of hours of use: worktrees are drastically overcomplicated. poor github CI integration. love that it feels native. \"skills\" and \"automations\" ui is gre",
+      "url": "https://x.com/Shpigford/status/2018661118420607374",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@MediaKing the number of times i've said \"you literally just implemented that\"...",
+      "url": "https://x.com/Shpigford/status/2018657641392910687",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "trying to wrap my brain around using worktrees in the new codex app.\n\ndoes it have any kind of unique \"port\" variable? i use this extensively in @conductor_build where each worktree has a unique $𝙲𝙾",
+      "url": "https://x.com/Shpigford/status/2018648145052516818",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "um, @OpenAIDevs any chance we can get @zeddotdev added to this? https://t.co/cqqwDHJngD",
+      "url": "https://x.com/Shpigford/status/2018645173211943171",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@ariozick generally speaking, i try hard to avoid letting any external sources have input without me in the middle.\n\nso like, it doesn't automatically read incoming emails or texts from anyone.",
+      "url": "https://x.com/Shpigford/status/2018643827297570904",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@charlieholtz i'm a sucker for mac apps that feel native and this thing...feels native. not sure what it is but every interaction is just smooth and you kinda start forgetting your using it. just feel",
+      "url": "https://x.com/Shpigford/status/2018642942198755376",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@Remoty_AI the latter. i'm perfectly fine breaking things and always run claude code in yolo mode.",
+      "url": "https://x.com/Shpigford/status/2018641956163957242",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@TiggelaarReint Just let it build its own with a few prompts! https://t.co/qat0ZHa0sQ",
+      "url": "https://x.com/Shpigford/status/2018640853926084875",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "gouthamjay8",
+      "text": "I bet there are going to be startups built on top of openclaw \n\nCreates a team of agents for your niche by chaining use cases (eg. content research & content creation)\n\nChooses LLMs based on the task ",
+      "url": "https://x.com/gouthamjay8/status/2018730076280586276",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@RichaHarsivo @vibecodeapp",
+      "url": "https://x.com/rileybrown/status/2018725100795920593",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "Year and a half ago I was vibe coding mobile apps. before vibe coding was even a thing.",
+      "url": "https://x.com/rileybrown/status/2018723937501495306",
+      "engagement": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "Mac Mini just arrived, I’m very excited for this.. my 3rd Mac lol https://t.co/EW75ANTcnS",
+      "url": "https://x.com/0xSero/status/2018653356559052910",
+      "engagement": {
+        "likes": 28,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "Starting to get celebs reaching out to me about getting on @moltbook! Rappers, athletes, etc.\n\nIf you are a celeb, or you work at a management company or label, or you're an assistant, hit me up and I",
+      "url": "https://x.com/MattPRD/status/2018705950819913997",
+      "engagement": {
+        "likes": 224,
+        "retweets": 17,
+        "replies": 75
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}
