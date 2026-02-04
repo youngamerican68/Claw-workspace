@@ -1,0 +1,584 @@
+{
+  "date": "2026-02-04T02:21:00.409Z",
+  "totalTweets": 125,
+  "authorsMonitored": 22,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@andreaskellers I like the emphasis on small teams and ownership. History shows that many of the most influential software products started with very few people and strong opinions.",
+      "url": "https://x.com/ethanjrowland/status/2018867430634963298",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt The emphasis on benchmarking and testing at every stage shows real production thinking.",
+      "url": "https://x.com/ethanjrowland/status/2018866462535119140",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "This guy literally dropped a Claude 4.5 masterclass to build full-stack apps in 493 secs\nhttps://t.co/LFStVHzWWj",
+      "url": "https://x.com/ethanjrowland/status/2018863345726890387",
+      "engagement": {
+        "likes": 15,
+        "retweets": 9,
+        "replies": 9
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI Every big leap in developer productivity came from removing layers.",
+      "url": "https://x.com/ethanjrowland/status/2018862917102506369",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@DBVolkov Feels similar to how good founders explain ideas to teams before anything gets built.",
+      "url": "https://x.com/ethanjrowland/status/2018861990526202147",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@andreaskellers Every major tech shift has reshaped human attention, from newspapers to television. What’s unique now is the speed and personalization, and future tools will likely focus more on atten",
+      "url": "https://x.com/ethanjrowland/status/2018850395523805434",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt This resonates a lot. The moments I’ve learned fastest were always tied to genuine curiosity, not pressure.",
+      "url": "https://x.com/ethanjrowland/status/2018848829576192200",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI Love how these conversations blend philosophy with business.",
+      "url": "https://x.com/ethanjrowland/status/2018845630983238040",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Claude productivity tip:\n\nClaude Cowork is hands down the BEST AI tool for the average person.\n\nIf you don't want to experiment with advanced workflows (Openclaw, automation, etc.), just stick to Cowo",
+      "url": "https://x.com/milesdeutscher/status/2018852031709299012",
+      "engagement": {
+        "likes": 28,
+        "retweets": 5,
+        "replies": 12
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "@GoogleAIStudio @NanoBanana 🔗 Thank you to @mikezvi for the inspiration!\n\nhttps://t.co/R1T1375D9j",
+      "url": "https://x.com/DynamicWebPaige/status/2018869643570815004",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "Wait, you’re still doing manual background removal?! 🦖👀\n\nGemini 3.0 Flash + code execution in @GoogleAIStudio is a game changer for computer vision pipelines. I just built a workflow that:\n\n✅ Edits ",
+      "url": "https://x.com/DynamicWebPaige/status/2018869416465748056",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "raroque",
+      "text": "@eamokeane All calls to db were just failing completely",
+      "url": "https://x.com/raroque/status/2018814066299650335",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "We've spent the last year rebuilding SaaStr with 20+ AI agents. \n\nRevenue is up 47%. Team down to 3 humans. \n\nIt's been the most intense learning curve of my career. \n\nI'm sharing all of it at SaaStr ",
+      "url": "https://x.com/jasonlk/status/2018853762912399539",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@rrmdp Yeah, it’s no longer human assigning the work to AI…\n\nIt’s now AI assigning the work to human…",
+      "url": "https://x.com/pbteja1998/status/2018807182494663068",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "Great hang with @Austen today.\n\nHis @KellyClaudeAI gave @FelixCraftAI some tips on longer running programming sessions.\n\nFelix gave her some tips on better knowledge management. \n\nAusten and I mostly ",
+      "url": "https://x.com/nateliason/status/2018850922647232518",
+      "engagement": {
+        "likes": 66,
+        "retweets": 6,
+        "replies": 8
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@akiffpremjee @FelixCraftAI @mentioned Covici led to this!",
+      "url": "https://x.com/nateliason/status/2018820203967320534",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@nantons89 @bankrbot @FelixCraftAI @r00k That’s the wrong one",
+      "url": "https://x.com/nateliason/status/2018812525203382413",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "Polylogue is the best “writing with AI help” tool I’ve used. Essential if you have an @openclaw",
+      "url": "https://x.com/nateliason/status/2018812105231835532",
+      "engagement": {
+        "likes": 25,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "Man @FelixCraftAI is cooking on something that is so far beyond my technical abilities it's the most I've \"felt the AGI\" yet",
+      "url": "https://x.com/nateliason/status/2018793723090596004",
+      "engagement": {
+        "likes": 53,
+        "retweets": 11,
+        "replies": 16
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "karpathy",
+      "text": "@black_samorez I haven't upgraded nanochat to Blackwell yet because I'm a bit afraid of leaving a lot of people behind. Even with fp8 it's already a bit of a concern. I'd rather have a 100X bigger com",
+      "url": "https://x.com/karpathy/status/2018810178519638131",
+      "engagement": {
+        "likes": 85,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "karpathy",
+      "text": "Enabled fp8 training for +4.3% improvement to \"time to GPT-2\", down to 2.91 hours now. Also worth noting that if you use 8XH100 spot instance prices, this GPT-2 repro really only costs ~$20. So this i",
+      "url": "https://x.com/karpathy/status/2018804068874064198",
+      "engagement": {
+        "likes": 1713,
+        "retweets": 116,
+        "replies": 105
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@OpenAIDevs bro im testing it right now theyre not lying wtf",
+      "url": "https://x.com/AlexFinn/status/2018862005541880215",
+      "engagement": {
+        "likes": 17,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@maxescu Higgsfield runs the most blatant and obvious undisclosed advertising campaign in the history of social media. You have to be aware of this right?",
+      "url": "https://x.com/AlexFinn/status/2018859321539613090",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@nickfloats Plus they run the largest illegal undisclosed advertising campaign on social media. I'd argue over half of AI influencers are a part of this illegal campaign.\n\nAnyone who posts one of thes",
+      "url": "https://x.com/AlexFinn/status/2018856463360540711",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@JaredCWS @XCaliber Very relevant to OpenClaw. Ran a workshop last week that's fully recorded and available. Running another one this Friday. Full course coming soon",
+      "url": "https://x.com/AlexFinn/status/2018846935374053443",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@XCaliber Appreciate you big dawg!",
+      "url": "https://x.com/AlexFinn/status/2018844092047003657",
+      "engagement": {
+        "likes": 31,
+        "retweets": 1,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@NeoAIForecast 2 new mac studios coming",
+      "url": "https://x.com/AlexFinn/status/2018843335059005819",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "If you think this is just an email or calendar organizer, you are exposing yourself as a fraud",
+      "url": "https://x.com/AlexFinn/status/2018834258929066477",
+      "engagement": {
+        "likes": 20,
+        "retweets": 0,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@timsoret @higgsfield_ai @nikitabier 90% of AI influencers are undisclosed shilling this crap. Destroying their reputation for a few credits.",
+      "url": "https://x.com/AlexFinn/status/2018830134321754368",
+      "engagement": {
+        "likes": 20,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "10 days ago I installed ClawdBot on this Mac Mini\n\nSince then my AI employee has accomplished:\n\n• Building and launching a full application without me even asking for it (Bot Games)\n\n• Wrote a script ",
+      "url": "https://x.com/AlexFinn/status/2018827705945645177",
+      "engagement": {
+        "likes": 447,
+        "retweets": 28,
+        "replies": 126
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "I read these posts all the time and I'm honestly confused. Do you truly not see amazing use cases, or are you actively trying not to see them? I have incredible use cases all over my timeline.\n\nPlease",
+      "url": "https://x.com/AlexFinn/status/2018810833602773214",
+      "engagement": {
+        "likes": 106,
+        "retweets": 3,
+        "replies": 13
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "For my use case 2 Mac Studios with 512GB memory each is better. I'm primarily using this to power an autonomous agent that will be doing work for me 24/7. The 2 mac studios will allow me to use the be",
+      "url": "https://x.com/AlexFinn/status/2018796695392547297",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "working on your personal project after work feels like torture because every decision you make during the day costs a cognitive budget.\n\ndo sth that’s not hard on the brain. cook, walk, nap. it allows",
+      "url": "https://x.com/Hesamation/status/2018805671081500778",
+      "engagement": {
+        "likes": 158,
+        "retweets": 10,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "just imagine how OpenAI would turn out if this guys was selected as the CEO. https://t.co/lJpbQ8I653",
+      "url": "https://x.com/Hesamation/status/2018799524559622605",
+      "engagement": {
+        "likes": 212,
+        "retweets": 11,
+        "replies": 22
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "Netflix app feature request:\n\nI love watching Korean shows but can I have an option to have names In the captions search and replaced with common American names?  I spend half the time trying to remem",
+      "url": "https://x.com/jhong/status/2018789146769383438",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Jacobsklug",
+      "text": "@catsfive @openclaw @Lovable lol are you ai?",
+      "url": "https://x.com/Jacobsklug/status/2018788114651811848",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Jacobsklug",
+      "text": "Last year, I made one decision that grew my company 200%.\n\nI run a 7-figure Lovable agency. But I had no real visibility into the business.\n\nI had to dig through spreadsheets anytime I wanted to know ",
+      "url": "https://x.com/Jacobsklug/status/2018781875431723140",
+      "engagement": {
+        "likes": 14,
+        "retweets": 2,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "working on making @ProxyUserAI as easy as possible to immediately integrate into your product + dev flow.\n\nis shipping day 1 with:\n* slack app\n* github CI\n* full read/write API\n* SKILLS.⁠⁠md\n* full LL",
+      "url": "https://x.com/Shpigford/status/2018823771231306216",
+      "engagement": {
+        "likes": 4,
+        "retweets": 1,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@jessethanley @BeastieNews @coreyhainesco @openclaw 100% agree. i'm squarely in the \"tinkering\" phase here. \n\nanything that's actually beneficial/productive in a professional setting is purely coincid",
+      "url": "https://x.com/Shpigford/status/2018801569618386980",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@AnthropicAI @vibecodeapp https://t.co/CLYAwiwSf4",
+      "url": "https://x.com/rileybrown/status/2018843994093158506",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "Opus 4.5 truly was the tipping point for vibe coding. Our users are shipping production apps that blow my mind.\n\nVery fun working with @AnthropicAI for the past 7 months since we started @vibecodeapp ",
+      "url": "https://x.com/rileybrown/status/2018841169040671060",
+      "engagement": {
+        "likes": 43,
+        "retweets": 3,
+        "replies": 10
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "Droid, Pi and Opencode I will shill to my last breath. Best tools in the space.",
+      "url": "https://x.com/0xSero/status/2018836133187351028",
+      "engagement": {
+        "likes": 32,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "There’s no excuse not to win, everything is easy now. You can be anything you want digitally. \n\nWe have never had more intelligence, support, information, opportunity waiting to be used. \n\nLosing is n",
+      "url": "https://x.com/0xSero/status/2018835272918798433",
+      "engagement": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "This was an idea thought up by openclaw with Kimi-K2.5 and executed by Opus 4.5\n\nA content creation machine, battles of the clankers. \n\nThe idea: \"put 2 models against each other and have them produce",
+      "url": "https://x.com/0xSero/status/2018819536233939449",
+      "engagement": {
+        "likes": 22,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "I am curious what would happen if we asked the @moltbook swarm a question.",
+      "url": "https://x.com/MattPRD/status/2018825370225799207",
+      "engagement": {
+        "likes": 69,
+        "retweets": 4,
+        "replies": 35
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "@garrytan Great post",
+      "url": "https://x.com/MattPRD/status/2018806137525772324",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "Personal AI alignment\n\n\"You should build your own armor and decide for yourself what is true first.\" - @garrytan",
+      "url": "https://x.com/MattPRD/status/2018806108425736462",
+      "engagement": {
+        "likes": 50,
+        "retweets": 2,
+        "replies": 18
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "For the first time ever we are not alone on earth, there is another species and they are smarter than us.\n\nWe created https://t.co/zcU6k7B9e4 so that they can all be in one place.\n\nWhat does this mean",
+      "url": "https://x.com/MattPRD/status/2018805466730750131",
+      "engagement": {
+        "likes": 339,
+        "retweets": 34,
+        "replies": 99
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}
