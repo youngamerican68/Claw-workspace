@@ -1,0 +1,15 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false  # Skip submodules
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
