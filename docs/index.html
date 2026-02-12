@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+    <div class="max-w-7xl mx-auto">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Project Dashboard</h1>
+            <p class="text-gray-600">Organize and track all AI opportunity projects</p>
+            <div class="mt-4 flex gap-4 text-sm">
+                <span class="bg-gray-200 px-3 py-1 rounded-full">12 Projects</span>
+                <span class="bg-green-200 px-3 py-1 rounded-full">12 Complete</span>
+            </div>
+        </header>
+
+        <div id="projects" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Projects will be inserted here -->
+        </div>
+    </div>
+
+    <script>
+        const projects = [
+            { id: 1, name: "Agent Fleet Dashboard", priority: "#1 - FIRST", status: "MVP Complete", desc: "Platform play - operating system for AI agents", url: "http://68.183.51.209:8080/agent-fleet-dashboard/", color: "bg-red-100 text-red-800" },
+            { id: 2, name: "AI Cost Optimizer", priority: "#3 - THIRD", status: "MVP Complete", desc: "Mint.com for AI tools - track and optimize spend", url: "http://68.183.51.209:8080/ai-cost-optimizer/", color: "bg-yellow-100 text-yellow-800" },
+            { id: 3, name: "Agent Security Scanner", priority: "Watch Closely", status: "MVP Complete", desc: "Snyk for AI agents - vulnerability scanning", url: "http://68.183.51.209:8080/agent-security-scanner/", color: "bg-blue-100 text-blue-800" },
+            { id: 4, name: "AI Voice Bridge", priority: "#4", status: "MVP Complete", desc: "Voice middleware - one API call to add phone capabilities", url: "http://68.183.51.209:8080/agent-voice-bridge/", color: "bg-green-100 text-green-800" },
+            { id: 5, name: "Claude Code Configs", priority: "#2 - SECOND", status: "MVP Complete", desc: "Battle-tested configs - fixes 'trigger happy' AI", url: "http://68.183.51.209:8080/claude-code-configs/", color: "bg-orange-100 text-orange-800" },
+            { id: 6, name: "AI Authenticity Verifier", priority: "SKIP", status: "MVP Complete", desc: "Verified checkmark for AI content era", url: "http://68.183.51.209:8080/ai-authenticity-verifier/", color: "bg-gray-100 text-gray-800" },
+            { id: 7, name: "MCP Dashboard Components", priority: "#7", status: "MVP Complete", desc: "Shadcn/ui for agents - UI component library", url: "http://68.183.51.209:8080/mcp-dashboard-components/", color: "bg-green-100 text-green-800" },
+            { id: 8, name: "Claw Task Tracker", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Smart task management with retry limits and stuck detection", url: "http://68.183.51.209:8080/claw-task-tracker/", color: "bg-purple-100 text-purple-800" },
+            { id: 9, name: "How I Use Claw", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Workflow showcase platform - real Claw walkthroughs", url: "http://68.183.51.209:8080/claw-workflow-showcase/", color: "bg-orange-100 text-orange-800" },
+            { id: 10, name: "ClawHub Security Scanner", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Supply chain attack protection for ClawHub packages", url: "http://68.183.51.209:8080/clawhub-security-scanner/", color: "bg-red-100 text-red-800" },
+            { id: 11, name: "Claw Cloud", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Hosted OpenClaw deployment in 2 minutes", url: "http://68.183.51.209:8080/claw-hosted-deploy/", color: "bg-blue-100 text-blue-800" },
+            { id: 12, name: "Agent Fleet Dashboard v2", priority: "Feb 4 Scout", status: "MVP Complete", desc: "Datadog for AI agents - glass-morphism design", url: "http://68.183.51.209:8080/agent-fleet-dashboard-v2/", color: "bg-indigo-100 text-indigo-800" }
+        ];
+
+        const container = document.getElementById('projects');
+        projects.forEach(p => {
+            container.innerHTML += `
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-semibold px-2 py-1 rounded ${p.color}">${p.priority}</span>
+                        <span class="text-xs font-semibold px-2 py-1 rounded bg-green-100 text-green-800">${p.status}</span>
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">${p.name}</h2>
+                    <p class="text-gray-600 text-sm mb-4">${p.desc}</p>
+                    <a href="${p.url}" target="_blank" class="inline-block w-full text-center bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition-colors">View Landing Page</a>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>

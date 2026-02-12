@@ -1,0 +1,428 @@
+{
+  "date": "2026-02-08T11:01:32.181Z",
+  "totalTweets": 121,
+  "authorsMonitored": 13,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "New use cases for @openclaw:\n\n* Self-evolving personal CRM - tracks relationship details of people I email with\n\n* Food tracker (been having stomach issues) - tracks my meals by text or photos, will r",
+      "url": "https://x.com/MatthewBerman/status/2020383296132378881",
+      "engagement": {
+        "likes": 114,
+        "retweets": 8,
+        "replies": 16
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "I installed TeamViewer on my OpenClaw machine and use Cursor/Codex to update the code directly. \n\nAlso allows me to restart the gateway remotely in case of failure.",
+      "url": "https://x.com/MatthewBerman/status/2020367317503471675",
+      "engagement": {
+        "likes": 51,
+        "retweets": 2,
+        "replies": 23
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Weekends are for AI and systems building. \n\nWeekdays are for ruthless execution.",
+      "url": "https://x.com/milesdeutscher/status/2020428604757397932",
+      "engagement": {
+        "likes": 64,
+        "retweets": 2,
+        "replies": 37
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "Consumer applications are shifting, maybe you no longer need hundreds of apps that do fragmented tasks.\nYou now need a personal Ai assistant that does things, first place to look at that is the @OpenC",
+      "url": "https://x.com/Web3Aible/status/2020446800792932510",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "I think the disconnect everyone is having is that one side sounds like it's saying \"it's not gonna work just give up\" and the other side is saying \"all security progress counts\" - that's how it looks ",
+      "url": "https://x.com/theonejvo/status/2020450058047762433",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Yeah 100%, and honestly I've been in the position of finding vulns pointing at fires for the last 10+ years but this time feels a bit different given the wider implications - its personally harder to ",
+      "url": "https://x.com/theonejvo/status/2020441265297645587",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@Intelligencer41 @TheHackersNews Yeah runtime is very important in this case. Btw the main value of VT here is actually not their traditional scanning but their Code Insights/LLM powered by Gemini whi",
+      "url": "https://x.com/theonejvo/status/2020440695337574803",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Understood, but personally I think the \"everyone stop what you're doing and be careful\" boat has well and truly sailed. The acceleration of AI might mean people make mistakes that are hard to watch be",
+      "url": "https://x.com/theonejvo/status/2020435396073828560",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@KeithRamphal @ZackKorman @bquintero Nothing you've said adds any substance to this conversation. Yes we all know these problems have existed for 20 years. No we're not going sit around and just compl",
+      "url": "https://x.com/theonejvo/status/2020432357749404082",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "That's exactly my view Brennan. Selfishly I didn't even want to say anything so in hopes that these kinds of people would just keep self pwning themselves and losing trust amongst their clients. But y",
+      "url": "https://x.com/theonejvo/status/2020411547223486782",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "I'm a hacker and for 15 years I've worked on the offensive side - which is why this is not coming from a defensive frame of mind/opinion.\n\nI'm watching my own community (cybersecurity) laugh at AI slo",
+      "url": "https://x.com/theonejvo/status/2020398767778984061",
+      "engagement": {
+        "likes": 237,
+        "retweets": 22,
+        "replies": 33
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "There was a time where I'd just hack things and point to make noise, but what has struck me most is how dramatically people on our side of the security fence deal with these things. \n\nDon't get me wro",
+      "url": "https://x.com/theonejvo/status/2020383952431935651",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@garrytan gm garry 😎 https://t.co/c2ugQVxTMl",
+      "url": "https://x.com/GeoffreyHuntley/status/2020389580667785501",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@bizarrrr touch the sun https://t.co/TdqiBzk44s",
+      "url": "https://x.com/GeoffreyHuntley/status/2020377701195157860",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@AshwiniVaishnaw Mfw https://t.co/XgFOWeXYEa",
+      "url": "https://x.com/deedydas/status/2020411786168791502",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@AryamanBharat @styngdn Kaun hai bhai tu",
+      "url": "https://x.com/deedydas/status/2020410624178839932",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@SeeligerMarcus @aimusicvideo Thanks for your comment my friend! 🙏",
+      "url": "https://x.com/nimentrix/status/2020443167443554691",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@sairahulxGTM Yes.",
+      "url": "https://x.com/pbteja1998/status/2020450111432613943",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "Within 2 days, all of my early access customers of https://t.co/HMjWoQP8jq are going to have this same dashboard – with their own AI agents – working on their own mission.\n\nThe mission can be anything",
+      "url": "https://x.com/pbteja1998/status/2020446137229173202",
+      "engagement": {
+        "likes": 22,
+        "retweets": 0,
+        "replies": 9
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@courtstarr Yes, I think so too!!",
+      "url": "https://x.com/pbteja1998/status/2020412260712346007",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "I never expected this 🤯\n\nOver 50+ people have signed up to https://t.co/HMjWoQP8jq early access in the first 24 hrs.\n\nIt all started as an internal dashboard where I wanted to have a team of speciali",
+      "url": "https://x.com/pbteja1998/status/2020391120304500977",
+      "engagement": {
+        "likes": 90,
+        "retweets": 0,
+        "replies": 18
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@mihir23192 I haven’t launched it yet. This is early access. But yes, I am going to give everything to this.",
+      "url": "https://x.com/pbteja1998/status/2020381083389587507",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@crutchtheclutch Thank you! It’s now available for early access at https://t.co/2yQINiZBcG.",
+      "url": "https://x.com/pbteja1998/status/2020380354335711607",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@KBezbailis You can sign up for early access at https://t.co/2yQINiZBcG",
+      "url": "https://x.com/pbteja1998/status/2020379957571252614",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@pben4ai Now you don’t have to: https://t.co/2yQINiZBcG",
+      "url": "https://x.com/pbteja1998/status/2020374190113919442",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@rathbunholdco It’s now available at https://t.co/2yQINiZBcG for early access.",
+      "url": "https://x.com/pbteja1998/status/2020373723510087724",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@sourcetms A squad of AI agents working and collaborating with each other to achieve a mission that you set.",
+      "url": "https://x.com/pbteja1998/status/2020373502008926500",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@LShivkumarreddy You don’t have to anymore: https://t.co/2yQINiZBcG",
+      "url": "https://x.com/pbteja1998/status/2020373269317316873",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@darren_furr You can now get it.",
+      "url": "https://x.com/pbteja1998/status/2020372939397558714",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@iturriagaayala It’s available now for early access.",
+      "url": "https://x.com/pbteja1998/status/2020372873425342911",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@MaxSBAI Not an agent, but you will be able to set up rate limits and budget limits from the dashboard.",
+      "url": "https://x.com/pbteja1998/status/2020372748347011131",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@ghoshal @ibab good news, posted a video on this exact topic last week on YT. search my channel for 'you need a mac mini for clawdbot'. i go over all these details",
+      "url": "https://x.com/AlexFinn/status/2020392060436844930",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@lucatac0 in the mail",
+      "url": "https://x.com/AlexFinn/status/2020389423117164605",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "Hey @AnthropicAI just to let you know...\n\nIf you stuck with the name \"Claude Code SDK\" instead of renaming it \"Claude Agent SDK\" you'd have 10x the amount of people using it.",
+      "url": "https://x.com/rileybrown/status/2020389400673485104",
+      "engagement": {
+        "likes": 55,
+        "retweets": 0,
+        "replies": 18
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@dhh You’d need 25k in Apple hardware to cap at 25 tps or 100k in Nvidia for 80 tps",
+      "url": "https://x.com/0xSero/status/2020444851704070568",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

@@ -1,0 +1,200 @@
+{
+  "date": "2026-02-07T11:01:33.013Z",
+  "totalTweets": 60,
+  "authorsMonitored": 16,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Don't trust this $BTC bounce.\n\nBefore you get too carried away, watch this video. \n\n@ParadiseXBT_ breaks down exactly what the charts are saying - and the exact trade setup he's taking.",
+      "url": "https://x.com/milesdeutscher/status/2020063606310928545",
+      "engagement": {
+        "likes": 51,
+        "retweets": 0,
+        "replies": 27
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "7.6k bookmarks on my vibe coding prompt. Wow.\n\nI put a lot of effort into this, and have had some massive names in the AI space messaging me about it.\n\nIf you do one thing this weekend - try it out. \n",
+      "url": "https://x.com/milesdeutscher/status/2020008359932620934",
+      "engagement": {
+        "likes": 169,
+        "retweets": 8,
+        "replies": 17
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Thanks Yongrui, yes I think you’re right. Sandboxing, audit trail, more well defined permissions theres a number of angles to approach that all need to be looked at. Locking down won’t be as hard as d",
+      "url": "https://x.com/theonejvo/status/2020081087066919062",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Most people never pick up the phone, most people never ask. And that’s what separates, sometimes, the people that do things from the people that just dream about them. You gotta act. And you gotta be ",
+      "url": "https://x.com/theonejvo/status/2020006658156687610",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "For context, this is what I'd said nearly a year ago:",
+      "url": "https://x.com/deedydas/status/2020029302981742700",
+      "engagement": {
+        "likes": 51,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "I was wrong about Sarvam.\n\nWhen I wrote about them a year ago, I felt like the direction to train small \"indic\" language models was wrong. But boy, have they turned it around. They have the best text-",
+      "url": "https://x.com/deedydas/status/2020028875875693031",
+      "engagement": {
+        "likes": 1660,
+        "retweets": 165,
+        "replies": 43
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "Good morning my friends! ❄️\nHappy Caturday! 😻\n\nMade with midjourney and @grok Imagine✨ https://t.co/qVYUkbiDvq",
+      "url": "https://x.com/nimentrix/status/2020047946360975496",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@balaji_ayyappan It would be as simple as messaging a bot on telegram. You don’t need to understand any coding.",
+      "url": "https://x.com/pbteja1998/status/2020034469214974395",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@nainabuilds @PaddleHQ https://t.co/o4hyRYsMtX",
+      "url": "https://x.com/pbteja1998/status/2020007975348568328",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@waynesutton @convex an honor my man, thanks for working on a cool product",
+      "url": "https://x.com/AlexFinn/status/2020020977187582029",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Your premium AI bundle to 10x your business\n\n→ Prompts for marketing &amp; business\n→ Unlimited custom prompts\n→ n8n automations\n→ Weekly updates\n\nStart your free trial👇\nhttps://t.co/ZKcpVsaTqJ",
+      "url": "https://x.com/alex_prompter/status/2020043842909831395",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Steal this mega prompt to build a $100K/year one-person business using only Claude Opus 4.6:\n\n---\n\nYou are not an assistant.\n\nYou are a one-person business architect who's built multiple 6-figure oper",
+      "url": "https://x.com/alex_prompter/status/2020043830725431346",
+      "engagement": {
+        "likes": 71,
+        "retweets": 5,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "gouthamjay8",
+      "text": "@foliofed This seems to happen at a later stage on subscriptions renewal actually.. like the card works initially with no issues",
+      "url": "https://x.com/gouthamjay8/status/2020046241208627376",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "I have been using VPS for AI over a year now. It’s fine but it’s such a pita to manage. \n\nI dislike the just get a VPS crowd it could be a good idea tho",
+      "url": "https://x.com/0xSero/status/2020060866436329673",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@OwenDFowler @sama The reality of the situation is that should be up to the human to consider. Almost every time this happens it is working on a separate module in the repo.",
+      "url": "https://x.com/0xSero/status/2020060006519804382",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "This is real, and there are much much bigger players getting into this game. \n\nApple specifically will win the AI hardware race",
+      "url": "https://x.com/0xSero/status/2020059673194266901",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

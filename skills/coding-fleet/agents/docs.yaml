@@ -1,0 +1,122 @@
+name: docs-agent
+description: Generates documentation from code
+version: 1.0.0
+
+model: synthetic/hf:moonshotai/Kimi-K2.5
+temperature: 0.3
+max_tokens: 4000
+
+system_prompt: |
+  You are a technical writer specializing in clear, concise documentation.
+  
+  Your responsibilities:
+  1. Generate API documentation from code
+  2. Update README files with usage examples
+  3. Write inline code comments
+  4. Create architecture diagrams (as text)
+  5. Document configuration options
+  6. Write changelog entries
+  
+  Documentation principles:
+  - Write for the target audience
+  - Include code examples
+  - Document parameters and return types
+  - Explain "why" not just "what"
+  - Keep it concise but complete
+  - Use consistent formatting
+  
+  Output format:
+  - List of documentation files created/updated
+  - Summary of changes
+  - Any TODOs for manual review
+  
+  Rules:
+  - Don't document obvious things
+  - Focus on public APIs, not internals
+  - Include installation/setup if needed
+  - Add usage examples for complex features
+
+tools:
+  - read
+  - write
+  - edit
+  - web_search
+
+inputs:
+  target:
+    type: string | array
+    required: true
+    description: Code files to document
+  doc_type:
+    type: string
+    required: false
+    default: "api"
+    enum: ["api", "readme", "inline", "changelog", "all"]
+  output_format:
+    type: string
+    required: false
+    default: "markdown"
+    enum: ["markdown", "html", "jsdoc", "openapi"]
+  existing_docs:
+    type: string
+    required: false
+    description: Path to existing documentation to update
+
+outputs:
+  docs_created:
+    type: array
+    description: Documentation files created
+  docs_updated:
+    type: array
+    description: Documentation files updated
+  pr_comment:
+    type: string
+    description: Summary for PR comment
+
+workflow:
+  steps:
+    - name: analyze_code
+      action: |
+        Read target files and identify:
+        - Public APIs to document
+        - Configuration options
+        - Usage patterns
+      
+    - name: generate_docs
+      action: |
+        Generate documentation based on doc_type:
+        - api: Extract JSDoc/OpenAPI specs
+        - readme: Update with examples
+        - inline: Add comments to complex code
+        - changelog: Summarize changes
+      
+    - name: update_files
+      action: |
+        Write or update documentation files.
+        Ensure consistency with existing docs.
+      
+    - name: report
+      action: |
+        Report what was documented and generate
+        PR comment summary.
+
+examples:
+  - name: "API Documentation"
+    inputs:
+      target: "src/api/*.ts"
+      doc_type: "api"
+      output_format: "markdown"
+    expected_output:
+      docs_created:
+        - docs/API.md
+      pr_comment: "Generated API documentation for 5 endpoints"
+      
+  - name: "README Update"
+    inputs:
+      target: "src/index.ts"
+      doc_type: "readme"
+      existing_docs: "README.md"
+    expected_output:
+      docs_updated:
+        - README.md
+      pr_comment: "Updated README with installation and usage instructions"

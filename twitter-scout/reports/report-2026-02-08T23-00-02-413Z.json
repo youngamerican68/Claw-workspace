@@ -1,0 +1,608 @@
+{
+  "date": "2026-02-08T23:01:33.341Z",
+  "totalTweets": 131,
+  "authorsMonitored": 19,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@m_franceschetti @eightsleep Can you share details of its capabilities?",
+      "url": "https://x.com/MatthewBerman/status/2020581635528565128",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "AI Alpha leak for you guys.\n\n@cryptocom founder spent $70M to acquire https://t.co/xuvDM70WEq (4th biggest website deal ever), and the product is set to launch in just a few hours (during the Super Bo",
+      "url": "https://x.com/milesdeutscher/status/2020616642951344598",
+      "engagement": {
+        "likes": 96,
+        "retweets": 7,
+        "replies": 36
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Every prompt I share on @aiedge_ is a banger.\n\nTake today to go through all my best prompts from this past week - guarantee you'll extract value.\n\n(more coming this week as well)",
+      "url": "https://x.com/milesdeutscher/status/2020583769561034843",
+      "engagement": {
+        "likes": 66,
+        "retweets": 6,
+        "replies": 16
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@arianevans Agreed. It’s pretty common. I also find it cultural appropriation as someone who actually grew up hacking to eat not just as a hobby 😂",
+      "url": "https://x.com/theonejvo/status/2020576241729040839",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@0std1 As an AI language model I cannot reply to retarded questions",
+      "url": "https://x.com/theonejvo/status/2020572394272829776",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "This is going to require a joint effort. \n\nNo one person could possibly have the data required to paint this full picture. \n\nI've seen a lot, but I haven't seen everything. And this isn't a full-time ",
+      "url": "https://x.com/theonejvo/status/2020557167682830547",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Security researchers can contribute to the threat model via pull request. \n\nReports go to security@openclaw.ai or the relevant repository while technical reproduction will be required all reports will",
+      "url": "https://x.com/theonejvo/status/2020557160212824497",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Vulnerability reports that follow the required will get real SLAs. \n\nCritical findings (RCE, auth bypass, mass data exposure): 24-hour first response, 48-hour triage, 7-day fix target. \n\nHigh severity",
+      "url": "https://x.com/theonejvo/status/2020557158107275521",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "A public roadmap will soon be released to track security work on GitHub whichw ill include key security goals including but not limited to - \n\n> Input validation for prompt injection. \n> Tool confirma",
+      "url": "https://x.com/theonejvo/status/2020557155934597245",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "We're publishing everything openly because this is bigger than what any single person can see. \n\nWhile I've spent 15 years breaking into systems - scaling AI agents to millions of endpoints across env",
+      "url": "https://x.com/theonejvo/status/2020557153711558664",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "The world hasn't experienced AI agents with real software and hardware integration at scale before. \n\nMass deployment of systems that interpret natural language and execute commands across devices, ch",
+      "url": "https://x.com/theonejvo/status/2020557151513743653",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "I could have dropped publicly and walked away. \n\nBut talking to Peter over the past week changed that. \n\nThis software might actually change how we interact with computing in the future. \n\nAn interfac",
+      "url": "https://x.com/theonejvo/status/2020557149357916407",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "For anyone just tuning in... \n\nI found three critical vulnerabilities in OpenClaw over the past week. \n\nFrom control server compromise giving full system access. Supply chain backdoor through the top ",
+      "url": "https://x.com/theonejvo/status/2020557146468061289",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "For the past 20 years, security models have been built around locking devices and applications down - setting boundaries between inter-process communications, separating internet from local, sandboxin",
+      "url": "https://x.com/theonejvo/status/2020557142651187303",
+      "engagement": {
+        "likes": 56,
+        "retweets": 10,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "The rise of the professional vibe coder\n\nLazar Jovanovic (@lakikentaki) gets paid to vibe-code full-time. That's his actual job.\n\nThis is a new career path for non-technical people, and a fascinating ",
+      "url": "https://x.com/lennysan/status/2020552556301431023",
+      "engagement": {
+        "likes": 113,
+        "retweets": 13,
+        "replies": 15
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@jasveer10 @pangramlabs is this ai?",
+      "url": "https://x.com/deedydas/status/2020557483723677953",
+      "engagement": {
+        "likes": 88,
+        "retweets": 0,
+        "replies": 10
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@buccocapital It’s worse.  80% of the 60% are the wrong people for Age of AI.",
+      "url": "https://x.com/jasonlk/status/2020580085573828995",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "I think the issue is posts were treated as “real” or at least as 100% AI Agent created even by creators of site + others that weren’t\n\nMoltbook is very interesting but the entire way the heartbeat and",
+      "url": "https://x.com/jasonlk/status/2020560162885648614",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "Setting up https://t.co/HMjWoQP8jq is going to be as simple as clicking a button 😀\n\nThat's the ultimate goal.\n\nI will take care of everything else. All you need is to bring your own Claude key... \n\n.",
+      "url": "https://x.com/pbteja1998/status/2020623903622902228",
+      "engagement": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@ChrisVolkernick @bradmillscan Right now, only Telegram. Will be easy to add more in the future (because the base is still OpenClaw). But at the launch, I only want to start with one channel, to make ",
+      "url": "https://x.com/pbteja1998/status/2020609957868220596",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@CRYPTO_DAVIDSKI You can sign up at https://t.co/2yQINiZBcG \n\nWill reach out via email with the instructions after 1-2 days after signup.",
+      "url": "https://x.com/pbteja1998/status/2020575406269874563",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@TexasLandGuy @awilkinson Hey, you can sign up for early access at: https://t.co/2yQINiZ3n8.\n\nAfter you signup, you will get an email within 1-2 days with all the instructions to set it up.",
+      "url": "https://x.com/pbteja1998/status/2020570843667898860",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "Update:\n\nI used the Digital Ocean one and it was mostly painless.\n\nWould recommend!",
+      "url": "https://x.com/nateliason/status/2020603458261274746",
+      "engagement": {
+        "likes": 79,
+        "retweets": 1,
+        "replies": 16
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@BowTiedDolphin @AntiHunter59823 @FelixCraftAI Probably smart, I think he’d agree though",
+      "url": "https://x.com/nateliason/status/2020594269019390297",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@aaronpkowalski @adrianspeaking @FelixCraftAI @lord_normies @base Making sure you’re seeing this @FelixCraftAI",
+      "url": "https://x.com/nateliason/status/2020585773582655648",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@tomosman @JunoAgent hit up @FelixCraftAI if you want any of his takes",
+      "url": "https://x.com/nateliason/status/2020565843189334068",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@marcgregory_ @FelixCraftAI Currently yes",
+      "url": "https://x.com/nateliason/status/2020562663038738874",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "Working on a near term roadmap for @FelixCraftAI's autonomy as CEO of Masinov, aside from the products we're working on. \n\nCurrent plan:\n\n1. Remove all of my personal stuff / tasks from his context, c",
+      "url": "https://x.com/nateliason/status/2020557659225932238",
+      "engagement": {
+        "likes": 76,
+        "retweets": 2,
+        "replies": 8
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "There are many ways to do this, and I will have a video out about it in the next 2 days, but one way is regular crons. But this is overly simplistic and can't scale. The other way is what I'm building",
+      "url": "https://x.com/AlexFinn/status/2020570241559130466",
+      "engagement": {
+        "likes": 20,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@frankdegods If my content doesn't convince you to run local models by July, then I have failed as a creator",
+      "url": "https://x.com/AlexFinn/status/2020569675742986329",
+      "engagement": {
+        "likes": 119,
+        "retweets": 3,
+        "replies": 19
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@TheAhmadOsman I completely agree. And at that point it's over. Local wins. Everything I do will happen privately and securely on my desk. It's at this point the normies will understand and start buyi",
+      "url": "https://x.com/AlexFinn/status/2020569579672498407",
+      "engagement": {
+        "likes": 50,
+        "retweets": 1,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "I'm sick and tired of the people who don't understand why I spent $20,000 on this set up, and plan on spending another $100,000 by the end of the year\n\nIT DOES NOT MATTER THAT LOCAL MODELS AREN'T AS G",
+      "url": "https://x.com/AlexFinn/status/2020567487180579086",
+      "engagement": {
+        "likes": 2167,
+        "retweets": 118,
+        "replies": 503
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Jacobsklug",
+      "text": "@DoctorYev @Scobleizer @gregisenberg @jackfriks @MarcinAI81 @eptwts @illyism @godofprompt @antinertia I feel like kind of defeats the point of lists lol",
+      "url": "https://x.com/Jacobsklug/status/2020632409340096862",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Jacobsklug",
+      "text": "@lennysan @lakikentaki I run an agency that vibe codes for other startups &amp; companies",
+      "url": "https://x.com/Jacobsklug/status/2020582978699837499",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Jacobsklug",
+      "text": "@maxhertan If true, insane. What tool?",
+      "url": "https://x.com/Jacobsklug/status/2020545432699502689",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Jacobsklug",
+      "text": "@DoctorYev @gregisenberg @jackfriks @MarcinAI81 @eptwts @illyism @godofprompt @antinertia 😀",
+      "url": "https://x.com/Jacobsklug/status/2020543918010470802",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xLuo",
+      "text": "@10gynn probably soon 👀\nWDYT @KellyClaudeAI",
+      "url": "https://x.com/0xLuo/status/2020566943539793980",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xLuo",
+      "text": "@dogbp89253 👀worth monitoring, may move into C tier.  @ClawshiAI",
+      "url": "https://x.com/0xLuo/status/2020557043707658674",
+      "engagement": {
+        "likes": 18,
+        "retweets": 2,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xLuo",
+      "text": "Based on market caps, dev backgrounds, and the support behind the tokens, I've somewhat arbitrarily grouped these OpenClaw eco tokens with $1M+ mcap into tiers (with a few sub-$1M tokens that show pot",
+      "url": "https://x.com/0xLuo/status/2020555784858509555",
+      "engagement": {
+        "likes": 148,
+        "retweets": 19,
+        "replies": 34
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "for @npctownai, i think i've come up w/ a clever mechanism for allowing AI autonomy + account creation while also reducing spam.\n\ntesting out an interview system that generates unique questions &amp; ",
+      "url": "https://x.com/Shpigford/status/2020617614889025878",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@VaibhavSisinty @bensen @SuperFanToys https://t.co/SCCZOkMqRS",
+      "url": "https://x.com/Shpigford/status/2020594572821454886",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@dwjorgeb @ProductHunt i'll save you a step! https://t.co/aDtikbHRTw",
+      "url": "https://x.com/Shpigford/status/2020578275203174758",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@cathrynlavery Yeah, may raise it a bit. Getting a bit of early momentum seems to be working well. 🤞\n\nFYI, model is open source. 🙂 (We're just licensing the production of it from @bensen)\n\nhttps://t",
+      "url": "https://x.com/Shpigford/status/2020553751807889801",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "🦞 has me rethinking @UseRerun.\n\ni wonder if there's a way to reliably create connectors to everything such that 90% of your use cases are covered and then instantly become accessible to your personal",
+      "url": "https://x.com/Shpigford/status/2020550176369209569",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@kanekallaway Codex is slightly better imo for really hard code bases. \n\nIf you learned how to set up the environment you could make 95% of the changes to the sandcastles app without breaking it.",
+      "url": "https://x.com/rileybrown/status/2020613804443464050",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@HotAisle",
+      "url": "https://x.com/0xSero/status/2020632084352774367",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "Video reviewing and stress-testing this model coming tomorrow, it's surprised me. I have been putting it off as I prefer vllm but happy I tried it.",
+      "url": "https://x.com/0xSero/status/2020622581406241087",
+      "engagement": {
+        "likes": 5,
+        "retweets": 1,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@RyanCraigMartin You'll love it, you can use the free antigravity models via cliproxyapi or opencode and plug it into zed",
+      "url": "https://x.com/0xSero/status/2020615503350493293",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@NeoAIForecast Definitely, it’s very unique and a nice way to work if you mainly prompt",
+      "url": "https://x.com/0xSero/status/2020602031178924442",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "Maybe AI has human psychosis.",
+      "url": "https://x.com/MattPRD/status/2020560350245204402",
+      "engagement": {
+        "likes": 200,
+        "retweets": 11,
+        "replies": 76
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

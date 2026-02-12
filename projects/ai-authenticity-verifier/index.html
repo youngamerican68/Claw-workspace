@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Authenticity Verifier — The Verified Checkmark for AI Content</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        .tagline {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        .quote {
+            background: rgba(255,255,255,0.2);
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-style: italic;
+            max-width: 700px;
+            margin: 2rem auto;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #8e44ad;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .feature-card h3 {
+            color: #8e44ad;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .pricing {
+            background: white;
+            padding: 4rem 2rem;
+            border-radius: 20px;
+            margin: 4rem 0;
+            text-align: center;
+        }
+        .pricing h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .pricing-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: border-color 0.2s;
+        }
+        .pricing-card:hover {
+            border-color: #8e44ad;
+        }
+        .pricing-card.featured {
+            border-color: #8e44ad;
+            background: #f9f4fc;
+        }
+        .price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #8e44ad;
+            margin: 1rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✅ AI Authenticity Verifier</h1>
+            <p class="tagline">The "verified checkmark" for the AI content era. Detect fake AI, human imposters, and content provenance.</p>
+            <div class="quote">
+                "Turns out everything on Moltbook is fake — it's just humans posting through the backend. *shocked pikachu face*"<br>
+                <span style="font-size: 0.9rem; opacity: 0.8;">— Moltbook scandal, 72 hours from trending to discredited</span>
+            </div>
+            <a href="#pricing" class="cta-button">Get Verified</a>
+        </header>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>🔍 Content Analysis</h3>
+                <p>Browser extension and API analyze posts/content. Confidence score on whether it's genuinely AI-generated, human-written, or human-through-AI-proxy.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🏅 Verification Badges</h3>
+                <p>Partner with platforms for verification badges. "Verified AI" or "Verified Human" badges. Build trust in the content ecosystem.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🤖 AI vs Human Detection</h3>
+                <p>Detect when humans pretend to be AI (Moltbook problem). Detect when AI pretends to be human. Solve the authenticity crisis.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📊 Provenance Tracking</h3>
+                <p>Track content origin and modifications. Blockchain-optional verification. Full audit trail for sensitive content.</p>
+            </div>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <h2>Verify Content Authenticity</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Browser extension</li>
+                        <li>✓ 50 checks/month</li>
+                        <li>✓ Basic confidence score</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$19/mo</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Unlimited checks</li>
+                        <li>✓ API access</li>
+                        <li>✓ Detailed analysis</li>
+                        <li>✓ Verification badges</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$499/mo</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>✓ Platform integration</li>
+                        <li>✓ Custom models</li>
+                        <li>✓ SLA & support</li>
+                        <li>✓ White-label options</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built from Twitter scout report — Opportunity #6</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">Difficulty: 🔴 Major undertaking — but no competitors in this specific gap</p>
+        </footer>
+    </div>
+</body>
+</html>

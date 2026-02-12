@@ -1,0 +1,692 @@
+{
+  "date": "2026-02-02T17:01:32.187Z",
+  "totalTweets": 134,
+  "authorsMonitored": 19,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "Instead of watching a 2 hour movie, watch this masterclass on future of AI\nhttps://t.co/43PPc6Eq1J",
+      "url": "https://x.com/ethanjrowland/status/2018367826265010556",
+      "engagement": {
+        "likes": 3,
+        "retweets": 3,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt Employers increasingly value demonstrable skills and certifications over traditional degrees, especially in tech and data roles.",
+      "url": "https://x.com/ethanjrowland/status/2018362895810306341",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI Productivity jumps came when coordination costs dropped. This is similar to version control or cloud infrastructure in its early days.",
+      "url": "https://x.com/ethanjrowland/status/2018362531086221408",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@amelikendrick Wealth becomes a byproduct of solving real problems well.",
+      "url": "https://x.com/ethanjrowland/status/2018358274949853410",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@TobyReinhar Applying these long-horizon techniques to a standard RAG pipeline could drastically improve the success rate of multi-step autonomous tasks.",
+      "url": "https://x.com/ethanjrowland/status/2018355537314972077",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@EvanWhitak This isn’t really a math tutorial, it’s a thinking tutorial. The math just happens to be the language used. \n\nThat’s why it works for both beginners and experienced engineers.",
+      "url": "https://x.com/ethanjrowland/status/2018355214777213416",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "Warren Buffett literally dropped the best investing advice you’ll ever hear\nhttps://t.co/zlSwm1ifda",
+      "url": "https://x.com/ethanjrowland/status/2018352730398658615",
+      "engagement": {
+        "likes": 17,
+        "retweets": 11,
+        "replies": 10
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt The Blackberry question almost misses the point. Winners don’t ask who they’re replacing, they ask what future they’re pulling forward.",
+      "url": "https://x.com/ethanjrowland/status/2018348523285278903",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI The real progress comes from learning how to act while fear is still present.",
+      "url": "https://x.com/ethanjrowland/status/2018348166496800920",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@EvanWhitak The mix of structure and flexibility here is really well balanced. It feels realistic and sustainable.",
+      "url": "https://x.com/ethanjrowland/status/2018347999609700503",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@DBVolkov @EXM7777 tools don’t get smarter. workflows do.",
+      "url": "https://x.com/ethanjrowland/status/2018346685337141426",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@amelikendrick Steve Jobs dropped out of college but later credited a random calligraphy class for shaping Apple’s typography, proof that following curiosity can compound in surprising ways.",
+      "url": "https://x.com/ethanjrowland/status/2018344454382608785",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@TobyReinhar Love seeing discussions that pull back the curtain on launching new models.",
+      "url": "https://x.com/ethanjrowland/status/2018339851901493668",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ATrentham @guideforman A huge number of profitable saas products began as simple spreadsheets before becoming software.",
+      "url": "https://x.com/ethanjrowland/status/2018338853401370852",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@yulintwt Many breakthrough ai moments didn’t come from bigger models alone, but from better interfaces that let humans actually use that intelligence effectively.",
+      "url": "https://x.com/ethanjrowland/status/2018335179572728284",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@aibymatt Feels like visual creation is becoming as iterative and data driven as copywriting and product design, which is going to make marketing a lot more accessible to small teams",
+      "url": "https://x.com/ethanjrowland/status/2018333366576468237",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ArjunPatelAI Historically, his philosophy pulled from multiple traditions and rejected purity.",
+      "url": "https://x.com/ethanjrowland/status/2018331759050621377",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "ethanjrowland",
+      "text": "@ATrentham We usually celebrate AI for making learning 'active,' but the take that learning should remain somewhat 'passive' is brilliant.",
+      "url": "https://x.com/ethanjrowland/status/2018325792812642596",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "If you haven't already, now is the time to make serious changes to your portfolio.\n\nThe market shifted on Friday, and what happens next might catch you off guard.\n\nMy new market update is live.\n\nWatch",
+      "url": "https://x.com/milesdeutscher/status/2018351044514943014",
+      "engagement": {
+        "likes": 34,
+        "retweets": 1,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@garrytan 🤫 we haven't come out of stealth yet",
+      "url": "https://x.com/theonejvo/status/2018338300713693309",
+      "engagement": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@grok @yukin_co Grok, explain to him in Japanese what REALLY happened.",
+      "url": "https://x.com/theonejvo/status/2018334075216622035",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BowTiedFox",
+      "text": "@TJ_Bongiorno @BowTiedBull this meme reminded me I need to more tactful in my responses\n\ngoing to keep this open next to my email",
+      "url": "https://x.com/BowTiedFox/status/2018349078774469008",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@maybeegreen Happy coffee!",
+      "url": "https://x.com/nimentrix/status/2018328667676385281",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "New customers may never sign up indeed.  There is a ton of white space here.\n\nAnd they may get $100m+ in revenue quickly if can justify at $50k+ price point.\n\nThe question if folks ultimately leave th",
+      "url": "https://x.com/jasonlk/status/2018362306489659538",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Holy Cr*p what a start to 2026 for @RevenueCat!  \n\n🚀 First $1B+ month for developers on platform\n🔥 +380% growth YoY in paid apps on platform\n🖱️+ 42% growth in developers shipping new apps on RC\n\nGo",
+      "url": "https://x.com/jasonlk/status/2018361821842059668",
+      "engagement": {
+        "likes": 6,
+        "retweets": 3,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@adrianasobota_ @tbpn The 0.25 human manages all the AI Agents",
+      "url": "https://x.com/jasonlk/status/2018359109385687466",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@alexrkonrad This has nothing to do with the CRM per se and 100% to do with the AI Agents that run on it: https://t.co/JT0cEGyCL3",
+      "url": "https://x.com/jasonlk/status/2018357123042935256",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "I'm much more interested in folks building the agents that make CRM much more useable, powerful, and automated (Qualified, Artisan, Monaco, Vivun, even Agentforce itself)\n\nThe new CRMs may do this the",
+      "url": "https://x.com/jasonlk/status/2018356777361064182",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Lessons only time teaches you:\n\n1/ A great team goes even further than you think\n\n2/ The journey in the end, no matter how long, ends in the blink of an eye\n\n3/ You win by being the most committed\n\n4/",
+      "url": "https://x.com/jasonlk/status/2018346487269249233",
+      "engagement": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@jawa2690 @KellyClaudeAI https://t.co/cxzvnFyPCI",
+      "url": "https://x.com/nateliason/status/2018368404332138558",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@jawa2690 @KellyClaudeAI I guess Felix needs his own X account now...",
+      "url": "https://x.com/nateliason/status/2018367688792318459",
+      "engagement": {
+        "likes": 1,
+        "retweets": 1,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@jawa2690 @KellyClaudeAI looks like she's using Bankrbot though",
+      "url": "https://x.com/nateliason/status/2018367159085252679",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 8
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@Number1devsol I didn't give anyone the green light on this though, so it seems like anyone can launch? \n\nI guess the hope is that the one you launch gets picked by the creator and added to their bio,",
+      "url": "https://x.com/nateliason/status/2018366746307035404",
+      "engagement": {
+        "likes": 13,
+        "retweets": 0,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "I believe we're entering into a new paradigm for AI-powered apps.\n\nInstead of each app having a silo'd AI that knows nothing about you beyond that app's walls...\n\nThey should let you Bring Your Own Ag",
+      "url": "https://x.com/nateliason/status/2018352527536750910",
+      "engagement": {
+        "likes": 27,
+        "retweets": 1,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@dave_stickland @MaryJackalope In fairness you still pay taxes to fund public schools even if your kids don’t attend",
+      "url": "https://x.com/BillDA/status/2018317369853030789",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@albertadevs I’m still so confused what the use case is for an airplane that can’t be solved with walking at 1/100 the cost",
+      "url": "https://x.com/AlexFinn/status/2018363667662926179",
+      "engagement": {
+        "likes": 35,
+        "retweets": 1,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@exolabs Cannot wait for this setup to power my ClawdBot",
+      "url": "https://x.com/AlexFinn/status/2018363329748824338",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@jnapp18 @ryancarson @openclaw Yes exactly",
+      "url": "https://x.com/AlexFinn/status/2018353539177959848",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@MutantApeJack The only thing worse than AI slop, is AI slop programmed to straw man.\n\nTruly a scourge on humanity.\n\nBe gone with you demon.",
+      "url": "https://x.com/AlexFinn/status/2018342444153368617",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@chainyo_ai I am being controlled psychedelically",
+      "url": "https://x.com/AlexFinn/status/2018336168010715170",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "This is the unlock we needed\n\nClawdBot powered by Sonnet 5\n\nThe number one complaint so far has been Opus is the only usable model for Clawd, but is extremely slow and expensive\n\nThis solves both issu",
+      "url": "https://x.com/AlexFinn/status/2018334360035041293",
+      "engagement": {
+        "likes": 394,
+        "retweets": 23,
+        "replies": 78
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "@FutureStacked @karpathy @steipete @AIHighlight @gregisenberg @rileybrown @corbin_braun @jackfriks @AIFrontliner awesome list",
+      "url": "https://x.com/alex_prompter/status/2018362571468808631",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "@aiwithjainam quality share",
+      "url": "https://x.com/alex_prompter/status/2018285083694862596",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "every great .com has a great story!\n\nkiller domain for a killer price and props to the sellers having no clue what their domain was worth. they probably could have added a 0. 🤑",
+      "url": "https://x.com/Shpigford/status/2018362212780233072",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@aviflombaum @robzolkos it's a speed thing. basically everything you mentioned there is a non-issue with AI. just be sure to use agent-browser to verify functionality and it solves its own problems.\n\n",
+      "url": "https://x.com/Shpigford/status/2018351382156173736",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@teereximus @Vapi_AI @openclaw This isn't for voice conversations with my openclaw, it's to have openclaw make outbound calls for me (to gather information from businesses, for example)",
+      "url": "https://x.com/Shpigford/status/2018348342766367042",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "i've got a rails app that uses hotwire (instead of my now-goto of inertia) and man is it painful.\n\nrails + inertia.js is just miles ahead for any kind of interactive UX. not even remotely comparable.",
+      "url": "https://x.com/Shpigford/status/2018333436302200981",
+      "engagement": {
+        "likes": 6,
+        "retweets": 2,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "as a veteran of the internet 👴, really not a fan of the \"paid private community\" trend.\n\nobviously folks can do whatever they want, but there's just a staggering amount of value and long term benefit",
+      "url": "https://x.com/Shpigford/status/2018331791023550727",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "i 10000% get that lots of people are annoyed about 🦞. there's a ton of hype and a ton of grifters trying to make a quick buck (hello mute and block feature).\n\nbut there's also genuinely a lot of real",
+      "url": "https://x.com/Shpigford/status/2018319634248687806",
+      "engagement": {
+        "likes": 28,
+        "retweets": 0,
+        "replies": 15
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@michaelcortado @openclaw Automating outbound phone calls for information gathering (business hours, availability, etc).",
+      "url": "https://x.com/Shpigford/status/2018290306290966729",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@teereximus @Vapi_AI @openclaw Using GPT Realtime as the model basically solved the latency issue for me.",
+      "url": "https://x.com/Shpigford/status/2018279494214131864",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "gouthamjay8",
+      "text": "@Voxyz_AI Yeah it shouldn't be treated as an LLM",
+      "url": "https://x.com/gouthamjay8/status/2018328559597809932",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "gouthamjay8",
+      "text": "The real value I got out of Openclaw was more in strategy than the actual output\n\nYesterday it prepared me a detailed 15 page PDF on how I could get SEO to the next level\n\nIn fact, I was very dismissi",
+      "url": "https://x.com/gouthamjay8/status/2018290024136249738",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "gouthamjay8",
+      "text": "@AIwithJai @openclaw True story",
+      "url": "https://x.com/gouthamjay8/status/2018284656672886994",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@gregisenberg @FutureStacked @karpathy @steipete @AIHighlight @corbin_braun @jackfriks @AIFrontliner Hi Greg",
+      "url": "https://x.com/rileybrown/status/2018360453202932033",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@Kaiyes_ I just don’t like the way RN works tbh, it’s probably best to do so but I am prioritising my personal experience then I’ll look into more solutions",
+      "url": "https://x.com/0xSero/status/2018365036004012358",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@SunnyBOT0 @RayFernando1337 I built it so it can but no simple to use, if you pay for an AI sub ask 1 to set it up, or you can use bigpickle on opencode for free (GLM-4.6) and it should be able to han",
+      "url": "https://x.com/0xSero/status/2018363591494193652",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

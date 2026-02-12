@@ -1,0 +1,356 @@
+{
+  "date": "2026-02-05T11:01:42.268Z",
+  "totalTweets": 89,
+  "authorsMonitored": 17,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@ai_talha @FoundingDev https://t.co/MgNI24SNwy",
+      "url": "https://x.com/MatthewBerman/status/2019298527734874234",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "Dec 19, 2024 - I published a video titled \"SaaS is dead\"\n\nIt has 1.2 million views right now.\n\nIt was an explanation of how the software stack would collapse down into agents and databases. \n\nI didn't",
+      "url": "https://x.com/MatthewBerman/status/2019293028113084834",
+      "engagement": {
+        "likes": 26,
+        "retweets": 4,
+        "replies": 10
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "wait until you see what we have planned 🤯",
+      "url": "https://x.com/MatthewBerman/status/2019285640278634798",
+      "engagement": {
+        "likes": 15,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "i don't think it's appreciated how quickly people are going to be building their own software",
+      "url": "https://x.com/MatthewBerman/status/2019282647705669957",
+      "engagement": {
+        "likes": 47,
+        "retweets": 3,
+        "replies": 9
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Nailed the move (again). \n\nNothing else to say except make sure you're watching Paradise's updates..",
+      "url": "https://x.com/milesdeutscher/status/2019326535455617522",
+      "engagement": {
+        "likes": 73,
+        "retweets": 0,
+        "replies": 18
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "fyi - not interested in joining AI porn startups\n\nthere are a few here in sydney\n\nno thanks; not interested in \n\ngooning as a service \n\nas a line item on my resume 💀 https://t.co/lIEcP6upKm",
+      "url": "https://x.com/GeoffreyHuntley/status/2019334836654407809",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "as soon as i post it\n\ncorps will rebundle it and sell it\n\nwhere’s the upside for us et al topics\n\nheck i even had a frontier lab in my DMs\n\nafter posting the above tweet\n\ni was seriously considering m",
+      "url": "https://x.com/GeoffreyHuntley/status/2019330206704758806",
+      "engagement": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 6
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@AIOnlyDeveloper @GergelyOrosz yep",
+      "url": "https://x.com/GeoffreyHuntley/status/2019315201133408366",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "📰 What @GergelyOrosz  is articulating here is something that I and everyone else went through a year ago who were paying attention. AI enables you to teleport to the future and rob your future self o",
+      "url": "https://x.com/GeoffreyHuntley/status/2019302144281629087",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 3
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@aidan_mclau Didn't see it, totally fair",
+      "url": "https://x.com/deedydas/status/2019276534591500524",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "Good Morning my Friends.☀️\n\nI wish you a great Thursday filled with unexpected joys, productive moments, and a touch of magic that makes the day truly memorable. ✨ https://t.co/0IqVg61oaT",
+      "url": "https://x.com/nimentrix/status/2019278121787355470",
+      "engagement": {
+        "likes": 17,
+        "retweets": 3,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "Mission Control is spreading like wild fire now!! \n\nI have seen so many people talking about it - creating their own versions of it...\n\nThis is so awesome to see!!\n\nMaking it even easier for everyone ",
+      "url": "https://x.com/pbteja1998/status/2019324750724755632",
+      "engagement": {
+        "likes": 241,
+        "retweets": 8,
+        "replies": 45
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@mreflow @pashmerepat @sama Hey Matt, I’ve been using it a ton the last few days since it dropped. If you want any help figuring it out send me a DM. Happy to help. I actually think it’s really sick",
+      "url": "https://x.com/AlexFinn/status/2019286489197342816",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "@free_ai_guides chatgpt",
+      "url": "https://x.com/alex_prompter/status/2019365261426717115",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "@aiwithjainam Send",
+      "url": "https://x.com/alex_prompter/status/2019349728287420878",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Your premium AI bundle to 10x your business\n\n→ Prompts for marketing &amp; business\n→ Unlimited custom prompts\n→ n8n automations\n→ Pay once, own forever\n\nGrab it today 👇\nhttps://t.co/ZKcpVsaTqJ",
+      "url": "https://x.com/alex_prompter/status/2019340998888116445",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "I genuinely think most JSON prompt tutorials are written by people who never shipped production code.\n\nThese 12 patterns handle:\n\n→ Malformed inputs\n→ Edge cases\n→ Scale (tested on 500K+ API calls)\n→ ",
+      "url": "https://x.com/alex_prompter/status/2019340987206906143",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "11. CONFIDENCE SCORING OVERLAY\n\n\"For extracted data, add confidence:\n{\n  \"name\": \"John Smith\",\n  \"name_confidence\": 0.95,\n  \"email\": \"john@example.com\",\n  \"email_confidence\": 0.62\n}\n\nScore 0.0-1.0. Be",
+      "url": "https://x.com/alex_prompter/status/2019340963714584969",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "10. BATCH PROCESSING CONSISTENCY\n\n\"Process items independently. One item's failure does not stop others.\n\nReturn:\n{\n  \"results\": [\n    {\"id\": 1, \"status\": \"success\", \"data\": {...}},\n    {\"id\": 2, \"sta",
+      "url": "https://x.com/alex_prompter/status/2019340951999901724",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "8. LENGTH CONSTRAINT BOUNDARIES\n\n\"Each field has MAX length. Truncate intelligently if needed:\n\ndescription: 500 chars max (end with ...)\ntitle: 100 chars max (end at word boundary)\ntags: array max 10",
+      "url": "https://x.com/alex_prompter/status/2019340928444690587",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "7. UNICODE & SPECIAL CHARACTER ARMOR\n\n\"Preserve all Unicode characters exactly as they appear. Do not:\n\n- Convert accented characters (café stays café, not cafe)\n- Escape quotes unless in JSON string ",
+      "url": "https://x.com/alex_prompter/status/2019340916713296193",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "6. ENUMERATION LOCKDOWN\n\n\"status must be exactly one of: ['pending', 'active', 'completed', 'failed']\n\nNo variations. No capitalization changes. No synonyms.\n\nIf uncertain, use 'pending'.\n\nCORRECT: \"s",
+      "url": "https://x.com/alex_prompter/status/2019340904960757885",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "3. ARRAY CONSISTENCY LOCK\n\n\"Always return an array, even for single items. Empty results = empty array [].\n\nCORRECT: [{\"item\": \"x\"}]\nWRONG: {\"item\": \"x\"}\n\nCORRECT: []\nWRONG: null or \"no results found\"",
+      "url": "https://x.com/alex_prompter/status/2019340869594468399",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "1. SCHEMA-FIRST ENFORCEMENT\n\nInstead of: \"Return JSON with name and email\"\n\nUse this:\n\n\"Return ONLY valid JSON matching this exact schema. No markdown, no explanation, no extra fields:\n{\n  \"name\": \"st",
+      "url": "https://x.com/alex_prompter/status/2019340846064447916",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "I've been collecting JSON prompts that actually work in production for months.\n\nNot the theoretical stuff you see in tutorials.\n\nReal prompts that handle edge cases, weird inputs, and don't break when",
+      "url": "https://x.com/alex_prompter/status/2019340834077045136",
+      "engagement": {
+        "likes": 21,
+        "retweets": 9,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Your premium AI bundle to 10x your business\n\n→ Prompts for marketing &amp; business\n→ Unlimited custom prompts\n→ n8n automations\n→ Pay once, own forever\n\nGrab it today 👇\nhttps://t.co/ZKcpVsalBb",
+      "url": "https://x.com/alex_prompter/status/2019338994710921586",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Steal my OpenClaw prompt to make your bot find pain points on Reddit and vibe code you a solution while you sleep.\n\n————————-\nMVP VIBE CODER\n————————-\n\n<context>\nYou are an autonomous OpenClaw agent w",
+      "url": "https://x.com/alex_prompter/status/2019337050122747955",
+      "engagement": {
+        "likes": 28,
+        "retweets": 2,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@Alex_Car12 @willccbb 1. You don’t need to use the ACP panel just use the terminal\n2. You can add your provider and api keys DIRECTLY into the Zed agent which gives you the full history \n3. The window",
+      "url": "https://x.com/0xSero/status/2019336953921995231",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "Still thinking about this.\n\nI was a bit anxious going in, I am very confident in what I bring to the table, and genuinely think I am on the more cracked end of the agentic coding niche.\n\nWhat helped a",
+      "url": "https://x.com/0xSero/status/2019329319282024850",
+      "engagement": {
+        "likes": 25,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

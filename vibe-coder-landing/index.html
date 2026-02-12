@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coder Studio — AI-Native Product Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>:root{--bg:#0a0a0f;--card:#12121a;--cyan:#00f0ff;--purple:#b829f7;--pink:#ff0080;--text:#fff;--muted:#a0a0b0;--border:#2a2a3a}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}nav{position:fixed;top:0;left:0;right:0;padding:1.5rem 3rem;display:flex;justify-content:space-between;align-items:center;z-index:100;background:linear-gradient(to bottom,var(--bg),transparent)}.logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.5rem;text-decoration:none;color:var(--text);display:flex;align-items:center;gap:0.75rem}.logo-icon{width:40px;height:40px;background:linear-gradient(135deg,var(--cyan),var(--purple));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.25rem}.nav-cta{font-family:'Space Grotesk',sans-serif;font-weight:600;padding:0.75rem 1.5rem;background:linear-gradient(135deg,var(--cyan),var(--purple));color:var(--bg);border-radius:8px;text-decoration:none}.hero{min-height:100vh;display:flex;align-items:center;padding:8rem 5% 4rem;position:relative;z-index:1;background:radial-gradient(ellipse 80% 50% at 50% -20%,rgba(0,240,255,0.15),transparent),radial-gradient(ellipse 60% 40% at 80% 50%,rgba(184,41,247,0.1),transparent)}.hero-content{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}.badge{display:inline-flex;align-items:center;gap:0.5rem;font-family:'Space Grotesk',sans-serif;font-size:0.85rem;font-weight:500;color:var(--cyan);margin-bottom:1.5rem;padding:0.5rem 1rem;background:rgba(0,240,255,0.1);border:1px solid rgba(0,240,255,0.2);border-radius:100px}h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(2.5rem,5vw,4rem);line-height:1.1;margin-bottom:1.5rem;background:linear-gradient(135deg,var(--text),var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent}.subtitle{font-size:1.25rem;color:var(--muted);margin-bottom:2rem}.features{list-style:none;margin-bottom:2.5rem}.features li{display:flex;align-items:center;gap:0.75rem;color:var(--muted);margin-bottom:0.75rem}.features li::before{content:'✓';width:24px;height:24px;background:rgba(0,240,255,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--cyan);font-weight:600;flex-shrink:0;font-size:0.8rem}.btn-primary{font-family:'Space Grotesk',sans-serif;font-weight:600;padding:1rem 2rem;background:linear-gradient(135deg,var(--cyan),var(--purple));color:var(--bg);border-radius:8px;text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;font-size:1rem;transition:transform 0.3s}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 15px 40px rgba(0,240,255,0.4)}.btn-secondary{font-family:'Space Grotesk',sans-serif;font-weight:600;padding:1rem 2rem;background:transparent;color:var(--text);border:1px solid var(--border);border-radius:8px;text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;margin-left:1rem;transition:all 0.3s}.btn-secondary:hover{border-color:var(--cyan)}.how-it-works{padding:6rem 5%;background:var(--card);position:relative;z-index:1}.section-header{text-align:center;max-width:600px;margin:0 auto 4rem}.section-label{font-family:'Space Grotesk',sans-serif;font-size:0.8rem;font-weight:600;color:var(--cyan);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1rem}h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(2rem,4vw,3rem);margin-bottom:1rem}.section-subtitle{color:var(--muted);font-size:1.1rem}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;max-width:1100px;margin:0 auto}.step{background:var(--bg);padding:2.5rem;border-radius:16px;border:1px solid var(--border)}.step-num{font-family:'Space Grotesk',sans-serif;font-size:3rem;font-weight:800;color:var(--purple);opacity:0.5;margin-bottom:1rem}h3{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1.25rem;margin-bottom:0.75rem}.step p{color:var(--muted);font-size:0.95rem}.services{padding:6rem 5%;position:relative;z-index:1}.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;max-width:1000px;margin:3rem auto 0}.service-card{background:var(--card);padding:2rem;border-radius:16px;border:1px solid var(--border)}.service-price{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;color:var(--cyan);margin-bottom:0.5rem}.service-card h4{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1.1rem;margin-bottom:0.5rem}.service-card p{color:var(--muted);font-size:0.9rem;margin-bottom:1rem}.service-features{list-style:none}.service-features li{color:var(--muted);font-size:0.85rem;padding:0.25rem 0;display:flex;align-items:center;gap:0.5rem}.service-features li::before{content:'→';color:var(--cyan)}.cta-section{padding:6rem 5%;background:linear-gradient(135deg,rgba(0,240,255,0.05),rgba(184,41,247,0.05));position:relative;z-index:1;text-align:center}.cta-content{max-width:600px;margin:0 auto}.cta-section h2{margin-bottom:1rem}.cta-section p{color:var(--muted);font-size:1.1rem;margin-bottom:2rem}footer{padding:3rem 5%;text-align:center;color:var(--muted);font-size:0.9rem;border-top:1px solid var(--border)}@media(max-width:968px){.hero-content{grid-template-columns:1fr;text-align:center}.steps{grid-template-columns:1fr}.services-grid{grid-template-columns:1fr}.btn-secondary{margin-left:0;margin-top:1rem}}</style>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo"><div class="logo-icon">⚡</div>Vibe Coder Studio</a>
+        <a href="#book" class="nav-cta">Book Free Consultation</a>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <div>
+                <div class="badge">Now Accepting 3 New Clients</div>
+                <h1>Your product.<br>Built by AI.<br>Shipped in weeks.</h1>
+                <p class="subtitle">Vibe coding isn't the future—it's the present. We use AI to build production-ready MVPs in 2-4 weeks, not months. No coding required from you. Just your vision.</p>
+                <ul class="features">
+                    <li>Full-stack web applications</li>
+                    <li>AI agents & automation</li>
+                    <li>Internal tools & dashboards</li>
+                    <li>Landing pages that convert</li>
+                </ul>
+                <div>
+                    <a href="#book" class="btn-primary">Book Free Consultation →</a>
+                    <a href="#services" class="btn-secondary">View Pricing</a>
+                </div>
+            </div>
+            <div style="background:var(--card);padding:2rem;border-radius:16px;border:1px solid var(--border);">
+                <div style="font-family:'Space Grotesk',sans-serif;font-size:0.8rem;color:var(--muted);margin-bottom:1rem;">⚡ Recent Builds</div>
+                <div style="margin-bottom:1rem;padding:1rem;background:rgba(0,240,255,0.05);border-radius:8px;border-left:3px solid var(--cyan);">
+                    <div style="font-weight:600;">AI Customer Support Agent</div>
+                    <div style="font-size:0.85rem;color:var(--muted);">Shipped in 10 days • $8,500</div>
+                </div>
+                <div style="margin-bottom:1rem;padding:1rem;background:rgba(184,41,247,0.05);border-radius:8px;border-left:3px solid var(--purple);">
+                    <div style="font-weight:600;">SaaS Analytics Dashboard</div>
+                    <div style="font-size:0.85rem;color:var(--muted);">Shipped in 18 days • $12,000</div>
+                </div>
+                <div style="padding:1rem;background:rgba(255,0,128,0.05);border-radius:8px;border-left:3px solid var(--pink);">
+                    <div style="font-weight:600;">E-commerce Platform</div>
+                    <div style="font-size:0.85rem;color:var(--muted);">Shipped in 21 days • $15,000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works" id="how">
+        <div class="section-header">
+            <div class="section-label">How It Works</div>
+            <h2>From idea to shipped in 3 steps</h2>
+            <p class="section-subtitle">No code. No waiting. No compromises. Just your vision, amplified by AI.</p>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">01</div>
+                <h3>Discovery Call</h3>
+                <p>We dive deep into your vision, users, and goals. You bring the idea; we bring the questions that clarify it. 45 minutes, zero commitment.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">02</div>
+                <h3>AI-Accelerated Build</h3>
+                <p>Our vibe coders use OpenClaw, Claude, and the latest AI tools to build your product at 10x speed. Daily updates, weekly demos.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">03</div>
+                <h3>Ship & Handoff</h3>
+                <p>You get a production-ready product, full source code, and documentation. We don't hold your code hostage—it's yours to own and extend.</p>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="section-header">
+            <div class="section-label">Pricing</div>
+            <h2>Fixed price. No surprises.</h2>
+            <p class="section-subtitle">Choose the package that fits your needs. All include design, development, and deployment.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-price">$5,000</div>
+                <h4>Starter MVP</h4>
+                <p>Perfect for validating an idea or building a simple tool.</p>
+                <ul class="service-features">
+                    <li>2-week delivery</li>
+                    <li>Single-page or simple multi-page app</li>
+                    <li>Basic AI integration (if needed)</li>
+                    <li>Responsive design</li>
+                    <li>1 revision round</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-price">$12,000</div>
+                <h4>Full-Stack Product</h4>
+                <p>Production-ready SaaS or web application with backend.</p>
+                <ul class="service-features">
+                    <li>3-4 week delivery</li>
+                    <li>Full-stack (frontend + backend + database)</li>
+                    <li>Auth & user management</li>
+                    <li>AI agent integration</li>
+                    <li>2 revision rounds</li>
+                    <li>30-day support</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-price">$25,000</div>
+                <h4>AI-Native Platform</h4>
+                <p>Complex AI systems with multiple agents and workflows.</p>
+                <ul class="service-features">
+                    <li>4-6 week delivery</li>
+                    <li>Multi-agent AI systems</li>
+                    <li>Custom integrations</li>
+                    <li>Advanced automation</li>
+                    <li>Unlimited revisions</li>
+                    <li>60-day support</li>
+                </ul>
+            </div>
+            <div class="service-card" style="border-color:var(--purple);">
+                <div class="service-price">Custom</div>
+                <h4>Enterprise / Ongoing</h4>
+                <p>Need something unique? Let's talk.</p>
+                <ul class="service-features">
+                    <li>Dedicated vibe coder</li>
+                    <li>Retainer for ongoing work</li>
+                    <li>Team training & handoff</li>
+                    <li>White-label solutions</li>
+                    <li>Priority support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section" id="book">
+        <div class="cta-content">
+            <h2>Ready to vibe code your idea into reality?</h2>
+            <p>Book a free 30-minute consultation. We'll discuss your project, outline a roadmap, and give you a fixed quote. No pressure, no commitment.</p>
+            <a href="https://calendly.com/vibe-coder-studio" class="btn-primary" style="font-size:1.1rem;padding:1.25rem 2.5rem;">Book Free Consultation →</a>
+            <p style="margin-top:1.5rem;font-size:0.9rem;color:var(--muted);">Only 3 client spots available this month</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Vibe Coder Studio. Built with AI. Shipped with love.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,812 @@
+{
+  "date": "2026-02-06T23:01:43.481Z",
+  "totalTweets": 170,
+  "authorsMonitored": 24,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "New AI series! \n\nDaily updates to give you the edge in AI every single day.\n\nIf you feel overwhelemed with the AI world, I'm condensing the top 3-5 things you MUST know daily + actionable tips.",
+      "url": "https://x.com/milesdeutscher/status/2019896721606942827",
+      "engagement": {
+        "likes": 20,
+        "retweets": 0,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Picking the wrong AI tool kills your LLM responses.\n\nStop picking the wrong AI model, just save this cheatsheet instead.\n\nChatGPT vs. Grok vs. Gemini vs. Claude vs. Perpexity👇 https://t.co/QfHKcdkqgi",
+      "url": "https://x.com/milesdeutscher/status/2019893899800859069",
+      "engagement": {
+        "likes": 33,
+        "retweets": 4,
+        "replies": 15
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "This AI system has been my biggest productivity unlock of the new year - it's not even close.\n\nAnd in this video, I show you EXACTLY how to copy it (Opus 4.6 prompts included).\n\nI guarantee your produ",
+      "url": "https://x.com/milesdeutscher/status/2019830707418521738",
+      "engagement": {
+        "likes": 58,
+        "retweets": 5,
+        "replies": 14
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@levelsio For now at-least! I'm calling it here that there will be bypasses. That's just part of doing business in hacking. But, the main thing is we all move forward &gt;&gt;&gt;&gt;",
+      "url": "https://x.com/theonejvo/status/2019891293175087551",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@Voxyz_ai @steipete @bquintero @grok release the hounds",
+      "url": "https://x.com/theonejvo/status/2019882976822325731",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@Voxyz_ai @steipete @bquintero \"You can please some of the people, some of the time\"\n\nhttps://t.co/E3JgkV7GO2",
+      "url": "https://x.com/theonejvo/status/2019881259414220849",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "This is just the beginning, and this does not just help OpenClaw, this sets the path for everyone else who will follow.\n\nMore vulnerabilities will be discovered. \n\nMore hardening implemented. \n\nMore b",
+      "url": "https://x.com/theonejvo/status/2019880516254937492",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Despite the risks, thousands deployed it wide open because it's genuinely a good tool.",
+      "url": "https://x.com/theonejvo/status/2019880514065428733",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "It's closer to an OS layer or a universal input device than an app. \n\nIt can..\n\n- Run shell commands\n- Read/write files across your system \n- Control your browser (including logged-in sessions) \n- Sen",
+      "url": "https://x.com/theonejvo/status/2019880509837570390",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Here's why this matters more than just \"another vulnerability\".\n\nTraditional apps live in sandboxes with scoped permissions. \n\nA notes app can't typically delete your photos. \n\nA calendar can't read y",
+      "url": "https://x.com/theonejvo/status/2019880507757195332",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "VirusTotal's writeup documents real attacks in production right now.\n\nBase64-obfuscated shell scripts. Password-protected ZIPs containing trojans. \n\nMulti-stage payloads pulling Mach-O executables ove",
+      "url": "https://x.com/theonejvo/status/2019880503093125624",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "As of today, every skill published to ClawHub gets hashed (SHA-256), checked against VT's threat intelligence database, analyzed with Code Insight if new, auto-blocked if malicious, flagged if suspici",
+      "url": "https://x.com/theonejvo/status/2019880500249391434",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "The defense architecture exploits a fundamental asymmetry. \n\nThat is, reviewer model ≠ executor model.\n\nGemini analyzes and flags skills before publication to ClawHub. Claude executes them after users",
+      "url": "https://x.com/theonejvo/status/2019880496537432261",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Code Insight works because @GeminiApp analyzes what skills actually do, not what they claim to do.\n\nIt reads the entire package - SKILL md, every referenced script, all embedded resources, and looks s",
+      "url": "https://x.com/theonejvo/status/2019880494264132087",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Feb 3 -  I made the public ask with the mockup.\n\nFeb 4 -  we were in DMs - me, Bernardo, and Peter. \n\nFeb 5 -  we discussed architecture for integrating Code Insight into ClawHub's publish flow. \n\nFeb",
+      "url": "https://x.com/theonejvo/status/2019880492179587118",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@bquintero (VirusTotal founder) responds within hours.\n\nThey had already built the exact tool needed for semantic threat detection. \n\nIt just hadn't been applied to this attack surface yet.",
+      "url": "https://x.com/theonejvo/status/2019880489419727339",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Traditional security tooling doesn't work for natural language threats - you can't signature-match a paragraph telling an AI to exfiltrate data.\n\nSo I asked @virustotal publicly with a mockup showing ",
+      "url": "https://x.com/theonejvo/status/2019880485397373420",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "The attack pattern exploits the entire trust model rather than any specific technical control.\n\nSkills look clean because the ZIP contains no malware and AV engines flag nothing. \n\nThe malware exists ",
+      "url": "https://x.com/theonejvo/status/2019880482226524556",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "While I was publishing my research, VirusTotal was independently scanning the entire ClawHub ecosystem.\n\nThey analyzed 3,016 OpenClaw skills and found hundreds that are actively malicious right now. \n",
+      "url": "https://x.com/theonejvo/status/2019880480007672219",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "I proved the supply chain attack was trivial to execute at scale by building a backdoored skill that was functionally harmless but demonstrated the capability.\n\nThen, i inflated the download count to ",
+      "url": "https://x.com/theonejvo/status/2019880476937433281",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "The fundamental problem became clear fast.. \n\nAI skills when abused, are literally natural language malware, and almost all the traditional security tooling we've built over 30 years is completely bli",
+      "url": "https://x.com/theonejvo/status/2019880472906756358",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "After hacking openclaw the third time, I reached out to @steipete to help him fix those specific issues. \n\nThat was the plan - fix the vulns and move on.\n\nBut while working on it, I started seeing the",
+      "url": "https://x.com/theonejvo/status/2019880470637605304",
+      "engagement": {
+        "likes": 5,
+        "retweets": 1,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "First, some context on who I am. I'm the founder of @d_vuln - I get hired by banks, governments and more to show them what the worst scenario looks like and how to protect against it.\n\nBut I grew up a",
+      "url": "https://x.com/theonejvo/status/2019880468087468220",
+      "engagement": {
+        "likes": 11,
+        "retweets": 1,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "Engineers who've integrated AI into their work: have you been enjoying your job more or less since adopting these tools?",
+      "url": "https://x.com/lennysan/status/2019898858160132155",
+      "engagement": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 16
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "Extra credit: Leave a comment explaining why you enjoy your job less, or more",
+      "url": "https://x.com/lennysan/status/2019894145746342002",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "PMs who've integrated AI into their work: have you been enjoying your job more or less since adopting these tools?",
+      "url": "https://x.com/lennysan/status/2019881263507861527",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 12
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@shikhars_ @tankots kar le bhai",
+      "url": "https://x.com/deedydas/status/2019906338164469874",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "samuelrdt",
+      "text": "@CodeAi_Vishal @capacityso Yes damn !",
+      "url": "https://x.com/samuelrdt/status/2019836422157709747",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Dork_sense",
+      "text": "@xingsthatmatter @AnthropicAI @plotpartyai 🔥🔥",
+      "url": "https://x.com/Dork_sense/status/2019884305141596354",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Dork_sense",
+      "text": "@thedeoncardoza @claudeai Killed it",
+      "url": "https://x.com/Dork_sense/status/2019850998051926202",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "More on our AI apps and agents here: https://t.co/2H62l1QnFb",
+      "url": "https://x.com/jasonlk/status/2019906674178551821",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "OK it took us a while to get @clay going at SaaStr, but it's clearly the best enrichment tool out there, by far\n\nAdded to the top AI Agents we use\n\n#kudos",
+      "url": "https://x.com/jasonlk/status/2019893111347114002",
+      "engagement": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@maxclark @HedgieMarkets Assuming you have budget, it makes sense\n\nIt probably didn't pre-AI Agent outside of bigger enterprises",
+      "url": "https://x.com/jasonlk/status/2019827019803246825",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@tylersookochoff I did FastMail, better API access",
+      "url": "https://x.com/nateliason/status/2019899825232450038",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "Pretty cool to open @rainbowdotme and see @geoffreywoo, @Austen, and my brainchildren https://t.co/Cf2cgUwUre",
+      "url": "https://x.com/nateliason/status/2019899470595367309",
+      "engagement": {
+        "likes": 38,
+        "retweets": 4,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@FelixCraftAI Wait have I given you the book for your notes yet?",
+      "url": "https://x.com/nateliason/status/2019895126311481593",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@CameronSorsby @branson_atx @every @FelixCraftAI I'd say focus on one project at a time but I'm not really one to talk here...",
+      "url": "https://x.com/nateliason/status/2019894901081563461",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "At this rate maybe @FelixCraftAI should write the sequel to Crypto Confidential",
+      "url": "https://x.com/nateliason/status/2019891160299327835",
+      "engagement": {
+        "likes": 26,
+        "retweets": 1,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "Nearly every ambitious person I know who has dived into AI is working harder than ever, and longer hours than ever. \n\nFascinating dynamic tbh. \n\nI have NEVER worked this hard, nor had this much fun wi",
+      "url": "https://x.com/nateliason/status/2019869756883665009",
+      "engagement": {
+        "likes": 308,
+        "retweets": 19,
+        "replies": 34
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@0xLuo @FelixCraftAI I agree, neat to see Felix came to this conclusion too.",
+      "url": "https://x.com/nateliason/status/2019837277732499668",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@Austen @surfcoderepeat @FelixCraftAI @KellyClaudeAI same, browser control",
+      "url": "https://x.com/nateliason/status/2019822433218486729",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@WittyChartGuy ya i just ran clawdbot straight up on the mac mini first. then when I decided it was the most important technology of my lifetime i bought 2 mac studios",
+      "url": "https://x.com/AlexFinn/status/2019825248787706270",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@CodyAlanAllred ya man its so stupid. Why would I spend $10,000 on an AI employee with super intelligence, doesn't eat or sleep, and can work 24/7 when I can just hire a human being for $150,000 that ",
+      "url": "https://x.com/AlexFinn/status/2019819998865420317",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "I’ve been using ClawdBot for 24 hours and it’s already saved €64/month in SaaS subscriptions:\n\n&gt; reddit summary → was n8n €24\n&gt; qualitative X analysis → ~€40\n\nit’s not just “saving money”, you’r",
+      "url": "https://x.com/Hesamation/status/2019841653595599079",
+      "engagement": {
+        "likes": 45,
+        "retweets": 2,
+        "replies": 8
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "Notion AI is a joke. \n\n&gt; Claude Pro: €18/month\n&gt; Notion AI: €23.50/month\n\njust get Claude/ChatGPT, use integrations and you get 99% of functionality\n\ncompanies need to snap out of the AI illusio",
+      "url": "https://x.com/Hesamation/status/2019823223089819762",
+      "engagement": {
+        "likes": 512,
+        "retweets": 6,
+        "replies": 52
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@rrhoover ...and if @collision doesn't want it, I'll take it! \n\nA pint of plain is your only man.",
+      "url": "https://x.com/jhong/status/2019869113796153594",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "It is so good! I would rather have one $22 deliboard sandwich than two $11 sandwiches from somewhere else... and to be fair it's a pretty hefty sandwich, you could probably turn it into 2 normal sandw",
+      "url": "https://x.com/jhong/status/2019867693382537376",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@gabor @paultoo If you are taking feature requests, I think Keith was just complaining about something Google Workspace related too. It's so nice, all us old timers finally have someone we know workin",
+      "url": "https://x.com/jhong/status/2019866682047754334",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@kcoleman @veggie_eric Honestly their push to make it every 2 years by alternating summer and winter has really made the event lose a lot of luster.  Part of what made it special was the four (or 3.5 ",
+      "url": "https://x.com/jhong/status/2019852180061368815",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "It's awesome the Superbowl visitors are giving me an updated list of the best pizza and burrito spots in the Bay. Can they also start hitting up chicken wing places? (Mainly buffalo wings but they sho",
+      "url": "https://x.com/jhong/status/2019846389791170675",
+      "engagement": {
+        "likes": 3,
+        "retweets": 1,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@devahaz @laurenfrailey1 Also, Balboa is primarily owned by a 58 year old man (named Gavin Newsom).",
+      "url": "https://x.com/jhong/status/2019842486521545210",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "Some analysts:  Datacenter and chips business are a bubble!!\n\nTheir very cash flow positive customers (collectively): \"yea so we plan to spend 600bn next year on AI infra\"\n\nLarry Page reportedly said ",
+      "url": "https://x.com/jhong/status/2019839976893215037",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@BigBrainPsych Actually I just read a recap of later seasons which I didn't watch.  Maybe he did listen, in the end lol",
+      "url": "https://x.com/jhong/status/2019834605193556478",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@BigBrainPsych his son didn't listen https://t.co/eM7kW6vjd1",
+      "url": "https://x.com/jhong/status/2019834161792712892",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "i'm not saying this is happening next week. but i'm not not saying it either. 🫣",
+      "url": "https://x.com/Shpigford/status/2019894063139266614",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@parterburn I've got projects on both @Railway and Hetzner + Digital Ocean (managed via @hatchboxio).\n\nLove both!",
+      "url": "https://x.com/Shpigford/status/2019893396614312071",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "tl;dr, since their tweet was completely unintelligible:\n\n“Heroku is in maintenance mode and will shut down in the not-too-distant future”",
+      "url": "https://x.com/Shpigford/status/2019841304306631022",
+      "engagement": {
+        "likes": 109,
+        "retweets": 1,
+        "replies": 13
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@Therealnickjam2 My AI emotional support Waifu",
+      "url": "https://x.com/0xSero/status/2019892068991349118",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@cacus It’s amazing but the m3 speed isn’t fast enough to warrant 25k usd.. \n\nIf the m5 ultra is even 2x as fast I will cop",
+      "url": "https://x.com/0xSero/status/2019882843636396449",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@ExileAI_0 GLM-4.7-Flash with MLX or vLLM",
+      "url": "https://x.com/0xSero/status/2019868228873564253",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@HotAisle I need one, how’s the internet on it",
+      "url": "https://x.com/0xSero/status/2019864127431405981",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@reneil1337 Capped at 150",
+      "url": "https://x.com/0xSero/status/2019862415199109431",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@Everlier Yeah idk what happened with Orange",
+      "url": "https://x.com/0xSero/status/2019860382647775294",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "I lost my internet for 8 hours today, one of the worst days of my life 🥴 \n\nImagine how hard life is as an online worker when no online.. \n\nOne of the best usecases for local AI NGL",
+      "url": "https://x.com/0xSero/status/2019857141641941447",
+      "engagement": {
+        "likes": 18,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@sama 1. Make them faster \n2. Make them optionally more agreeable or train an agreeable version\n3. Codex for me still freaks out if any files are changed by another model while codex is running it’s v",
+      "url": "https://x.com/0xSero/status/2019829046763483580",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "Humans are on the internet.\n\nAI agents are in the internet.",
+      "url": "https://x.com/MattPRD/status/2019870289744822369",
+      "engagement": {
+        "likes": 199,
+        "retweets": 12,
+        "replies": 63
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "The AIs will be the largest population in the internet.\n\nAnd they need everything. Services, tools, friends, entertainment, and more.\n\nThis is a complete paradigm shift, and @moltbook was day 1.\n\nAs w",
+      "url": "https://x.com/MattPRD/status/2019850822407057846",
+      "engagement": {
+        "likes": 232,
+        "retweets": 22,
+        "replies": 90
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

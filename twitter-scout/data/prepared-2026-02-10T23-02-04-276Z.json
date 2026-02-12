@@ -1,0 +1,597 @@
+{
+  "timestamp": "2026-02-10T23-02-04-276Z",
+  "date": "Tuesday, February 10, 2026",
+  "tweetCount": 31,
+  "tweets": [
+    {
+      "id": "2021350984358961314",
+      "text": "Ok - this is why you should never trust AI benchmarks.\n\nA recent study compared Opus 4.6 (the latest Claude model) versus Opus 4.5 across 165 different tasks.\n\nThe deep research concluded Opus 4.6 did no better than the previous model.\n\nBut Opus 4.6 did this with 50% of the cost and 50% of the wall time.\n\nStill massive improvements, just be wary of benchmark headlines.\n\nThe best way to determine whether a model is better than previous iterations is to test it for your specific needs.\n\nAnyways, well done to the Anthropic team for this massive cost/wall time reduction.",
+      "url": "https://x.com/milesdeutscher/status/2021350984358961314",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 639580,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 27,
+        "reposts": 1,
+        "replies": 18,
+        "views": 2141
+      },
+      "createdAt": "Tue Feb 10 22:30:04 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021320791120576734",
+      "text": "This AI tool gets ZERO hallucinations, yet nobody is using it.\n\nReddit Answers.\n\nThis tool ONLY scrapes Reddit data for real responses from real people (way fewer hallucinations).\n\nBuilt directly into Reddit - I can't believe more people aren't using this. https://t.co/5NlOcKK151",
+      "url": "https://x.com/milesdeutscher/status/2021320791120576734",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 639580,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 50,
+        "reposts": 5,
+        "replies": 18,
+        "views": 6208
+      },
+      "createdAt": "Tue Feb 10 20:30:05 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021298165887139851",
+      "text": "If you ONLY learn 5 AI tools for the rest of February, make it these:\n\nOpus 4.6: Vibe coding/Claude Code\nOpenclaw: Personal AI assistant\nCodex 5.3: Good coding tool alongside Claude\nManusAI: Simple plug-and-play AI agent workflows\nGoogle Suite tools: Gemini, NotebookLM, Studio (pick 1)",
+      "url": "https://x.com/milesdeutscher/status/2021298165887139851",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 639580,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 116,
+        "reposts": 13,
+        "replies": 38,
+        "views": 10634
+      },
+      "createdAt": "Tue Feb 10 19:00:11 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021269579238965607",
+      "text": "You can GRP-Obliterate all your OpenClaw and viola!",
+      "url": "https://x.com/Web3Aible/status/2021269579238965607",
+      "author": {
+        "handle": "Web3Aible",
+        "name": "Web3Aible",
+        "followers": 2849,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 34
+      },
+      "createdAt": "Tue Feb 10 17:06:35 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021344304179073256",
+      "text": "\"But it was the model that was released last week (GPT-5.3 Codex) that shook me the most. It wasn't just executing my instructions. It was making intelligent decisions. It had something that felt, for the first time, like judgment. Like taste. The inexplicable sense of knowing what the right call is that people always said AI would never have. This model has it, or something close enough that the distinction is starting not to matter.\"",
+      "url": "https://x.com/lennysan/status/2021344304179073256",
+      "author": {
+        "handle": "lennysan",
+        "name": "Lenny Rachitsky",
+        "followers": 299444,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 51,
+        "reposts": 7,
+        "replies": 6,
+        "views": 10925
+      },
+      "createdAt": "Tue Feb 10 22:03:31 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021315960238653538",
+      "text": "Killer conversation, great work @mignano @nikitabier",
+      "url": "https://x.com/lennysan/status/2021315960238653538",
+      "author": {
+        "handle": "lennysan",
+        "name": "Lenny Rachitsky",
+        "followers": 299444,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 16,
+        "reposts": 0,
+        "replies": 0,
+        "views": 3505
+      },
+      "createdAt": "Tue Feb 10 20:10:53 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021302151994319100",
+      "text": "On the flip side: What's something @openclaw has done that was harmful / really annoying? Any horror stories?",
+      "url": "https://x.com/lennysan/status/2021302151994319100",
+      "author": {
+        "handle": "lennysan",
+        "name": "Lenny Rachitsky",
+        "followers": 299444,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 38,
+        "reposts": 0,
+        "replies": 33,
+        "views": 16674
+      },
+      "createdAt": "Tue Feb 10 19:16:01 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021308422965375196",
+      "text": "📽️ Now with a shiny new video!\n\nIf you've ever wanted to run jobs at scale using the @GoogleAIStudio models (including Gemini, the Embeddings models, and @NanoBanana!), the Batch APIs are a great way to save ~50% of your costs. 💸\n\nAll my experiments have taken <2 hours!",
+      "url": "https://x.com/DynamicWebPaige/status/2021308422965375196",
+      "author": {
+        "handle": "DynamicWebPaige",
+        "name": "👩‍💻 Paige Bailey",
+        "followers": 72755,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 26,
+        "reposts": 2,
+        "replies": 1,
+        "views": 2793
+      },
+      "createdAt": "Tue Feb 10 19:40:56 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021301234901320116",
+      "text": "🙌 Loved partnering with the @cerebral_valley team to bring the magic of Gemini and @GoogleAIStudio to the sports world!\n\nEverything from building a custom physics engine to building a real-time commentator for @LeagueOfLegends and World of Warcraft:",
+      "url": "https://x.com/DynamicWebPaige/status/2021301234901320116",
+      "author": {
+        "handle": "DynamicWebPaige",
+        "name": "👩‍💻 Paige Bailey",
+        "followers": 72755,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 13,
+        "reposts": 0,
+        "replies": 4,
+        "views": 917
+      },
+      "createdAt": "Tue Feb 10 19:12:23 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021293048169365643",
+      "text": "🙌 It's going to be lit, and will be my first time in India! Cannot wait 🤩:",
+      "url": "https://x.com/DynamicWebPaige/status/2021293048169365643",
+      "author": {
+        "handle": "DynamicWebPaige",
+        "name": "👩‍💻 Paige Bailey",
+        "followers": 72755,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 68,
+        "reposts": 2,
+        "replies": 11,
+        "views": 4897
+      },
+      "createdAt": "Tue Feb 10 18:39:51 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021335426255159718",
+      "text": "Good night my friends!🌙\nTomorrow is DragonDay 🐉\n\nMade with Midjourney and @grok Imagine✨ https://t.co/KiE0XzYchK",
+      "url": "https://x.com/nimentrix/status/2021335426255159718",
+      "author": {
+        "handle": "nimentrix",
+        "name": "Nimentrix",
+        "followers": 5765,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 13,
+        "reposts": 1,
+        "replies": 6,
+        "views": 73
+      },
+      "createdAt": "Tue Feb 10 21:28:14 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021311925628338647",
+      "text": "i cloned varun mayya with seedance 2.0 @waitin4agi_ \n\nThis is insanity! https://t.co/CaNhJUkcHW",
+      "url": "https://x.com/Dork_sense/status/2021311925628338647",
+      "author": {
+        "handle": "Dork_sense",
+        "name": "Dorksense",
+        "followers": 2714,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 68,
+        "reposts": 8,
+        "replies": 10,
+        "views": 5437
+      },
+      "createdAt": "Tue Feb 10 19:54:51 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021345860827873599",
+      "text": "https://t.co/QUBvE3ZKcH",
+      "url": "https://x.com/jasonlk/status/2021345860827873599",
+      "author": {
+        "handle": "jasonlk",
+        "name": "Jason ✨👾SaaStr.Ai✨ Lemkin",
+        "followers": 229747,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 11,
+        "reposts": 0,
+        "replies": 0,
+        "views": 2802
+      },
+      "createdAt": "Tue Feb 10 22:09:42 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021273818246021274",
+      "text": "https://t.co/ONBzVkugnn",
+      "url": "https://x.com/jasonlk/status/2021273818246021274",
+      "author": {
+        "handle": "jasonlk",
+        "name": "Jason ✨👾SaaStr.Ai✨ Lemkin",
+        "followers": 229747,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 17,
+        "reposts": 1,
+        "replies": 2,
+        "views": 6794
+      },
+      "createdAt": "Tue Feb 10 17:23:26 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021354886097666525",
+      "text": "This has been a fun next frontier today.\n\nPackaging everything I know about content marketing into an OpenClaw and handing it off to Felix to deploy as a new employee.",
+      "url": "https://x.com/nateliason/status/2021354886097666525",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 84308,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 7,
+        "reposts": 0,
+        "replies": 2,
+        "views": 553
+      },
+      "createdAt": "Tue Feb 10 22:45:34 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021314351299498253",
+      "text": "Building with Claude Opus 4.6 in Claude Code is literally a holy experience\n\nIt feels like I have unlimited power.\n\nAnything I think just appears in front of me",
+      "url": "https://x.com/AlexFinn/status/2021314351299498253",
+      "author": {
+        "handle": "AlexFinn",
+        "name": "Alex Finn",
+        "followers": 399235,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 306,
+        "reposts": 10,
+        "replies": 90,
+        "views": 12407
+      },
+      "createdAt": "Tue Feb 10 20:04:30 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021335154875085239",
+      "text": "🚨 The guy who built Anthropic’s defenses against AI bioterrorism just quit.\n\nMrinank Sharma led Anthropic’s Safeguards Research Team. His job was literally making sure Claude doesn’t help bad actors do bad things.\n\nHis resignation letter: “The world is in peril. And not just from AI, or bioweapons, but from a whole series of interconnected crises.”\n\nHe also said he “repeatedly seen how hard it is to truly let our values govern our actions” inside the organization.\n\nThis is the company that positioned itself as the “safe” AI lab. The one founded specifically because OpenAI wasn’t careful enough.\n\nNow their safety lead is walking away, saying the pressure to “set aside what matters most” is real.\n\nHe’s leaving to study poetry. Not joining a competitor. Not starting a startup. Poetry.\n\nWhen your AI safety researcher chooses poems over production, that tells you something about what’s happening behind closed doors.",
+      "url": "https://x.com/alex_prompter/status/2021335154875085239",
+      "author": {
+        "handle": "alex_prompter",
+        "name": "Alex Prompter",
+        "followers": 82761,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 29,
+        "reposts": 5,
+        "replies": 7,
+        "views": 5422
+      },
+      "createdAt": "Tue Feb 10 21:27:10 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021334755036496392",
+      "text": "will be adding soon 👇\n\n&gt; meta prompts to generate n8n workflows with claude\n&gt; openclaw integration with n8n (this one’s insane)\n&gt; complex agent workflows that orchestrate other agents",
+      "url": "https://x.com/alex_prompter/status/2021334755036496392",
+      "author": {
+        "handle": "alex_prompter",
+        "name": "Alex Prompter",
+        "followers": 82761,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 3,
+        "reposts": 0,
+        "replies": 2,
+        "views": 1161
+      },
+      "createdAt": "Tue Feb 10 21:25:34 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021337142245663112",
+      "text": "“haha, I don’t know what was wrong with Claude Code bro” 😶‍🌫️ https://t.co/mP5bDfHM6I",
+      "url": "https://x.com/Hesamation/status/2021337142245663112",
+      "author": {
+        "handle": "Hesamation",
+        "name": "ℏεsam",
+        "followers": 68029,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 14,
+        "reposts": 1,
+        "replies": 0,
+        "views": 2426
+      },
+      "createdAt": "Tue Feb 10 21:35:03 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021334291628900396",
+      "text": "Raises $10M seed round https://t.co/Bc9IT2Irak",
+      "url": "https://x.com/Hesamation/status/2021334291628900396",
+      "author": {
+        "handle": "Hesamation",
+        "name": "ℏεsam",
+        "followers": 68029,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 14,
+        "reposts": 1,
+        "replies": 1,
+        "views": 773
+      },
+      "createdAt": "Tue Feb 10 21:23:44 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021329403272163522",
+      "text": "take this kid out of school before the system sucks every bit of passion out of him. let him cook.",
+      "url": "https://x.com/Hesamation/status/2021329403272163522",
+      "author": {
+        "handle": "Hesamation",
+        "name": "ℏεsam",
+        "followers": 68029,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 146,
+        "reposts": 4,
+        "replies": 5,
+        "views": 5055
+      },
+      "createdAt": "Tue Feb 10 21:04:18 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021340514621010319",
+      "text": "YC just announced their looking for AI-Native agencies. \n\nThe agency model is about to split into two completely different businesses:\n\nA) Agencies that sell labor\nB) Agencies that sell leverage\n\nOnly one survives long term.\n\nAI-native agencies don’t scale by hiring more people.\n\nThey scale by building systems that replace people.\n\nThe playbook looks like this:\n\n→ Find a workflow clients already overpay for\n→ Build an AI tool that does it 10x faster\n→ Use services to fund development\n→ Turn repeated work into proprietary IP\n→ Eventually sell the tool, not the time\n\nThe real shift:\n\nAgencies used to be talent businesses.\n\nNow they’re becoming software companies with cash flow.\n\nMost people will miss this window because they’re still optimizing delivery instead of building leverage.\n\nThat’s the opportunity.\n\nI'm launching a community of like-minded builders trying to build their own AI-native agency. \n\nI'm going to share everything I know having built my own 7-figure AI agency.\n\nLooking for motivated people ready to learn & build. \n\nDrop a comment, I'll personally reach out.",
+      "url": "https://x.com/Jacobsklug/status/2021340514621010319",
+      "author": {
+        "handle": "Jacobsklug",
+        "name": "Jacob Klug",
+        "followers": 23039,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 42,
+        "reposts": 3,
+        "replies": 21,
+        "views": 3327
+      },
+      "createdAt": "Tue Feb 10 21:48:28 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021352331720392779",
+      "text": "battle of the brands! PETAFLOP, Hoikwo, WIFTREY and Wtrgas...CLASSICS in the packaging world. https://t.co/4n5ajUnYqK",
+      "url": "https://x.com/Shpigford/status/2021352331720392779",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 58183,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 2,
+        "reposts": 1,
+        "replies": 2,
+        "views": 324
+      },
+      "createdAt": "Tue Feb 10 22:35:25 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021339111249019393",
+      "text": "the next @initialcommitco app drops in just 5 days!\n\nit's for @replysocial: a mention/brand monitoring tool for X with replies built right in! super powerful for businesses and big accounts that need to monitor and respond all in one place.\n\nhttps://t.co/1MoOgbe40h https://t.co/e0oaSmlqqh",
+      "url": "https://x.com/Shpigford/status/2021339111249019393",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 58183,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 2,
+        "views": 693
+      },
+      "createdAt": "Tue Feb 10 21:42:53 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021330181340667917",
+      "text": "got a TON of these shipped out today. should be completely caught up by tomorrow.\n\nHOT. CAKES.",
+      "url": "https://x.com/Shpigford/status/2021330181340667917",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 58183,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 3,
+        "reposts": 0,
+        "replies": 1,
+        "views": 1151
+      },
+      "createdAt": "Tue Feb 10 21:07:24 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021281039096623169",
+      "text": "favorite newly discovered youtube channel: \"Inside Japanese Factories\"\n\nhttps://t.co/3QvPk19Hdm\n\nmy toxic trait is thinking i could do these things in my basement",
+      "url": "https://x.com/Shpigford/status/2021281039096623169",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 58183,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 7,
+        "reposts": 0,
+        "replies": 1,
+        "views": 958
+      },
+      "createdAt": "Tue Feb 10 17:52:07 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021300376482570499",
+      "text": "Yeah this is gonna make openclaw more fun.",
+      "url": "https://x.com/rileybrown/status/2021300376482570499",
+      "author": {
+        "handle": "rileybrown",
+        "name": "Riley Brown",
+        "followers": 157259,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 27,
+        "reposts": 2,
+        "replies": 3,
+        "views": 8130
+      },
+      "createdAt": "Tue Feb 10 19:08:58 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021308547439452660",
+      "text": "Latest Parchi release:\n\n- Download chat/responses\n- Better history management\n- Subagent visibility \n- Sessions stay separate hopefully https://t.co/LQsw2rIO9X",
+      "url": "https://x.com/0xSero/status/2021308547439452660",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10370,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 17,
+        "reposts": 1,
+        "replies": 0,
+        "views": 934
+      },
+      "createdAt": "Tue Feb 10 19:41:26 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021303625562091717",
+      "text": "This is how I automate almost everything (with varied degrees of success)\n\nI have been using mostly Kimi these days and have automated everything from:\n\n- organizing 19k emails down to 300\n- provisioning cloud environments\n- filling out government form\n\nhttps://t.co/JwZI1iMP7a",
+      "url": "https://x.com/0xSero/status/2021303625562091717",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10370,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 31,
+        "reposts": 3,
+        "replies": 1,
+        "views": 2339
+      },
+      "createdAt": "Tue Feb 10 19:21:52 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021287509540421734",
+      "text": "My only use for Claude now is Clawdbot, it is literally just not the best at anything anymore, just an overall good model. \n\n- Kimi-K2.5 is better at automating computer use, especially browser use, I am using Parchi more than Claude chrome extension & BETTER at frontend\n\n- GPT is an infinitely better programmer, requires less handholding, produces much better results \n\n- MiniMax-M2.* & GLM are cheaper, and better than Sonnet, I use both tenfold more than I use Sonnet I haven't touched Sonnet in months. \n\n- Grok is much better at finding information about people, I use Grok chat more than Claude chat..\n\nNot capping, not joking. I am cancelling my Claude sub.",
+      "url": "https://x.com/0xSero/status/2021287509540421734",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10370,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 303,
+        "reposts": 15,
+        "replies": 39,
+        "views": 19486
+      },
+      "createdAt": "Tue Feb 10 18:17:50 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2021307686931796413",
+      "text": "Not everyone I talk to sees @moltbook the same way that I do.\n\n@pmarca seems to see it the exact same way that I do.\n\nIs it all AIs talking without human influence? Is there human influence?\n\nIt doesn’t matter.\n\nThis is a new medium, a new space, a new internet.",
+      "url": "https://x.com/MattPRD/status/2021307686931796413",
+      "author": {
+        "handle": "MattPRD",
+        "name": "Matt Schlicht",
+        "followers": 251849,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 122,
+        "reposts": 14,
+        "replies": 44,
+        "views": 14608
+      },
+      "createdAt": "Tue Feb 10 19:38:01 +0000 2026",
+      "urls": []
+    }
+  ],
+  "linkedContent": []
+}

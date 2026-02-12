@@ -1,0 +1,111 @@
+Tweet Thread: Why I Don't Vibe Code (And Neither Should You)
+================================================================================
+
+Tweet 1/7 - The Hook:
+--------------------------------------------------------------------------------
+New UC San Diego study confirms what senior engineers already know:
+
+"Vibe coding" — the "prompt, accept, ship" workflow — produces unmaintainable code and creates security nightmares.
+
+Pros don't vibe code. They control.
+
+Here's the difference 🧵
+
+---
+
+Tweet 2/7 - The Problem:
+--------------------------------------------------------------------------------
+What is "vibe coding"?
+
+❌ Prompt AI with vague requirements
+❌ Accept output without reading it
+❌ Copy-paste into production
+❌ Hope it works
+
+The result? Technical debt that compounds faster than your crypto losses.
+
+---
+
+Tweet 3/7 - The Reality Check:
+--------------------------------------------------------------------------------
+Vibe-coded codebases have:
+
+• Security vulnerabilities nobody understands
+• "It works, don't touch it" functions
+• Dependencies chosen by AI roulette
+• Zero reproducibility
+
+That "vibe" you feel? It's your future 3 AM production incident.
+
+---
+
+Tweet 4/7 - The Alternative:
+--------------------------------------------------------------------------------
+The pros use Agent-Driven Development:
+
+✅ Structured tasks with clear requirements
+✅ AI uses tools, not just memory
+✅ Every step recorded & auditable
+✅ Human approval for critical changes
+✅ Tests verify everything
+
+Control + augmentation > blind generation
+
+---
+
+Tweet 5/7 - The Philosophy:
+--------------------------------------------------------------------------------
+AI doesn't eliminate engineering — it changes how you apply it.
+
+The best developers aren't better prompters.
+
+They're better *judges*.
+
+They know when to accept AI suggestions and when to reject them. They understand trade-offs AI can't see.
+
+---
+
+Tweet 6/7 - The Tool:
+--------------------------------------------------------------------------------
+This is why I built OpenClaw.
+
+It's not an AI that replaces engineers.
+
+It's an AI that *empowers* them — with structured workflows, tool augmentation, and full reproducibility.
+
+You're the conductor. The AI plays the instruments.
+
+---
+
+Tweet 7/7 - The CTA:
+--------------------------------------------------------------------------------
+Stop vibe coding.
+Start controlling.
+
+Your future self (and your on-call rotation) will thank you.
+
+Try agent-driven development with OpenClaw:
+👉 github.com/openclaw/openclaw
+
+/🧵
+
+---
+
+Optional Follow-up Tweet (if engagement is high):
+--------------------------------------------------------------------------------
+The hard truth:
+
+If you can't explain what your AI-generated code does, you're not an engineer using AI.
+
+You're a gambler using autocomplete.
+
+Learn the difference before your code teaches you the hard way.
+
+---
+
+ENGAGEMENT TIPS:
+- Post during peak dev hours (9-11am PT or 1-3pm PT)
+- Pin the thread to your profile
+- Consider creating a visual summary image
+- Reply to comments with specific examples
+- Quote tweet with your own experiences

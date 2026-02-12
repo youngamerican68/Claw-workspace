@@ -1,0 +1,368 @@
+{
+  "date": "2026-02-05T23:02:02.869Z",
+  "totalTweets": 134,
+  "authorsMonitored": 21,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@UncleJAI @openclaw how do you set that up?",
+      "url": "https://x.com/MatthewBerman/status/2019523636563149060",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@tabascoaistudio @openclaw @grok just watch it lol",
+      "url": "https://x.com/MatthewBerman/status/2019523553067168180",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@BadTechBandit @openclaw @AnthropicAI 4.6? no it's not available yet. requires an upgrade from openclaw",
+      "url": "https://x.com/MatthewBerman/status/2019509117128437948",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "The ONLY AI skills you need to get rich with AI in 2026.\n\nThe quicker you climb to basket #1, the quicker you change your life: https://t.co/KZWS1TX3pm",
+      "url": "https://x.com/milesdeutscher/status/2019531504339284109",
+      "engagement": {
+        "likes": 51,
+        "retweets": 3,
+        "replies": 14
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "@neilsuperduper Discover the compaction tech in codex.\nAsk xAi and Google deepmind long context window size is useless.",
+      "url": "https://x.com/Web3Aible/status/2019507910150353161",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "Anthropic ships impressively \n\nThank you for heading the competition with OpenAi on Coding.",
+      "url": "https://x.com/Web3Aible/status/2019479542302175644",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "happy model day 💕 https://t.co/L0cqpIfHzL",
+      "url": "https://x.com/GeoffreyHuntley/status/2019502892517060893",
+      "engagement": {
+        "likes": 14,
+        "retweets": 1,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@AnthropicAI so; https://t.co/mckYzstm7Z but not cursed",
+      "url": "https://x.com/GeoffreyHuntley/status/2019502509841346784",
+      "engagement": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@aimusicvideo @AlchemyStream Best wishes my friend 🙏🫶✨",
+      "url": "https://x.com/nimentrix/status/2019524607825572286",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "QT your Blue Hair ✨ https://t.co/AOac3w9aNm",
+      "url": "https://x.com/nimentrix/status/2019474418536444382",
+      "engagement": {
+        "likes": 11,
+        "retweets": 4,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Dork_sense",
+      "text": "@MaxMill06 @GeminiApp dope!",
+      "url": "https://x.com/Dork_sense/status/2019495220359098689",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Dork_sense",
+      "text": "@dustinhollywood @higgsfield_ai 😂 https://t.co/NAHaMFn87h",
+      "url": "https://x.com/Dork_sense/status/2019489178082578788",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Don't love your job?  I hear you.  But trust me -- don't quit.  At least, 99% of you shouldn't.\n\nMost jobs in tech aren't as rewarding as we'd hoped.  In the end, being an FDE is endless deployments. ",
+      "url": "https://x.com/jasonlk/status/2019530975449948221",
+      "engagement": {
+        "likes": 13,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Note this tweet well. @antonosika is kindly sharing what vibe coding is really being used for today, top 4 use cases … \n\nRapid prototyping of apps without taxing engineering is #1 use cases.  The kill",
+      "url": "https://x.com/jasonlk/status/2019521353217634473",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@HarryStebbings @rodriscoll It's mostly Rory, let's be clear",
+      "url": "https://x.com/jasonlk/status/2019487198220050715",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "https://t.co/PBv85S5Cyt is back May 12-14 in the SF Bay Area — and this year, it's all about AI and AI Agents transforming B2B!\n\nWe're well past the hype cycle. The founders and leaders coming aren't ",
+      "url": "https://x.com/jasonlk/status/2019485529637810355",
+      "engagement": {
+        "likes": 6,
+        "retweets": 2,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "@JakeKeuhlen He actually did when I asked him after completing the purchase\n\nI installed a better browsing tool and also stored the card’s billing address in 1Password for him",
+      "url": "https://x.com/BillDA/status/2019483169158791312",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@ashen_one @Replit happy for you brother!",
+      "url": "https://x.com/AlexFinn/status/2019543027661095192",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "To be super duper clear:\n\nDo not just run the prompt right away. We might have different set ups.\n\nFirst explain to your clawd what you're trying to do and say please examine the prompt below to see i",
+      "url": "https://x.com/AlexFinn/status/2019529823836889092",
+      "engagement": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "To be clear: this is an unofficial fix\n\nIf you want an officially supported fix, wait. Could take anywhere from hours to a few days I'd imagine\n\nI'm just trying to get psychotic and use the newest tec",
+      "url": "https://x.com/AlexFinn/status/2019529314958729441",
+      "engagement": {
+        "likes": 16,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "RUN THIS PROMPT IN CLAWDBOT TO GET OPUS 4.6 RUNNING\n\nBy default, Opus 4.6 is not supported by ClawdBot/OpenClaw.\n\nYou need to do some manually hacking to get it to work. For my setup, this prompt work",
+      "url": "https://x.com/AlexFinn/status/2019524752399094198",
+      "engagement": {
+        "likes": 171,
+        "retweets": 11,
+        "replies": 53
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "Drop what you are doing\n\nIt happened. Opus 4.6 is out. \n\nThis is what you need to do immediately if you want to escape the permanent underclass:\n\n• Upgrade your ClawdBot to Opus 4.6 NOW\n• Test out the",
+      "url": "https://x.com/AlexFinn/status/2019487895921521077",
+      "engagement": {
+        "likes": 601,
+        "retweets": 46,
+        "replies": 119
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Unpopular opinion: chatbots are actually making us slower.\n\nEvery AI tool right now works the same way.\n\nOne model. One conversation. One task at a time.\n\nYou babysit it through every step like a juni",
+      "url": "https://x.com/alex_prompter/status/2019468523291177256",
+      "engagement": {
+        "likes": 24,
+        "retweets": 9,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "@claudeai i don’t care about Opus\nthis is the best thing Anthropic ever built\n\nhttps://t.co/ljqzoSHf70",
+      "url": "https://x.com/Hesamation/status/2019468129999405196",
+      "engagement": {
+        "likes": 52,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "Interesting. One thing to note though is, I looked up the study. 50 is neutral, above 50 is positive feelings.  So the disparity is more an indication that people seem to have some bias towards their ",
+      "url": "https://x.com/jhong/status/2019458889230811540",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xLuo",
+      "text": "Thanks to @rainbowdotme for the $RNBW airdrops during a tough time, pretty much funded my meals for the next month 🙏 https://t.co/PdbjnaIsUV",
+      "url": "https://x.com/0xLuo/status/2019468026228195334",
+      "engagement": {
+        "likes": 17,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "Yo @garyvee come vibecode with us at @vibecodeapp HQ.",
+      "url": "https://x.com/rileybrown/status/2019495732252930527",
+      "engagement": {
+        "likes": 25,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "One of my biggest flaws is I don’t show gratitude enough. I get caught in the moment and let excitement, stress, obsession take over too often. \n\nBut today I’m feeling really grateful. I want to thank",
+      "url": "https://x.com/rileybrown/status/2019493374030672018",
+      "engagement": {
+        "likes": 109,
+        "retweets": 2,
+        "replies": 22
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "I've been testing Opus 4.6 for a couple weeks. \n\nIt is incredible at building and designing mobile apps. \n\nAnd it just feels more agentic, it uses sub agents more, which makes it feel faster... \n\nHere",
+      "url": "https://x.com/rileybrown/status/2019469917783838936",
+      "engagement": {
+        "likes": 157,
+        "retweets": 7,
+        "replies": 22
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@ViralManager @wabi @vibecodeapp @rork_app Fake success stories as marketing is a short term low trust strategy.",
+      "url": "https://x.com/rileybrown/status/2019466564752617952",
+      "engagement": {
+        "likes": 13,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

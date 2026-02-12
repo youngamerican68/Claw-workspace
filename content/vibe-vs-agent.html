@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding vs Agent-Driven Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            max-width: 1200px;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+        
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        
+        .column {
+            padding: 40px;
+        }
+        
+        .column.vibe {
+            background: linear-gradient(180deg, #fff5f5 0%, #ffffff 100%);
+            border-right: 1px solid #e2e8f0;
+        }
+        
+        .column.agent {
+            background: linear-gradient(180deg, #f0fff4 0%, #ffffff 100%);
+        }
+        
+        .column-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+        }
+        
+        .vibe .icon {
+            background: #fee2e2;
+        }
+        
+        .agent .icon {
+            background: #d1fae5;
+        }
+        
+        .column h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .vibe h2 {
+            color: #dc2626;
+        }
+        
+        .agent h2 {
+            color: #059669;
+        }
+        
+        .workflow {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .workflow h3 {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #64748b;
+            margin-bottom: 15px;
+        }
+        
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        
+        .step:last-child {
+            border-bottom: none;
+        }
+        
+        .step-number {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        
+        .vibe .step-number {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+        
+        .agent .step-number {
+            background: #d1fae5;
+            color: #059669;
+        }
+        
+        .step-text {
+            font-size: 0.95rem;
+            color: #334155;
+        }
+        
+        .outcomes {
+            margin-top: 25px;
+        }
+        
+        .outcome {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+            font-size: 0.9rem;
+        }
+        
+        .outcome-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            flex-shrink: 0;
+        }
+        
+        .vibe .outcome-icon {
+            background: #fecaca;
+            color: #dc2626;
+        }
+        
+        .agent .outcome-icon {
+            background: #a7f3d0;
+            color: #059669;
+        }
+        
+        .footer {
+            background: #f8fafc;
+            padding: 25px 40px;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .footer p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+        
+        .footer strong {
+            color: #1e293b;
+        }
+        
+        .openclaw-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .comparison {
+                grid-template-columns: 1fr;
+            }
+            
+            .column.vibe {
+                border-right: none;
+                border-bottom: 1px solid #e2e8f0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>🎯 Vibe Coding vs Agent-Driven Development</h1>
+            <p>Why professionals control their code — not just generate it</p>
+        </div>
+        
+        <div class="comparison">
+            <div class="column vibe">
+                <div class="column-header">
+                    <div class="icon">🌊</div>
+                    <h2>Vibe Coding</h2>
+                </div>
+                
+                <div class="workflow">
+                    <h3>The Workflow</h3>
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-text">Prompt AI with vague requirements</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-text">Accept output without review</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-text">Copy-paste into codebase</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-text">Ship and hope for the best</div>
+                    </div>
+                </div>
+                
+                <div class="outcomes">
+                    <div class="outcome">
+                        <div class="outcome-icon">✕</div>
+                        <span>Unmaintainable code</span>
+                    </div>
+                    <div class="outcome">
+                        <div class="outcome-icon">✕</div>
+                        <span>Hidden security risks</span>
+                    </div>
+                    <div class="outcome">
+                        <div class="outcome-icon">✕</div>
+                        <span>No reproducibility</span>
+                    </div>
+                    <div class="outcome">
+                        <div class="outcome-icon">✕</div>
+                        <span>Technical debt explosion</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column agent">
+                <div class="column-header">
+                    <div class="icon">🤖</div>
+                    <h2>Agent-Driven (OpenClaw)</h2>
+                </div>
+                
+                <div class="workflow">
+                    <h3>The Workflow</h3>
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-text">Define structured tasks & requirements</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-text">Agent uses tools to analyze context</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-text">Generate with reproducible steps</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-text">Human review & approval</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-text">Test, verify, ship with confidence</div>
+                    </div>
+                </div>
+                
+                <div class="outcomes">
+                    <div class="outcome">
+                        <div class="outcome-icon">✓</div>
+                        <span>Auditable & maintainable</span>
+                    </div>
+                    <div class="outcome">
+                        <div class="outcome-icon">✓</div>
+                        <span>Security-conscious by design</span>
+                    </div>
+                    <div class="outcome">
+                        <div class="outcome-icon">✓</div>
+                        <span>Full reproducibility</span>
+                    </div>
+                    <div class="outcome">
+                        <div class="outcome-icon">✓</div>
+                        <span>Human control maintained</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Based on UC San Diego research:</strong> Pros don't vibe code — they control.</p>
+            <div class="openclaw-badge">⚡ Powered by OpenClaw</div>
+        </div>
+    </div>
+</body>
+</html>

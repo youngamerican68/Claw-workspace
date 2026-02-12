@@ -1,0 +1,140 @@
+{
+  "date": "2026-02-06T11:01:22.626Z",
+  "totalTweets": 44,
+  "authorsMonitored": 12,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "indexsy",
+      "text": "Want to stay up-to-date with AI?\n\nCheck out:\nhttps://t.co/yeSDqxFh2c",
+      "url": "https://x.com/indexsy/status/2019672664009503207",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "indexsy",
+      "text": "Set this up with your OpenClaw and never have issues with memory again... (bookmark for later)\n\nOptimal setup is Claude Opus 4.6 main agent, and Kimi K2.5 subagent (via Kimi Code)\n\n🧠 OpenClaw Advance",
+      "url": "https://x.com/indexsy/status/2019657721314939014",
+      "engagement": {
+        "likes": 288,
+        "retweets": 26,
+        "replies": 10
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "mix of identity crisis/OGs selling and lack of retail or institutional demand/quantum/FUD/lack of clear future catalyst or greater fool\n\nA lot of this is reflexive due to price tho. If price was high ",
+      "url": "https://x.com/milesdeutscher/status/2019655153767575904",
+      "engagement": {
+        "likes": 35,
+        "retweets": 3,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "I used AI to bring back old scanned books in Hindi (and any other language) that were lost to history back to life.\n\nI brought back the prescient 1924 Hindi novel \"Baeesween Sadi\" (22nd Century) that ",
+      "url": "https://x.com/deedydas/status/2019659212092219643",
+      "engagement": {
+        "likes": 304,
+        "retweets": 35,
+        "replies": 21
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "raroque",
+      "text": "@onlinedopamine yes 100% \n\ni think this stuff compounds very quickly (i noticed once one video started gaining traction, anything else i posted had a much higher takeoff rate)\n\nwhich is also why i rea",
+      "url": "https://x.com/raroque/status/2019645125673070613",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "raroque",
+      "text": "the secret: i started taking short form as seriously as i do youtube\n\n- making a RIGOROUS schedule to post every single day\n- studying other creators / experts (i have 40+ pages of notion notes)\n- try",
+      "url": "https://x.com/raroque/status/2019644779974262965",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "raroque",
+      "text": "for those curious 👀 this is what the timeline for one of my 45 second videos looks like btw \n\nI used to spend 30 mins making these videos but now I spent 2-4 hours per video\n\nresult: ive gained 20K (",
+      "url": "https://x.com/raroque/status/2019643256934723617",
+      "engagement": {
+        "likes": 31,
+        "retweets": 0,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@onchainlurkin Just from his book right now. More interesting project launches today",
+      "url": "https://x.com/nateliason/status/2019726841108639938",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "@garrytan https://t.co/yAAJ3HPzNf",
+      "url": "https://x.com/jhong/status/2019664663462703524",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@Kaiyes_ Hahaha \n\nYes GPT-5.3 is very fast and smart, still need time to properly assess them.",
+      "url": "https://x.com/0xSero/status/2019686656052457926",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@andrewc_actual Grok fast served a very unique purpose, it’s incredibly fast and relatively intelligent.\n\nThe main problem is access, there’s no api key sub from what I understand",
+      "url": "https://x.com/0xSero/status/2019682459315802127",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

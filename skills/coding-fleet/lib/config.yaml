@@ -1,0 +1,111 @@
+# Coding Agent Fleet Configuration
+# Copy this to .openclaw/coding-fleet.yaml in your repo
+
+# Agent definitions and settings
+agents:
+  coder:
+    enabled: true
+    model: synthetic/hf:qwen/Qwen2.5-Coder-32B-Instruct
+    temperature: 0.2
+    max_tokens: 8000
+    timeout: 300  # seconds
+    
+  reviewer:
+    enabled: true
+    model: synthetic/hf:moonshotai/Kimi-K2.5
+    temperature: 0.1
+    max_tokens: 4000
+    timeout: 180
+    
+  tester:
+    enabled: true
+    model: synthetic/hf:qwen/Qwen2.5-Coder-32B-Instruct
+    temperature: 0.2
+    max_tokens: 6000
+    timeout: 600
+    coverage_threshold: 80
+    
+  docs:
+    enabled: true
+    model: synthetic/hf:moonshotai/Kimi-K2.5
+    temperature: 0.3
+    max_tokens: 4000
+    timeout: 120
+
+# Workflow settings
+workflow:
+  # Run agents sequentially (true) or in parallel (false)
+  sequential: true
+  
+  # Stop on first failure
+  fail_fast: true
+  
+  # Required agents that must pass
+  required:
+    - coder
+    - reviewer
+    - tester
+
+# Ghost commit settings
+ghost_commits:
+  enabled: true
+  branch_prefix: "ghost/"
+  
+  # Auto-rollback if tests fail
+  auto_rollback_on_failure: true
+  
+  # Delete ghost branches after merge/close
+  preserve_branches: false
+  
+  # Auto-cleanup old branches after N days
+  auto_cleanup_after_days: 7
+  
+  # Max commits to roll back
+  max_rollback_commits: 5
+
+# GitHub integration
+github:
+  # Auto-create PRs from ghost branches
+  auto_create_prs: false
+  
+  # Post agent results as PR comments
+  post_comments: true
+  
+  # Require human approval before merging
+  require_approval: true
+
+# Customization
+customization:
+  # Project-specific context
+  project_context: |
+    This is a TypeScript/React project using:
+    - React 18 with hooks
+    - TypeScript strict mode
+    - Tailwind CSS for styling
+    - Jest for testing
+    - ESLint + Prettier
+  
+  # File patterns to include/exclude
+  file_patterns:
+    include:
+      - "src/**/*.{ts,tsx}"
+      - "lib/**/*.{ts,tsx}"
+    exclude:
+      - "**/*.test.{ts,tsx}"
+      - "**/*.spec.{ts,tsx}"
+      - "node_modules/**"
+      - "dist/**"
+
+# Notifications
+notifications:
+  # Notify on completion
+  on_complete: true
+  
+  # Notify on failure
+  on_failure: true
+  
+  # Slack webhook (optional)
+  # slack_webhook: "https://hooks.slack.com/..."
+  
+  # Email (optional)
+  # email: "team@example.com"

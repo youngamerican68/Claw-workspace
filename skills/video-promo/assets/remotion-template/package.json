@@ -1,0 +1,21 @@
+{
+  "name": "promo-video",
+  "version": "1.0.0",
+  "description": "Promotional video template",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.409",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.409"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Main out/video.mp4"
+  }
+}

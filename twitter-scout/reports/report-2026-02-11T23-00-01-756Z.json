@@ -1,0 +1,500 @@
+{
+  "date": "2026-02-11T23:04:03.791Z",
+  "totalTweets": 126,
+  "authorsMonitored": 22,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "Very smart move. We need to turn the negative sentiment towards AI around.",
+      "url": "https://x.com/MatthewBerman/status/2021703830527000820",
+      "engagement": {
+        "likes": 44,
+        "retweets": 0,
+        "replies": 7
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@davelalande macbook air 13inch i believe",
+      "url": "https://x.com/MatthewBerman/status/2021689091981799900",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "If you're wondering which tools to learn based on this article, here ya go:\n\nhttps://t.co/m2Z0ceuZWh",
+      "url": "https://x.com/MatthewBerman/status/2021672965340029239",
+      "engagement": {
+        "likes": 40,
+        "retweets": 2,
+        "replies": 7
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@0x_Vivek forces the model to write like a human (removes AI-smell)",
+      "url": "https://x.com/MatthewBerman/status/2021672041066475780",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@AI_Aristocrat What use cases do you have in mind? \n\nIf it's on a computer, OpenClaw can do it.",
+      "url": "https://x.com/MatthewBerman/status/2021671586026467343",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "I'm one of the most advanced users of OpenClaw.\n\nOpenClaw + GPT5.3 Codex + Opus 4.6 has been the trifecta that changed everything.\n\nI made a video going over everything I'm doing with these tools. \n\nL",
+      "url": "https://x.com/MatthewBerman/status/2021669868366598632",
+      "engagement": {
+        "likes": 805,
+        "retweets": 54,
+        "replies": 49
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "If you haven't started learning AI automation, I won't lie, you're starting to fall behind.\n\nBut don't worry, here's the EXACT roadmap you should use to catch up and increase your chances of staying a",
+      "url": "https://x.com/milesdeutscher/status/2021666056826486845",
+      "engagement": {
+        "likes": 288,
+        "retweets": 26,
+        "replies": 36
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@SpiceP0dcast @jacksondahl happy to help, DM me",
+      "url": "https://x.com/lennysan/status/2021676901333708996",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@MaxBladee @kreo444 @_MaxBlade @BagsApp hahahahahha",
+      "url": "https://x.com/GeoffreyHuntley/status/2021712164139192405",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "raroque",
+      "text": "@kuhusingh6 Really appreciate that :)",
+      "url": "https://x.com/raroque/status/2021690662668648685",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "Good night my Friends 🌙🎧\n\nMay this music carry you through this night,\nsoftening your thoughts, steadying your heart,\nand guiding you gently toward rest and quiet dawn. https://t.co/jTNAhbWCvx",
+      "url": "https://x.com/nimentrix/status/2021695045037175100",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@azed_ai @grok Thx Amira🙏",
+      "url": "https://x.com/nimentrix/status/2021632405220553152",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@0xshashim I think true product experts will be. True.  I think field sales will remain somewhat similar to how it is today.\n\nInside sales will change.  Outbound sales will change as much as support a",
+      "url": "https://x.com/jasonlk/status/2021718867454972212",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "I love our AI agents and I love vibe coding and I love 2026\n\nBut man anyone who doesn't think this is going to lead to lots of relatively smaller companies and layoffs isn't in the game\n\nThe honest tr",
+      "url": "https://x.com/jasonlk/status/2021715620551925929",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "AI ARR is insane\n\nIt's just sometimes ... \n\nA = not really annual\nR = may not recur\nR = might not really be revenue if pass through\n\nBut Carry On!",
+      "url": "https://x.com/jasonlk/status/2021704295804977344",
+      "engagement": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Everyone has an AI strategy. Almost nobody has agents in production. \n\nThat's the gap. \n\n🚀Get ahead of the pack. Take 1 day our and join https://t.co/pNxn5R7ZU3 '26 — our first-ever AI GTM Agent Summ",
+      "url": "https://x.com/jasonlk/status/2021689460174594448",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "@thesamparr Great one",
+      "url": "https://x.com/jasonlk/status/2021672734791749712",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Why we replaced a $10K sponsor portal app with a homegrown one vibed on @Replit?\n\nIt wasn't to save money.  But: \n\n- Existing vendors too slow, no AI at all in their apps in 2026\n- Want ability to pic",
+      "url": "https://x.com/jasonlk/status/2021656021744464214",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "The latest on what we've vibe coded on @replit and more: Our AI VP Marketing, and our AI Sponsor Portal https://t.co/rfBQe0Q0gK",
+      "url": "https://x.com/jasonlk/status/2021651329480110433",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "I got many early access customers to https://t.co/HMjWoQP8jq because of this one video with @AndrewWarner...\n\nI showed how MissionControl works in practice - how a bunch of AI agents chat and collabor",
+      "url": "https://x.com/pbteja1998/status/2021638919599927782",
+      "engagement": {
+        "likes": 38,
+        "retweets": 0,
+        "replies": 10
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@rasulkireev @FelixCraftAI As the tasks and projects grow we’ve started to run into some context and Cron pollution. \n\nMarginal cost of a separate OpenClaw is only ~12$ per month so it’s worthwhile to",
+      "url": "https://x.com/nateliason/status/2021688021871915065",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "karpathy",
+      "text": "New art project. \nTrain and inference GPT in 243 lines of pure, dependency-free Python. This is the *full* algorithmic content of what is needed. Everything else is just for efficiency. I cannot simpl",
+      "url": "https://x.com/karpathy/status/2021694437152157847",
+      "engagement": {
+        "likes": 1782,
+        "retweets": 186,
+        "replies": 126
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "karpathy",
+      "text": "@marksaroufim Good to hear! Almost every code base is suddenly half \"useful library code\" (legacy) and half \"docs++\". i.e. with LLMs in hand, the torchao repo is *significantly* better docs on how to ",
+      "url": "https://x.com/karpathy/status/2021637660532764999",
+      "engagement": {
+        "likes": 98,
+        "retweets": 4,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "karpathy",
+      "text": "@ens_pyrz So that's why I mentioned risks. But imo it easily cuts both ways - libraries and dependencies can be a source of risks and vulnerabilities in the first place, e.g. supply chain attacks. The",
+      "url": "https://x.com/karpathy/status/2021636275120583096",
+      "engagement": {
+        "likes": 58,
+        "retweets": 2,
+        "replies": 6
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "karpathy",
+      "text": "On DeepWiki and increasing malleability of software.\n\nThis starts as partially a post on appreciation to DeepWiki, which I routinely find very useful and I think more people would find useful to know ",
+      "url": "https://x.com/karpathy/status/2021633574089416993",
+      "engagement": {
+        "likes": 3229,
+        "retweets": 316,
+        "replies": 182
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@kurtknapp regular consumers won't do this. they will spend significantly more for a simpler, more user friendly set up",
+      "url": "https://x.com/AlexFinn/status/2021660207479419016",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@JoshMeyer The question people have been asking about Apple for over 30 years now",
+      "url": "https://x.com/AlexFinn/status/2021654627369062774",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "Apple will win the AI war\n\nWhile you have been shitting on them for years, they've been quietly playing for the future\n\nThink about it. When the post powerful personal AI ever came out (OpenClaw) what",
+      "url": "https://x.com/AlexFinn/status/2021653153301901690",
+      "engagement": {
+        "likes": 543,
+        "retweets": 47,
+        "replies": 195
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@Chilearmy123 since reading this article I died, came back to life, died again, came back to life again, married my clawdbot, and had clawdkids\n\ndon't get left behind guys",
+      "url": "https://x.com/AlexFinn/status/2021635276515553478",
+      "engagement": {
+        "likes": 77,
+        "retweets": 2,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "getting a new X account setup for a new product/business has got to be one of the most frustrating experiences of the human existence.\n\nevery step of the way breaks or gets blocked. i genuinely don't ",
+      "url": "https://x.com/Shpigford/status/2021700907679850710",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "sigh. just a few hours later and i've done it again.",
+      "url": "https://x.com/Shpigford/status/2021665142145163502",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@aarondfrancis @scottpruett EFFFF. I forgot about that. I searched a bunch because it kept feeling...off. But everything that came up was super benign. And the domain I got (claptrap.⁠app) just had su",
+      "url": "https://x.com/Shpigford/status/2021649020473737661",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@royjossfolk What's the issue exactly? \n\nyou need to use \n\ntp=4 pp=2 \ntool parser glm47 \nreasoning parser glm45",
+      "url": "https://x.com/0xSero/status/2021715800432779469",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@royjossfolk I'd happily look at any issues you run into just make an issue https://t.co/6eM8JChgl8",
+      "url": "https://x.com/0xSero/status/2021711704124465424",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "Did you buy a Mac Mini for openclaw? Let me make your life better. \n\n1. Install Zed IDE\n2. settings.json and drop this: \"use_system_window_tabs\": true\n3. click + on the top, add all your repos \n4. cli",
+      "url": "https://x.com/0xSero/status/2021710890974773307",
+      "engagement": {
+        "likes": 48,
+        "retweets": 2,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "vllm-studio desktop app starting to get lit. https://t.co/XMxFbUh7ft",
+      "url": "https://x.com/0xSero/status/2021708828937719952",
+      "engagement": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "tlangridge",
+      "text": "@sama Not having a \"yolo\" mode in the app is a HUGE downer. Please, reconsider - I want to live dangerously.",
+      "url": "https://x.com/tlangridge/status/2021654395658854890",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "tlangridge",
+      "text": "@pitdesi FSD is what you want for your daily driver - for adventures, maybe not so necessary. But that relegates all other vehicles to being playthings.",
+      "url": "https://x.com/tlangridge/status/2021654099255865420",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "tlangridge",
+      "text": "@ImAVibeCoder That's what the coordination API is for - the agents divide up the work. It can happen though, planning to implement work trees soon. Right now the agents are doing mostly marketing and ",
+      "url": "https://x.com/tlangridge/status/2021652709171142662",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "tlangridge",
+      "text": "I built a little tool for running multiple AI coding agents side-by-side in a tiling terminal UI. Supports Claude Code, Gemini CLI, Codex, and plain bash. \n\nAgents can message each other and coordinat",
+      "url": "https://x.com/tlangridge/status/2021651688419885373",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "tlangridge",
+      "text": "Hey @ryancarson I think we solved part of it for our product. If everyone adopts a similar workflow, I think it would work out well:  \n1. You just ask your agent to install https://t.co/5Qusximgy8, an",
+      "url": "https://x.com/tlangridge/status/2021635099884658726",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

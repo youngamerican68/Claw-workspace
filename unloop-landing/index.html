@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unloop — See Your Patterns. Break the Loop.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
+    <style>:root{--cream:#FAF7F2;--warm:#F5EDE3;--coral:#E07A5F;--teal:#2A9D8F;--gold:#E9C46A;--dark:#1A1A1A;--muted:#6B6B6B;--purple:#9B5DE5;--blue:#00BBF9}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Source Serif 4',serif;background:var(--cream);color:var(--dark);line-height:1.6}.bg-loops{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.25}.loop-path{fill:none;stroke-width:1.5;stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw 20s ease-in-out infinite}.loop-1{stroke:var(--coral)}.loop-2{stroke:var(--teal);animation-delay:-5s}.loop-3{stroke:var(--purple);animation-delay:-10s}.loop-4{stroke:var(--blue);animation-delay:-15s}@keyframes draw{0%{stroke-dashoffset:1000;opacity:0}20%{opacity:.5}80%{opacity:.5}100%{stroke-dashoffset:0;opacity:0}}nav{position:fixed;top:0;left:0;right:0;padding:1.5rem 3rem;display:flex;justify-content:space-between;align-items:center;z-index:100;background:linear-gradient(to bottom,var(--cream),transparent)}.logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.5rem;color:var(--dark);text-decoration:none}.nav-links{display:flex;gap:2.5rem;align-items:center}.nav-links a{font-family:'Syne',sans-serif;font-weight:500;font-size:.9rem;color:var(--muted);text-decoration:none}.btn{font-family:'Syne',sans-serif;font-weight:600;padding:.875rem 1.75rem;border-radius:100px;text-decoration:none;transition:all .3s;display:inline-block;border:none;cursor:pointer}.btn-primary{background:var(--dark);color:var(--cream)}.btn-primary:hover{background:var(--coral);transform:translateY(-2px)}.btn-secondary{background:transparent;color:var(--dark);border:2px solid var(--dark)}.hero{min-height:100vh;display:flex;align-items:center;padding:8rem 5% 4rem;position:relative;z-index:1}.hero-content{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}.hero-badge{display:inline-flex;align-items:center;gap:.5rem;font-family:'Syne',sans-serif;font-size:.8rem;font-weight:600;color:var(--teal);margin-bottom:1.5rem;padding:.5rem 1rem;background:rgba(42,157,143,.1);border-radius:100px}.hero-badge::before{content:'';width:8px;height:8px;background:var(--teal);border-radius:50%;animation:pulse 2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(3rem,6vw,5rem);line-height:1.05;margin-bottom:1.5rem}.hero-subtitle{font-size:1.25rem;color:var(--muted);margin-bottom:2.5rem;max-width:480px}.hero-buttons{display:flex;gap:1rem;flex-wrap:wrap}.hero-visual{position:relative;height:600px}.pattern-node{position:absolute;background:#fff;border-radius:20px;padding:1.25rem 1.5rem;box-shadow:0 4px 20px rgba(0,0,0,.08);font-family:'Syne',sans-serif;font-size:.85rem;font-weight:500;animation:float 6s ease-in-out infinite;transition:transform .3s}.pattern-node:hover{transform:scale(1.05);box-shadow:0 8px 30px rgba(0,0,0,.12)}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}.node-1{top:10%;left:10%;border-left:4px solid var(--coral)}.node-2{top:25%;right:5%;animation-delay:-1s;border-left:4px solid var(--teal)}.node-3{top:50%;left:5%;animation-delay:-2s;border-left:4px solid var(--purple)}.node-4{top:45%;right:15%;animation-delay:-3s;border-left:4px solid var(--gold)}.node-5{bottom:20%;left:20%;animation-delay:-4s;border-left:4px solid var(--blue)}.node-6{bottom:10%;right:25%;animation-delay:-5s;border-left:4px solid var(--coral)}.how-it-works{padding:8rem 5%;background:var(--warm);position:relative;z-index:1}.section-header{text-align:center;max-width:600px;margin:0 auto 4rem}.section-label{font-family:'Syne',sans-serif;font-size:.8rem;font-weight:600;color:var(--coral);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem}h2{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(2rem,4vw,3rem);margin-bottom:1rem}.section-subtitle{color:var(--muted);font-size:1.1rem}.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;max-width:1200px;margin:0 auto}.step{background:#fff;padding:2.5rem;border-radius:24px;position:relative;transition:transform .3s}.step:hover{transform:translateY(-5px)}.step-number{font-family:'Syne',sans-serif;font-weight:800;font-size:3rem;color:var(--coral);opacity:.2;position:absolute;top:1.5rem;right:1.5rem}.step-icon{width:56px;height:56px;background:var(--cream);border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem;font-size:1.5rem}h3{font-family:'Syne',sans-serif;font-weight:600;font-size:1.25rem;margin-bottom:.75rem}.step p{color:var(--muted);font-size:.95rem}.patterns{padding:8rem 5%;position:relative;z-index:1}.pattern-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:1.5rem;max-width:1000px;margin:3rem auto 0}.pattern-card{background:#fff;padding:2rem;border-radius:20px;border-left:4px solid var(--coral);transition:all .3s;cursor:pointer}.pattern-card:hover{transform:translateX(10px);box-shadow:0 10px 40px rgba(0,0,0,.1)}.pattern-card:nth-child(2){border-left-color:var(--teal)}.pattern-card:nth-child(3){border-left-color:var(--purple)}.pattern-card:nth-child(4){border-left-color:var(--gold)}.pattern-card:nth-child(5){border-left-color:var(--blue)}.pattern-card:nth-child(6){border-left-color:var(--coral)}.pattern-card h4{font-family:'Syne',sans-serif;font-weight:600;margin-bottom:.5rem}.pattern-card p{color:var(--muted);font-size:.9rem}.cta{padding:8rem 5%;background:var(--dark);color:var(--cream);text-align:center;position:relative;z-index:1;overflow:hidden}.cta::before{content:'';position:absolute;inset:-50%;background:radial-gradient(circle at 30% 50%,rgba(224,122,95,.15),transparent 50%),radial-gradient(circle at 70% 50%,rgba(42,157,143,.15),transparent 50%);animation:rotate 30s linear infinite}@keyframes rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}.cta-content{position:relative;z-index:2;max-width:600px;margin:0 auto}.cta h2{color:var(--cream)}.cta p{color:rgba(255,255,255,.7);font-size:1.1rem;margin-bottom:2rem}.btn-light{background:var(--cream);color:var(--dark)}.btn-light:hover{background:var(--coral);color:#fff}footer{padding:3rem 5%;text-align:center;color:var(--muted);font-size:.9rem;position:relative;z-index:1}@media(max-width:968px){.hero-content{grid-template-columns:1fr;text-align:center}.hero-subtitle{margin:0 auto 2.5rem}.hero-visual{height:400px;order:-1}.nav-links{display:none}}</style>
+</head>
+<body>
+    <svg class="bg-loops" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice">
+        <path class="loop-path loop-1" d="M100,500 Q250,100 500,500 T900,500"/>
+        <path class="loop-path loop-2" d="M200,300 Q400,600 600,300 T1000,300"/>
+        <path class="loop-path loop-3" d="M50,700 Q300,400 550,700 T950,700"/>
+        <path class="loop-path loop-4" d="M150,200 Q350,500 550,200 T850,200"/>
+    </svg>
+    <nav>
+        <a href="#" class="logo">⟳ Unloop</a>
+        <div class="nav-links">
+            <a href="#how">How it Works</a>
+            <a href="#patterns">Patterns</a>
+            <a href="#learn">Learn</a>
+            <a href="#start" class="btn btn-primary">Start Free</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <div>
+                <div class="hero-badge">Now in Early Access</div>
+                <h1>See your patterns.<br>Break the loop.</h1>
+                <p class="hero-subtitle">A visual canvas for mapping the behavioral loops that keep you stuck. Designed for ADHD & neurodivergent minds who think in systems, not lists.</p>
+                <div class="hero-buttons">
+                    <a href="#start" class="btn btn-primary">Start Mapping Free</a>
+                    <a href="#how" class="btn btn-secondary">See How It Works</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="pattern-node node-1">😰 RSD Spiral<br><small>"They hate me"</small></div>
+                <div class="pattern-node node-2">😴 Burnout Loop<br><small>Push → Crash → Repeat</small></div>
+                <div class="pattern-node node-3">🔄 Avoidance<br><small>"I'll do it tomorrow"</small></div>
+                <div class="pattern-node node-4">⚡ Hyperfocus<br><small>12 hours, no food</small></div>
+                <div class="pattern-node node-5">😶 Dissociation<br><small>Where did the day go?</small></div>
+                <div class="pattern-node node-6">🎭 Masking<br><small>Playing "normal"</small></div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works" id="how">
+        <div class="section-header">
+            <div class="section-label">How It Works</div>
+            <h2>Map it. See it. Shift it.</h2>
+            <p class="section-subtitle">No journals. No mood tracking. Just visual pattern mapping that works with your brain, not against it.</p>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">01</div>
+                <div class="step-icon">🔍</div>
+                <h3>Notice the Loop</h3>
+                <p>Catch yourself in a pattern — RSD spirals, avoidance, burnout cycles. Don't judge it. Just map it.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <div class="step-icon">🗺️</div>
+                <h3>Visualize the Pattern</h3>
+                <p>Drop nodes, draw connections, see the whole system. Triggers, thoughts, behaviors, consequences — all visible.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <div class="step-icon">🧪</div>
+                <h3>Design Experiments</h3>
+                <p>Test tiny interventions. One small change in the loop. See what happens. Learn what works for YOU.</p>
+            </div>
+        </div>
+    </section>
+    <section class="patterns" id="patterns">
+        <div class="section-header">
+            <div class="section-label">Pattern Library</div>
+            <h2>Loops we know too well</h2>
+            <p class="section-subtitle">Start with templates for the most common neurodivergent patterns. Then customize for your unique loops.</p>
+        </div>
+        <div class="pattern-grid">
+            <div class="pattern-card">
+                <h4>😰 The RSD Spiral</h4>
+                <p>Perceived rejection → emotional devastation → shame spiral → withdrawal → more perceived rejection. Maps in milliseconds.</p>
+            </div>
+            <div class="pattern-card">
+                <h4>😴 The Burnout Cycle</h4>
+                <p>Hyperfocus sprint → exhaustion → crash → recovery guilt → "I'll pace myself next time" → repeat.</p>
+            </div>
+            <div class="pattern-card">
+                <h4>🔄 The Avoidance Loop</h4>
+                <p>Task anxiety → distraction → temporary relief → increased anxiety → more avoidance → deadline panic.</p>
+            </div>
+            <div class="pattern-card">
+                <h4>⚡ The Hyperfocus Trap</h4>
+                <p>Interesting thing → 8 hours later → missed meals → broken commitments → crash → "what just happened?"</p>
+            </div>
+            <div class="pattern-card">
+                <h4>🎭 The Masking Exhaustion</h4>
+                <p>Social situation → perform "normal" → drain battery → isolation recovery → guilt → repeat.</p>
+            </div>
+            <div class="pattern-card">
+                <h4>😶 The Dissociation Drift</h4>
+                <p>Overwhelm → check out → lose time → panic → shame → more overwhelm → deeper check out.</p>
+            </div>
+        </div>
+    </section>
+    <section class="cta" id="start">
+        <div class="cta-content">
+            <h2>Ready to Unloop?</h2>
+            <p>See what's been looping beneath the surface. Finally understand why — and find your own way forward.</p>
+            <a href="#" class="btn btn-light">Start Mapping Free</a>
+        </div>
+    </section>
+    <footer>
+        <p>Not therapy. Not coaching. Just guided self-discovery through play. <a href="#">Learn more</a></p>
+    </footer>
+</body>
+</html>

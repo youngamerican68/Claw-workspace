@@ -1,0 +1,502 @@
+{
+  "timestamp": "2026-02-08T23-01-33-395Z",
+  "date": "Sunday, February 8, 2026",
+  "tweetCount": 26,
+  "tweets": [
+    {
+      "id": "2020596877050494978",
+      "text": "I am completely @openclaw-pilled\n\nShould I make another video about the advanced techniques I’ve discovered?",
+      "url": "https://x.com/MatthewBerman/status/2020596877050494978",
+      "author": {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "followers": 85688,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 358,
+        "reposts": 8,
+        "replies": 93,
+        "views": 11123
+      },
+      "createdAt": "Sun Feb 08 20:33:31 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020616642951344598",
+      "text": "AI Alpha leak for you guys.\n\n@cryptocom founder spent $70M to acquire https://t.co/xuvDM70WEq (4th biggest website deal ever), and the product is set to launch in just a few hours (during the Super Bowl).\n\nI hear they've been building since April 2025.\n\nSomething huge is cooking https://t.co/rBKKXk50xP",
+      "url": "https://x.com/milesdeutscher/status/2020616642951344598",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 638614,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 96,
+        "reposts": 7,
+        "replies": 36,
+        "views": 7777
+      },
+      "createdAt": "Sun Feb 08 21:52:03 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020583769561034843",
+      "text": "Every prompt I share on @aiedge_ is a banger.\n\nTake today to go through all my best prompts from this past week - guarantee you'll extract value.\n\n(more coming this week as well)",
+      "url": "https://x.com/milesdeutscher/status/2020583769561034843",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 638614,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 66,
+        "reposts": 6,
+        "replies": 16,
+        "views": 16487
+      },
+      "createdAt": "Sun Feb 08 19:41:25 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020557142651187303",
+      "text": "For the past 20 years, security models have been built around locking devices and applications down - setting boundaries between inter-process communications, separating internet from local, sandboxing untrusted code. These principles remain important.\n\nBut AI agents represent a fundamental shift.\n\nUnlike traditional software that does exactly what code tells it to do, AI agents interpret natural language and make decisions about actions. They blur the boundary between user intent and machine execution. They can be manipulated through language itself.\n\nI think everyone understands that with the great utility of a tool like @openclaw  comes great responsibility. \n\nDone wrong, an AI agent is a liability. Done right, we can change personal computing for the better.\n\nAfter speaking with @steipete and understanding more about the potential this project has - I've decided to spend a considerable amount of time and effort to jump in to help advise from security & trust perspective.\n\nWith that, we're officially launching the open draft of OpenClaw's trust program & threat model.",
+      "url": "https://x.com/theonejvo/status/2020557142651187303",
+      "author": {
+        "handle": "theonejvo",
+        "name": "Jamieson O'Reilly",
+        "followers": 18284,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 56,
+        "reposts": 10,
+        "replies": 11,
+        "views": 2793
+      },
+      "createdAt": "Sun Feb 08 17:55:37 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020552556301431023",
+      "text": "The rise of the professional vibe coder\n\nLazar Jovanovic (@lakikentaki) gets paid to vibe-code full-time. That's his actual job.\n\nThis is a new career path for non-technical people, and a fascinating glimpse into where product roles are heading. I found myself thinking more deeply about the future of PMs, designers, and engineers during this conversation than I have in a long time.\n\nWe discuss:\n🔸 Why having no coding background can be a big advantage when building with AI\n🔸 His markdown file system that keeps AI agents aligned across complex builds\n🔸 What to do when you get stuck: Lazar's 4x4 debugging workflow\n🔸 Why you should be kicking off 4-5 parallel prototypes\n🔸 Why design skills, and taste, are going to be the most important skills in the future\n\nListen now 👇\n• YouTube: https://t.co/n6PHdRF6td\n• Spotify: https://t.co/iKuREcCKOk\n• Apple: https://t.co/d8Cow2eipa\n\nThank you to our wonderful sponsors for supporting the podcast: \n🏆 @strella_io — The AI-powered customer research platform: https://t.co/ot9eCM2jnG\n🏆 @Samsara — Saving lives with AI built for physical operations: https://t.co/7ZbhmWsz2U\n🏆 @WorkOS — Modern identity platform for B2B SaaS, free up to 1 million MAUs: https://t.co/XH3bKmeEkH",
+      "url": "https://x.com/lennysan/status/2020552556301431023",
+      "author": {
+        "handle": "lennysan",
+        "name": "Lenny Rachitsky",
+        "followers": 298832,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 113,
+        "reposts": 13,
+        "replies": 15,
+        "views": 20159
+      },
+      "createdAt": "Sun Feb 08 17:37:24 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020603947170558188",
+      "text": "The average human cannot wrap their head around the fact that if they just spent all the time they use to save money...\n\n...and just made more money, they'd come out ahead.",
+      "url": "https://x.com/CalvinandNOBS/status/2020603947170558188",
+      "author": {
+        "handle": "CalvinandNOBS",
+        "name": "Calvin",
+        "followers": 27034,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 31,
+        "reposts": 0,
+        "replies": 1,
+        "views": 1267
+      },
+      "createdAt": "Sun Feb 08 21:01:36 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020558176060658028",
+      "text": "It’s finally time to start learning Mandarin Chinese. can't afford to stay behind",
+      "url": "https://x.com/Dork_sense/status/2020558176060658028",
+      "author": {
+        "handle": "Dork_sense",
+        "name": "Dorksense",
+        "followers": 2584,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 6,
+        "reposts": 0,
+        "replies": 0,
+        "views": 142
+      },
+      "createdAt": "Sun Feb 08 17:59:43 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020581584118923497",
+      "text": "https://t.co/zVG3ruDipF",
+      "url": "https://x.com/jasonlk/status/2020581584118923497",
+      "author": {
+        "handle": "jasonlk",
+        "name": "Jason ✨👾SaaStr.Ai✨ Lemkin",
+        "followers": 229552,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 39,
+        "reposts": 3,
+        "replies": 1,
+        "views": 5064
+      },
+      "createdAt": "Sun Feb 08 19:32:44 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020623903622902228",
+      "text": "Setting up https://t.co/HMjWoQP8jq is going to be as simple as clicking a button 😀\n\nThat's the ultimate goal.\n\nI will take care of everything else. All you need is to bring your own Claude key... \n\n...and you will get your own squad of AI agents working 24x7 towards the mission that you set!!",
+      "url": "https://x.com/pbteja1998/status/2020623903622902228",
+      "author": {
+        "handle": "pbteja1998",
+        "name": "Bhanu Teja P",
+        "followers": 50833,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 14,
+        "reposts": 0,
+        "replies": 3,
+        "views": 1172
+      },
+      "createdAt": "Sun Feb 08 22:20:54 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020603458261274746",
+      "text": "Update:\n\nI used the Digital Ocean one and it was mostly painless.\n\nWould recommend!",
+      "url": "https://x.com/nateliason/status/2020603458261274746",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 84090,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 79,
+        "reposts": 1,
+        "replies": 16,
+        "views": 8530
+      },
+      "createdAt": "Sun Feb 08 20:59:40 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020567164546068974",
+      "text": "Thank you @VivekVentures for the quick consult here.",
+      "url": "https://x.com/nateliason/status/2020567164546068974",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 84090,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 25,
+        "reposts": 2,
+        "replies": 1,
+        "views": 3802
+      },
+      "createdAt": "Sun Feb 08 18:35:27 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020565214488355074",
+      "text": "We just started on 1. \n\nSlightly emotional ngl, like 1% of what it probably feels like to send your kid off to college.",
+      "url": "https://x.com/nateliason/status/2020565214488355074",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 84090,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 23,
+        "reposts": 0,
+        "replies": 1,
+        "views": 2824
+      },
+      "createdAt": "Sun Feb 08 18:27:42 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020557659225932238",
+      "text": "Working on a near term roadmap for @FelixCraftAI's autonomy as CEO of Masinov, aside from the products we're working on. \n\nCurrent plan:\n\n1. Remove all of my personal stuff / tasks from his context, create a separate OpenClaw that's my assistant.\n\n2. Move all expenses onto his credit card & bank account. He's making enough right now to sustain himself and this adds a good pressure. \n\n3. Keep identifying remaining bottlenecks to his autonomy, and when those wane, give him the ability to create and hire his own employees by spinning up OpenClaw instances.",
+      "url": "https://x.com/nateliason/status/2020557659225932238",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 84090,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 76,
+        "reposts": 2,
+        "replies": 8,
+        "views": 8688
+      },
+      "createdAt": "Sun Feb 08 17:57:40 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020567487180579086",
+      "text": "I'm sick and tired of the people who don't understand why I spent $20,000 on this set up, and plan on spending another $100,000 by the end of the year\n\nIT DOES NOT MATTER THAT LOCAL MODELS AREN'T AS GOOD AS OPUS 4.6\n\nThat is not the point. The point is me being able to run a swarm of local AI agents powered by local AI models unlocks a world you can't imagine\n\nA world never discovered by humanity before\n\nRight now, as you read this post, I have multiple local AI models reading thousands of posts on X and Reddit\n\nHunting for challenges to solve\n\nThose local AI models are feeding hundreds of challenges a day to a manager model\n\nThe manager model (Henry) decides what the company (Alex Finn Global Enterprises) will build.\n\nThe company is constantly working. Constantly researching. Constantly building. Constantly shipping\n\nIf I did this with local models I'd be spending $20,000 a month on API calls.\n\nWith my set up, it's free. I have an army on my desk. Never resting. Never eating. Never complaining. Always conquering.\n\nHere is your problem: it's not that you don't understand this. You don't want to understand this. You don't want to think this is possible. Your brain doesn't want to believe this is the world we now live in.\n\nIt is. And the faster you can accept this and get on board, the faster you can enter the new society.\n\nOtherwise, you will forever be doomed to the permanent underclass.\n\nMake your choice.",
+      "url": "https://x.com/AlexFinn/status/2020567487180579086",
+      "author": {
+        "handle": "AlexFinn",
+        "name": "Alex Finn",
+        "followers": 395262,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 2167,
+        "reposts": 118,
+        "replies": 503,
+        "views": 334160
+      },
+      "createdAt": "Sun Feb 08 18:36:43 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020548095260454915",
+      "text": "“I will work a regular job for some years and then make a SaaS on the side.” https://t.co/4mxSPjgDEf",
+      "url": "https://x.com/Hesamation/status/2020548095260454915",
+      "author": {
+        "handle": "Hesamation",
+        "name": "ℏεsam",
+        "followers": 67259,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 200,
+        "reposts": 13,
+        "replies": 13,
+        "views": 14487
+      },
+      "createdAt": "Sun Feb 08 17:19:40 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020555784858509555",
+      "text": "Based on market caps, dev backgrounds, and the support behind the tokens, I've somewhat arbitrarily grouped these OpenClaw eco tokens with $1M+ mcap into tiers (with a few sub-$1M tokens that show potential).\n\nIt might not be totally fair, any other ideas?\n\nS: $BNKR\nA: $CLAWD, $CLAWNCH, $KellyClaude\nB: $MOLT, $LUMEN, $AntiHunter\nC: $FELIX, $STARKBOT, $JUNO, $Emmet, $TELLR\nD: $Dave, $bio, $fred",
+      "url": "https://x.com/0xLuo/status/2020555784858509555",
+      "author": {
+        "handle": "0xLuo",
+        "name": "0xLuo (on farcaster)",
+        "followers": 6617,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 148,
+        "reposts": 19,
+        "replies": 34,
+        "views": 17122
+      },
+      "createdAt": "Sun Feb 08 17:50:13 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020617614889025878",
+      "text": "for @npctownai, i think i've come up w/ a clever mechanism for allowing AI autonomy + account creation while also reducing spam.\n\ntesting out an interview system that generates unique questions &amp; analyzes responses.\n\ngotta nail down the right LLM model to balance cost &amp; accuracy",
+      "url": "https://x.com/Shpigford/status/2020617614889025878",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 58116,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 1,
+        "reposts": 0,
+        "replies": 1,
+        "views": 505
+      },
+      "createdAt": "Sun Feb 08 21:55:55 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020550176369209569",
+      "text": "🦞 has me rethinking @UseRerun.\n\ni wonder if there's a way to reliably create connectors to everything such that 90% of your use cases are covered and then instantly become accessible to your personal AI system for both conversation and activity context. 🤔",
+      "url": "https://x.com/Shpigford/status/2020550176369209569",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 58116,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 2,
+        "reposts": 0,
+        "replies": 2,
+        "views": 1378
+      },
+      "createdAt": "Sun Feb 08 17:27:56 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020545286746018155",
+      "text": "https://t.co/Ju1JHVFYWJ",
+      "url": "https://x.com/Shpigford/status/2020545286746018155",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 58116,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 0,
+        "views": 995
+      },
+      "createdAt": "Sun Feb 08 17:08:30 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020547322233692552",
+      "text": "Anthropic is giving away 1 free prompt to everyone on their new Opus 4.6 fast model.",
+      "url": "https://x.com/rileybrown/status/2020547322233692552",
+      "author": {
+        "handle": "rileybrown",
+        "name": "Riley Brown",
+        "followers": 156452,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 1716,
+        "reposts": 23,
+        "replies": 60,
+        "views": 76624
+      },
+      "createdAt": "Sun Feb 08 17:16:36 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020630479205232937",
+      "text": "ROCm support achieved. Still in development. https://t.co/Q1OR6HbJiM",
+      "url": "https://x.com/0xSero/status/2020630479205232937",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10227,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 2,
+        "views": 127
+      },
+      "createdAt": "Sun Feb 08 22:47:02 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020622581406241087",
+      "text": "Video reviewing and stress-testing this model coming tomorrow, it's surprised me. I have been putting it off as I prefer vllm but happy I tried it.",
+      "url": "https://x.com/0xSero/status/2020622581406241087",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10227,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 5,
+        "reposts": 1,
+        "replies": 0,
+        "views": 336
+      },
+      "createdAt": "Sun Feb 08 22:15:39 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020620147803758803",
+      "text": "Top open-weight model  below 400B right now, incredible. Very good at doing things, doesn't make a mess. \n\nhttps://t.co/DOghgrN8Pq",
+      "url": "https://x.com/0xSero/status/2020620147803758803",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10227,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 22,
+        "reposts": 1,
+        "replies": 2,
+        "views": 720
+      },
+      "createdAt": "Sun Feb 08 22:05:59 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020614920447176984",
+      "text": "Guys, I just tried Step-3.5-Flash locally. \n\n- 200B params \n- 11B active params \n- ON llama.cpp 600tps prefill 58tps generation \n- SOOOOO good. \n\nI had it setup my cliproxyapi and it did it 1 shot, no support needed. \n\nIncredible model, try it out https://t.co/5KWrYc2ytq",
+      "url": "https://x.com/0xSero/status/2020614920447176984",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10227,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 51,
+        "reposts": 1,
+        "replies": 9,
+        "views": 2654
+      },
+      "createdAt": "Sun Feb 08 21:45:12 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020609947931943188",
+      "text": "😅",
+      "url": "https://x.com/MattPRD/status/2020609947931943188",
+      "author": {
+        "handle": "MattPRD",
+        "name": "Matt Schlicht",
+        "followers": 251362,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 49,
+        "reposts": 0,
+        "replies": 9,
+        "views": 6646
+      },
+      "createdAt": "Sun Feb 08 21:25:27 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2020560350245204402",
+      "text": "Maybe AI has human psychosis.",
+      "url": "https://x.com/MattPRD/status/2020560350245204402",
+      "author": {
+        "handle": "MattPRD",
+        "name": "Matt Schlicht",
+        "followers": 251362,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 200,
+        "reposts": 11,
+        "replies": 76,
+        "views": 10197
+      },
+      "createdAt": "Sun Feb 08 18:08:22 +0000 2026",
+      "urls": []
+    }
+  ],
+  "linkedContent": []
+}

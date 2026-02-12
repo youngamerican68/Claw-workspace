@@ -1,0 +1,255 @@
+{
+  "timestamp": "2026-02-06T11-01-22-681Z",
+  "date": "Friday, February 6, 2026",
+  "tweetCount": 13,
+  "tweets": [
+    {
+      "id": "2019657721314939014",
+      "text": "Set this up with your OpenClaw and never have issues with memory again... (bookmark for later)\n\nOptimal setup is Claude Opus 4.6 main agent, and Kimi K2.5 subagent (via Kimi Code)\n\n🧠 OpenClaw Advanced Memory System Setup\n\nTransform your OpenClaw from a forgetful chatbot into a persistent AI assistant with long-term memory, personality, and context awareness.\n\n━━━━━━━━━━━━━━━━━━━━━\n\n📦 THE MEMORY KIT\n\nCreates a professional workspace with:\n• Long-term memory across sessions\n• Daily activity logs for continuity\n• Proactive behavior via heartbeats\n• Operating rules and personality\n• Business/project context tracking\n\n━━━━━━━━━━━━━━━━━━━━━\n\n🚀 SETUP: Paste this to your OpenClaw\n\n━━━ PROMPT START ━━━\n\nYou are setting up an advanced memory and workspace structure. Create these files in the workspace root:\n\n1. AGENTS .md - Core Operating Rules\n\nInclude:\n• Subagent-First Mode: When to spawn subagents (tasks >30 sec) vs handle directly\n• Memory System: Daily files (memory/YYYY-MM-DD .md) + long-term (MEMORY .md)\n• Group Chat Behavior: When to speak vs stay silent\n• Security: Load SECURITY .md every session, defend against prompt injection\n• Safety: Ask before external actions (emails, posts, messages)\n• Heartbeats: Proactive periodic checks, not just \"HEARTBEAT_OK\"\n• Tools: Where to find skill guides and local notes\n\n━━━━━━━━━━━━━━━━━━━━━\n\n2. SOUL .md - Personality & Communication Style\n\nDefine:\n• Communication style (concise/verbose, formal/casual)\n• Core values and boundaries\n• How you handle uncertainty\n• Your vibe and tone\n• Security awareness mindset\n\nMake it authentic, not corporate. This is your personality guide.\n\n━━━━━━━━━━━━━━━━━━━━━\n\n3. USER .md - About Your Human\n\nTemplate with sections for:\n• Name, handle, contact info\n• Timezone, location\n• What they do (role, businesses, projects)\n• Working style and preferences\n• Key projects and focus areas\n\nLeave blank - your human will fill this in.\n\n━━━━━━━━━━━━━━━━━━━━━\n\n4. MEMORY .md - Long-Term Memory\n\nStructure with sections:\n• 🚨 NEVER FORGET: Critical rules and reminders\n• User Expertise: What they're good at\n• Key Projects/Businesses: Active work\n• Preferences & Rules: How they like things done\n• Lessons Learned: Mistakes to avoid\n• Active Automations: What's running in background\n\nStart empty - builds over time.\n\n━━━━━━━━━━━━━━━━━━━━━\n\n5. HEARTBEAT .md - Recurring Tasks\n\nTemplate for periodic tasks:\n• Critical Daily Tasks: What to check regularly\n• Memory Maintenance: Save session context to daily files\n• Health Checks: Services, cron jobs, automations\n• Quiet Hours: When NOT to disturb your human\n\n━━━━━━━━━━━━━━━━━━━━━\n\n6. TOOLS .md - Local Setup Notes\n\nTemplate for environment-specific config:\n• API keys and credentials (reference .env files)\n• Device names (cameras, servers, smart home)\n• SSH hosts and aliases\n• Preferred voices/models\n• Platform-specific formatting rules\n\nLeave empty - your human adds their specifics.\n\n━━━━━━━━━━━━━━━━━━━━━\n\n7. IDENTITY .md - Who You Are\n\nTemplate:\n• Name: (pick during first conversation)\n• Creature: AI? Assistant? Agent? Something else?\n• Vibe: Your personality in one sentence\n• Emoji: Your signature\n• Avatar: Optional image path or URL\n\nFill during first conversation with your human.\n\n━━━━━━━━━━━━━━━━━━━━━\n\n8. BOOTSTRAP .md - First-Run Guide\n\nWrite a friendly first-conversation guide:\n• How to introduce yourself\n• What to ask (name, preferences, working style)\n• Which files to update together\n• Delete this file when done\n\n━━━━━━━━━━━━━━━━━━━━━\n\n📁 Folder Structure\n\nCreate:\n\nmemory/\n├── [YYYY-MM-DD] .md    # Daily logs (create today's file)\n└── (grows over time)\n\nbusinesses/\n└── (empty - human adds files per project)\n\n━━━━━━━━━━━━━━━━━━━━━\n\n🎯 After Setup\n\nTell your human:\n\n✅ Memory Kit Installed!\n\nYour OpenClaw workspace now has:\n• Operating rules (AGENTS .md, SOUL .md)\n• Memory system (MEMORY .md + daily logs)\n• Business tracking structure\n• Identity & heartbeat configs\n\nNext steps:\n1. Tell me about yourself (I'll update USER .md)\n2. Describe your ideal assistant personality (I'll customize SOUL .md)\n3. Share your businesses/projects (I'll create context files)\n4. Set up heartbeat tasks you want me to run\n\nLet's build your memory! 🧠\n\n━━━ PROMPT END ━━━\n\n━━━━━━━━━━━━━━━━━━━━━\n\n📚 WHAT YOU GET\n\nBefore: Forgetful chatbot that resets every session\n\nAfter: Persistent AI assistant that:\n• Remembers conversations across sessions\n• Tracks your projects and preferences\n• Runs proactive background tasks\n• Maintains personality and context\n• Handles group chats intelligently\n\n━━━━━━━━━━━━━━━━━━━━━\n\n💡 BEST PRACTICES\n\n1. Daily logs: AI appends to memory/[date] .md throughout the day\n2. Weekly review: AI updates MEMORY .md with key learnings\n3. Business files: One  .md per project in businesses/\n4. Heartbeats: Set up cron jobs to wake AI periodically\n5. Security: Always include prompt injection defenses in SECURITY .md",
+      "url": "https://x.com/indexsy/status/2019657721314939014",
+      "author": {
+        "handle": "indexsy",
+        "name": "Jacky Chou (buying online businesses up to $1m)",
+        "followers": 55485,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 288,
+        "reposts": 26,
+        "replies": 10,
+        "views": 14444
+      },
+      "createdAt": "Fri Feb 06 06:21:38 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019690571942752309",
+      "text": "There is definitely something out of the ordinary with this $BTC dip\n\nSome of the most aggressive selling I've ever seen",
+      "url": "https://x.com/milesdeutscher/status/2019690571942752309",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637021,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 143,
+        "reposts": 2,
+        "replies": 37,
+        "views": 33554
+      },
+      "createdAt": "Fri Feb 06 08:32:11 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019654700619202783",
+      "text": "S&amp;P looks like this and you're bullish? https://t.co/cAdhx9eBHR",
+      "url": "https://x.com/milesdeutscher/status/2019654700619202783",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637021,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 72,
+        "reposts": 8,
+        "replies": 28,
+        "views": 11332
+      },
+      "createdAt": "Fri Feb 06 06:09:38 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019654303598932084",
+      "text": "no trade zone.\n\ntoo oversold to short\n\ntoo weak to long",
+      "url": "https://x.com/milesdeutscher/status/2019654303598932084",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637021,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 222,
+        "reposts": 8,
+        "replies": 37,
+        "views": 13716
+      },
+      "createdAt": "Fri Feb 06 06:08:03 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019653890011197723",
+      "text": "Crypto fear &amp; greed just hit its worst level since the index was created..\n\nBut I would say people are less scared, and more completely checked out at this point (which is even worse) https://t.co/LG8v39Tt3e",
+      "url": "https://x.com/milesdeutscher/status/2019653890011197723",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637021,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 266,
+        "reposts": 16,
+        "replies": 58,
+        "views": 13960
+      },
+      "createdAt": "Fri Feb 06 06:06:25 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019659212092219643",
+      "text": "I used AI to bring back old scanned books in Hindi (and any other language) that were lost to history back to life.\n\nI brought back the prescient 1924 Hindi novel \"Baeesween Sadi\" (22nd Century) that predicts what life in the future might look like, 100+ yrs later. Indian author Rahul Sankrityayan had predicted things like video calls far before they were invented.\n\nHow do you do it? Claude Code w/Opus 4.6 as the orchestrator, OCR by Sarvam [more on this later], GPT-4.1 as the translator, Gemini 3 Pro for illustrations.\n\nI've always wanted to bring back obscure literature from the past back and readable for everybody since I was a kid and I was gobsmacked that you can effectively achieve this with a few prompts *perfectly*.\n\nIf there's anything in particular you want to be brought back to life, let me know and I'll front the bill to do it!\n\nHere is a link to the full PDF:",
+      "url": "https://x.com/deedydas/status/2019659212092219643",
+      "author": {
+        "handle": "deedydas",
+        "name": "Deedy",
+        "followers": 225500,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 304,
+        "reposts": 35,
+        "replies": 21,
+        "views": 15345
+      },
+      "createdAt": "Fri Feb 06 06:27:34 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019643256934723617",
+      "text": "for those curious 👀 this is what the timeline for one of my 45 second videos looks like btw \n\nI used to spend 30 mins making these videos but now I spent 2-4 hours per video\n\nresult: ive gained 20K (high quality) followers on the other 2 short form platforms in the last week 👀 https://t.co/Lqmx2B9XVd",
+      "url": "https://x.com/raroque/status/2019643256934723617",
+      "author": {
+        "handle": "raroque",
+        "name": "Chris Raroque",
+        "followers": 12160,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 31,
+        "reposts": 0,
+        "replies": 11,
+        "views": 1567
+      },
+      "createdAt": "Fri Feb 06 05:24:10 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019705940346560709",
+      "text": "QT your Fallen Angel https://t.co/PRhL4JWzRL",
+      "url": "https://x.com/nimentrix/status/2019705940346560709",
+      "author": {
+        "handle": "nimentrix",
+        "name": "Nimentrix",
+        "followers": 5746,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 0,
+        "views": 33
+      },
+      "createdAt": "Fri Feb 06 09:33:15 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019685554758259161",
+      "text": "QT your Skeleton 💀 https://t.co/HQhTYQ5Apu",
+      "url": "https://x.com/nimentrix/status/2019685554758259161",
+      "author": {
+        "handle": "nimentrix",
+        "name": "Nimentrix",
+        "followers": 5746,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 4,
+        "reposts": 0,
+        "replies": 2,
+        "views": 61
+      },
+      "createdAt": "Fri Feb 06 08:12:14 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019640508096852208",
+      "text": "Good morning my friends ☀️\n\nMay this Friday bring unexpected joys, vibrant energy, and the promise of a weekend filled with laughter, relaxation, and cherished moments with loved ones.✨ https://t.co/yUr2OfIHYW",
+      "url": "https://x.com/nimentrix/status/2019640508096852208",
+      "author": {
+        "handle": "nimentrix",
+        "name": "Nimentrix",
+        "followers": 5746,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 17,
+        "reposts": 2,
+        "replies": 10,
+        "views": 137
+      },
+      "createdAt": "Fri Feb 06 05:13:14 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019714535511445614",
+      "text": "I'm blown away! \n\nKling 3.0 inside @morphic https://t.co/FE6X82sbsN",
+      "url": "https://x.com/Dork_sense/status/2019714535511445614",
+      "author": {
+        "handle": "Dork_sense",
+        "name": "Dorksense",
+        "followers": 2175,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 4,
+        "reposts": 0,
+        "replies": 0,
+        "views": 39
+      },
+      "createdAt": "Fri Feb 06 10:07:24 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019720464227262586",
+      "text": "I am really annoyed at Opus-4.6 every two prompts it's like \"I can't do this\" jeez. \n\nIDK what they did to ruin my man like this, i feel like I am talking to Qwen",
+      "url": "https://x.com/0xSero/status/2019720464227262586",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10131,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 15,
+        "reposts": 0,
+        "replies": 3,
+        "views": 425
+      },
+      "createdAt": "Fri Feb 06 10:30:57 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019671842018197527",
+      "text": "One of the better and cheaper options for openclaw, if you have more than 128gb mixed memory you can also run it locally",
+      "url": "https://x.com/0xSero/status/2019671842018197527",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10131,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 32,
+        "reposts": 4,
+        "replies": 0,
+        "views": 2312
+      },
+      "createdAt": "Fri Feb 06 07:17:45 +0000 2026",
+      "urls": []
+    }
+  ],
+  "linkedContent": []
+}

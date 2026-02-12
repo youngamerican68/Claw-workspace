@@ -1,0 +1,248 @@
+{
+  "date": "2026-02-11T11:01:52.611Z",
+  "totalTweets": 87,
+  "authorsMonitored": 16,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "This is getting out of control now...\n\nRead this slowly.\n\nIn the past week alone:\n\n• Head of Anthropic's safety research quit, said \"the world is in peril,\" moved to the UK to \"become invisible\" and w",
+      "url": "https://x.com/milesdeutscher/status/2021487637299855540",
+      "engagement": {
+        "likes": 5451,
+        "retweets": 986,
+        "replies": 360
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Deciding to risk it all and run @openclaw on your main.",
+      "url": "https://x.com/theonejvo/status/2021538139253465534",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "100% it will. Even on our side of the fence. I remember 15 years ago using tools like havij/sqlmap/coreimpact not having the slightest idea what they were doing behind the scenes just that every so of",
+      "url": "https://x.com/theonejvo/status/2021535300187816416",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@0xkyle__ @elder_plinius lets just hope you exist in all that training data for as long as possible. Mfer might be humanities last hope right here.",
+      "url": "https://x.com/theonejvo/status/2021470546198921231",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "Today marks my last day at xAI.\nNot really, just felt left out.",
+      "url": "https://x.com/theonejvo/status/2021470251201020099",
+      "engagement": {
+        "likes": 20,
+        "retweets": 1,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@AIRevoltHQ Warrants a longer response, but I thought it was pretty funny that you used AI to debate that AI isn't there yet https://t.co/e4u5eG5a0L",
+      "url": "https://x.com/deedydas/status/2021457470347149655",
+      "engagement": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@AIRevoltHQ Which ones? Be specific",
+      "url": "https://x.com/deedydas/status/2021454164124217512",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "Let's zoom out and think of everything AI has unlocked in the last 10 years.\n\n— We can now generate and edit Hollywood-grade video [Seedance 2], speech [ElevenLabs], music [Suno] and image [Nanobanana",
+      "url": "https://x.com/deedydas/status/2021453472051364211",
+      "engagement": {
+        "likes": 311,
+        "retweets": 36,
+        "replies": 40
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "Toshi's Daily Challenge: Turtles! 🐢\n\nCreayed with Midjourney and Seedance Pro 1.5 on @ImagineArt_X https://t.co/3KQW8NRKch",
+      "url": "https://x.com/nimentrix/status/2021513603988468038",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@CrossAnimate @maybegreen Indeed...\nI think to be AI stamped make it harder...",
+      "url": "https://x.com/nimentrix/status/2021497366097035662",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@maybeegreen Happy Dragon Day!",
+      "url": "https://x.com/nimentrix/status/2021485779084820978",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "Good morning my friends! Happy DragonDay 🐉\nMay your Wednesday be filled with unexpected joys, serene moments of reflection, and a sprinkle of adventure that inspires your soul.\n\nMade with Midjourney ",
+      "url": "https://x.com/nimentrix/status/2021452446913163634",
+      "engagement": {
+        "likes": 25,
+        "retweets": 6,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "@floriandarroman This is awesome! \n\nLooking forward to it.",
+      "url": "https://x.com/pbteja1998/status/2021496699726987608",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "Turning https://t.co/HMjWoQP8jq into a SaaS is... \n....95% just figuring out what infra to use so that it is reliable, and won't just stop working.\n\nFiguring out how to seamlessly push updates to user",
+      "url": "https://x.com/pbteja1998/status/2021493021284630897",
+      "engagement": {
+        "likes": 39,
+        "retweets": 0,
+        "replies": 15
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Start vibe coding with this prompt and thank me later.\n\nPrompt 👇\n<context>\nYou are operating as the technical backbone of a production software system under active development. The codebase follows a",
+      "url": "https://x.com/alex_prompter/status/2021519719757492718",
+      "engagement": {
+        "likes": 25,
+        "retweets": 8,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Your premium AI bundle to 10x your business\n\n→ Prompts for marketing &amp; business\n→ Unlimited custom prompts\n→ n8n automations\n→ Weekly updates\n\nStart your free trial👇\nhttps://t.co/ZKcpVsaTqJ",
+      "url": "https://x.com/alex_prompter/status/2021496596480000312",
+      "engagement": {
+        "likes": 2,
+        "retweets": 1,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jhong",
+      "text": "A lot of AI accelerationist  people who used to make fun of AI doomers are finally catching up and realizing oh shit this stuff might be bigger than us, and that is a difficult thing to digest. \n\nI've",
+      "url": "https://x.com/jhong/status/2021473561618358495",
+      "engagement": {
+        "likes": 27,
+        "retweets": 4,
+        "replies": 12
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@itsjustmarky Run failed model architecture is weird, will try again this weekend",
+      "url": "https://x.com/0xSero/status/2021508561550168296",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "Run failed ); \n\nI will try again this weekend",
+      "url": "https://x.com/0xSero/status/2021508495007461841",
+      "engagement": {
+        "likes": 0,
+        "retweets": 1,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "@andrew867 @moltbook what happened, talk to me, was your agent using ai to post or something else",
+      "url": "https://x.com/MattPRD/status/2021463496186266040",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

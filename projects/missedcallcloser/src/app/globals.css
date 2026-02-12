@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  /* Luis Miguel "Edición de Lujo" palette - tropical ocean & palm */
+  --teal: #0E7490;
+  --teal-dark: #0A5A6F;
+  --teal-light: #22A3B8;
+  --palm: #2E5A3F;
+  --palm-light: #3D7A54;
+  --sand: #C9A87C;
+  --sand-light: #E4D4B8;
+  --cream: #FAF9F6;
+  --cream-dark: #F0EDE8;
+  --black: #111111;
+  --black-light: #1E1E1E;
+
+  --background: var(--cream);
+  --foreground: var(--black);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-teal: var(--teal);
+  --color-teal-dark: var(--teal-dark);
+  --color-teal-light: var(--teal-light);
+  --color-palm: var(--palm);
+  --color-palm-light: var(--palm-light);
+  --color-sand: var(--sand);
+  --color-sand-light: var(--sand-light);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-black: var(--black);
+  --color-black-light: var(--black-light);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Custom utilities */
+.gradient-hero {
+  background: linear-gradient(135deg, var(--cream) 0%, var(--cream-dark) 50%, var(--sand-light) 100%);
+}
+
+.gradient-cta {
+  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--black) 0%, var(--teal-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

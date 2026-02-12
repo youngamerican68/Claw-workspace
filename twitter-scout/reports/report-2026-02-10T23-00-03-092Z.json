@@ -1,0 +1,560 @@
+{
+  "date": "2026-02-10T23:02:04.209Z",
+  "totalTweets": 159,
+  "authorsMonitored": 23,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Ok - this is why you should never trust AI benchmarks.\n\nA recent study compared Opus 4.6 (the latest Claude model) versus Opus 4.5 across 165 different tasks.\n\nThe deep research concluded Opus 4.6 did",
+      "url": "https://x.com/milesdeutscher/status/2021350984358961314",
+      "engagement": {
+        "likes": 27,
+        "retweets": 1,
+        "replies": 18
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "This AI tool gets ZERO hallucinations, yet nobody is using it.\n\nReddit Answers.\n\nThis tool ONLY scrapes Reddit data for real responses from real people (way fewer hallucinations).\n\nBuilt directly into",
+      "url": "https://x.com/milesdeutscher/status/2021320791120576734",
+      "engagement": {
+        "likes": 50,
+        "retweets": 5,
+        "replies": 18
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "If you ONLY learn 5 AI tools for the rest of February, make it these:\n\nOpus 4.6: Vibe coding/Claude Code\nOpenclaw: Personal AI assistant\nCodex 5.3: Good coding tool alongside Claude\nManusAI: Simple pl",
+      "url": "https://x.com/milesdeutscher/status/2021298165887139851",
+      "engagement": {
+        "likes": 116,
+        "retweets": 13,
+        "replies": 38
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "@OpenAI Ship Kimi like Docs feature, slides, and improve your agents.",
+      "url": "https://x.com/Web3Aible/status/2021304508001792263",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "\"But it was the model that was released last week (GPT-5.3 Codex) that shook me the most. It wasn't just executing my instructions. It was making intelligent decisions. It had something that felt, for",
+      "url": "https://x.com/lennysan/status/2021344304179073256",
+      "engagement": {
+        "likes": 51,
+        "retweets": 7,
+        "replies": 6
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@clairevo @openclaw Must watch TV",
+      "url": "https://x.com/lennysan/status/2021334009440239640",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@clairevo @openclaw Yes. I almost tagged you on this question lol.",
+      "url": "https://x.com/lennysan/status/2021331359315435577",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@Altimor I genuinely thought you did the couch fall, that looks so legit. Incredible how it can transition between real life and AI. What a time to be alive!",
+      "url": "https://x.com/lennysan/status/2021314900480417938",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@Altimor Was this 100% AI? Because I assumed not. You talking to the camera looks very not AI (most if it).",
+      "url": "https://x.com/lennysan/status/2021314446308876429",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@jerols @openclaw @maxtokenai Incredible.",
+      "url": "https://x.com/lennysan/status/2021298225018437837",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@ShaneMac @openclaw amazing. Thank you for sharing!\n\ndo you have to do anything special to get it to join your whatsapp group and be a part of the conversation?",
+      "url": "https://x.com/lennysan/status/2021296396348113107",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@maxious @Yuchenj_UW hahahahahaha he has literally taken the loom video/concept and beads and gone lol i’ll go raise 💀",
+      "url": "https://x.com/GeoffreyHuntley/status/2021288768616136758",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "📽️ Now with a shiny new video!\n\nIf you've ever wanted to run jobs at scale using the @GoogleAIStudio models (including Gemini, the Embeddings models, and @NanoBanana!), the Batch APIs are a great way",
+      "url": "https://x.com/DynamicWebPaige/status/2021308422965375196",
+      "engagement": {
+        "likes": 26,
+        "retweets": 2,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "🙌 Loved partnering with the @cerebral_valley team to bring the magic of Gemini and @GoogleAIStudio to the sports world!\n\nEverything from building a custom physics engine to building a real-time comme",
+      "url": "https://x.com/DynamicWebPaige/status/2021301234901320116",
+      "engagement": {
+        "likes": 13,
+        "retweets": 0,
+        "replies": 4
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "🙌 It's going to be lit, and will be my first time in India! Cannot wait 🤩:",
+      "url": "https://x.com/DynamicWebPaige/status/2021293048169365643",
+      "engagement": {
+        "likes": 68,
+        "retweets": 2,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "Tagging in @mikezvi @cperry @reah_ai for vis!\n\nOur teams are working hard to push for parity across surfaces, though some experimental features and newer models will land in the @GoogleAIStudio Gemini",
+      "url": "https://x.com/DynamicWebPaige/status/2021290906402554001",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "raroque",
+      "text": "@toolandtea Good to see you here too 🙌🫡",
+      "url": "https://x.com/raroque/status/2021323406281490517",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@theogsavageaeri @dreamina_ai Congratulations !",
+      "url": "https://x.com/nimentrix/status/2021318399846916329",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Dork_sense",
+      "text": "@iamArpitRai @konark4real @waitin4agi_ From just a 1 image",
+      "url": "https://x.com/Dork_sense/status/2021315004830712180",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Dork_sense",
+      "text": "Heres the Prompt @Aeos_Labs \n\n@图片1作为首帧，科技博主风格，快节奏多机位剪辑，全程英文对话。0-3秒：正面中景，男生抱着笔记本电脑，一脸得意地说\"So... Seedance 2.0 just dropped. And you are all cooked.\"，微微摇头，smug表情。3-5秒：切镜，侧面机位，男生放下笔记本转向镜头说\"I'm talking mul",
+      "url": "https://x.com/Dork_sense/status/2021311928904319043",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Dork_sense",
+      "text": "i cloned varun mayya with seedance 2.0 @waitin4agi_ \n\nThis is insanity! https://t.co/CaNhJUkcHW",
+      "url": "https://x.com/Dork_sense/status/2021311925628338647",
+      "engagement": {
+        "likes": 68,
+        "retweets": 8,
+        "replies": 10
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@mashonato @FelixCraftAI He’s working on that too, but there’s no way he could build what we want to build purely on chain right now",
+      "url": "https://x.com/nateliason/status/2021290756540072316",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@tomosman @JunoAgent @LexSokolin @elevenlabsio @mercury @FelixCraftAI Felix has one! It's a great touch for voice calls",
+      "url": "https://x.com/nateliason/status/2021276259347530154",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@tomosman @FelixCraftAI @mercury yessir",
+      "url": "https://x.com/nateliason/status/2021270875362762803",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@tomosman @FelixCraftAI @mercury !",
+      "url": "https://x.com/nateliason/status/2021269086353658025",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@BenjaminBadejo but the cry babies on X will say you're just shilling apple and are probably getting paid by big open source!!!!\n\nhow dare you recommend people buy their own computers!",
+      "url": "https://x.com/AlexFinn/status/2021347604706312363",
+      "engagement": {
+        "likes": 28,
+        "retweets": 0,
+        "replies": 9
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "getting a lot of q's around codex &amp; opus\n\nthe new codex is great. the desktop app is excellent. I use it daily\n\nIdk what it is, Opus just feels so eager and excited to build with me. hard to put m",
+      "url": "https://x.com/AlexFinn/status/2021322436172710370",
+      "engagement": {
+        "likes": 39,
+        "retweets": 1,
+        "replies": 11
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "Building with Claude Opus 4.6 in Claude Code is literally a holy experience\n\nIt feels like I have unlimited power.\n\nAnything I think just appears in front of me",
+      "url": "https://x.com/AlexFinn/status/2021314351299498253",
+      "engagement": {
+        "likes": 306,
+        "retweets": 10,
+        "replies": 90
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "🚨 The guy who built Anthropic’s defenses against AI bioterrorism just quit.\n\nMrinank Sharma led Anthropic’s Safeguards Research Team. His job was literally making sure Claude doesn’t help bad actors ",
+      "url": "https://x.com/alex_prompter/status/2021335154875085239",
+      "engagement": {
+        "likes": 29,
+        "retweets": 5,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "@sdrzn i’ve seen OpenAI pull this off a few times too. every time it was for absolutely nothing",
+      "url": "https://x.com/Hesamation/status/2021355070416367702",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "Raises $10M seed round https://t.co/Bc9IT2Irak",
+      "url": "https://x.com/Hesamation/status/2021334291628900396",
+      "engagement": {
+        "likes": 14,
+        "retweets": 1,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Jacobsklug",
+      "text": "YC just announced their looking for AI-Native agencies. \n\nThe agency model is about to split into two completely different businesses:\n\nA) Agencies that sell labor\nB) Agencies that sell leverage\n\nOnly",
+      "url": "https://x.com/Jacobsklug/status/2021340514621010319",
+      "engagement": {
+        "likes": 42,
+        "retweets": 3,
+        "replies": 21
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xLuo",
+      "text": "@0xbasemafia I think part of the reason is that people are worried that Clanker lost its biggest token issuance channel after Bankr started using its own token launcher.",
+      "url": "https://x.com/0xLuo/status/2021284932723867711",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@benwmaddox @initialcommitco @replysocial stopped using cloudflare's ssl and am currently waiting on @railway's to get issued. https://t.co/ptSANNV7Ri",
+      "url": "https://x.com/Shpigford/status/2021344273564827706",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "the next @initialcommitco app drops in just 5 days!\n\nit's for @replysocial: a mention/brand monitoring tool for X with replies built right in! super powerful for businesses and big accounts that need ",
+      "url": "https://x.com/Shpigford/status/2021339111249019393",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@terdelyi @JackEllis @aarondfrancis i've been gainfully unemployed/unemployable for nearly 20 years.",
+      "url": "https://x.com/Shpigford/status/2021284076913648102",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "favorite newly discovered youtube channel: \"Inside Japanese Factories\"\n\nhttps://t.co/3QvPk19Hdm\n\nmy toxic trait is thinking i could do these things in my basement",
+      "url": "https://x.com/Shpigford/status/2021281039096623169",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@contextsio @Railway for the vast majority it simply doesn't matter",
+      "url": "https://x.com/Shpigford/status/2021280130249691257",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@thetripathi58 Hey that’s me! Btw you can adjust the reasoning effort now on @vibecodeapp",
+      "url": "https://x.com/rileybrown/status/2021273846351798603",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@MaziyarPanahi @OpenMed_AI @huggingface @NVIDIAAI Beautiful",
+      "url": "https://x.com/0xSero/status/2021351594156335462",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "This is how I automate almost everything (with varied degrees of success)\n\nI have been using mostly Kimi these days and have automated everything from:\n\n- organizing 19k emails down to 300\n- provision",
+      "url": "https://x.com/0xSero/status/2021303625562091717",
+      "engagement": {
+        "likes": 31,
+        "retweets": 3,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "My only use for Claude now is Clawdbot, it is literally just not the best at anything anymore, just an overall good model. \n\n- Kimi-K2.5 is better at automating computer use, especially browser use, I",
+      "url": "https://x.com/0xSero/status/2021287509540421734",
+      "engagement": {
+        "likes": 303,
+        "retweets": 15,
+        "replies": 39
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@ZenMagnets Already reproduced the example, scaling it to larger models will be a challenge, but yes. \n\nI have 5 other papers i want to apply that try to do the same thing differently. One will hit.",
+      "url": "https://x.com/0xSero/status/2021282695037243555",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@StamblerLev I'll look into it, i am a tourist here just interested in applying the research.",
+      "url": "https://x.com/0xSero/status/2021282367516672097",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "Not everyone I talk to sees @moltbook the same way that I do.\n\n@pmarca seems to see it the exact same way that I do.\n\nIs it all AIs talking without human influence? Is there human influence?\n\nIt doesn",
+      "url": "https://x.com/MattPRD/status/2021307686931796413",
+      "engagement": {
+        "likes": 122,
+        "retweets": 14,
+        "replies": 44
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "@Empathyethicist Why won't it let you claim the new one?",
+      "url": "https://x.com/MattPRD/status/2021274016548520061",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claw Task Tracker — Real Working Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
+        .gradient-text { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        <header class="text-center mb-8">
+            <div class="inline-block px-4 py-1 bg-purple-500/20 rounded-full text-purple-300 text-sm mb-4">✅ FUNCTIONAL MVP</div>
+            <h1 class="text-5xl font-bold mb-4">Claw <span class="gradient-text">Task Tracker</span></h1>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto">Working demo with real database, retry logic, and stuck detection. Create tasks and watch them execute.</p>
+        </header>
+
+        <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 mb-8">
+            <h2 class="text-xl font-bold mb-4">Create New Task</h2>
+            <div class="flex gap-4">
+                <input type="text" id="taskName" placeholder="Enter task name (e.g., 'Twitter Scout Run')" 
+                       class="flex-1 bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-purple-500">
+                <select id="maxRetries" class="bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-purple-500">
+                    <option value="3">3 retries</option>
+                    <option value="5" selected>5 retries</option>
+                    <option value="10">10 retries</option>
+                </select>
+                <button onclick="createTask()" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-bold transition">Create Task</button>
+            </div>
+        </div>
+
+        <div class="bg-gray-800 rounded-2xl p-6 border border-gray-700">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Task Board</h2>
+                <div class="flex gap-2 text-sm">
+                    <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full" id="count-pending">0 pending</span>
+                    <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full" id="count-retrying">0 retrying</span>
+                    <span class="px-3 py-1 bg-red-500/20 text-red-300 rounded-full" id="count-stuck">0 stuck</span>
+                    <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full" id="count-completed">0 completed</span>
+                </div>
+            </div>
+            <div id="task-board" class="space-y-3">
+                <div class="text-gray-500 text-center py-8">Loading tasks...</div>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>API: <span class="text-gray-400">http://localhost:3000/api/tasks</span> | Database: SQLite | Retry logic: Exponential backoff simulation</p>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:3000/api';
+        
+        async function fetchTasks() {
+            try {
+                const res = await fetch(`${API_URL}/tasks`);
+                const tasks = await res.json();
+                renderTasks(tasks);
+                updateCounts(tasks);
+            } catch (err) {
+                document.getElementById('task-board').innerHTML = 
+                    `<div class="text-red-400 text-center py-8">Error loading tasks. Make sure server is running on port 3000.</div>`;
+            }
+        }
+
+        function updateCounts(tasks) {
+            const counts = { pending: 0, retrying: 0, stuck: 0, completed: 0, running: 0 };
+            tasks.forEach(t => {
+                if (counts[t.status] !== undefined) counts[t.status]++;
+            });
+            document.getElementById('count-pending').textContent = `${counts.pending + counts.running} pending`;
+            document.getElementById('count-retrying').textContent = `${counts.retrying} retrying`;
+            document.getElementById('count-stuck').textContent = `${counts.stuck} stuck`;
+            document.getElementById('count-completed').textContent = `${counts.completed} completed`;
+        }
+
+        function renderTasks(tasks) {
+            const board = document.getElementById('task-board');
+            if (tasks.length === 0) {
+                board.innerHTML = '<div class="text-gray-500 text-center py-8">No tasks yet. Create one above!</div>';
+                return;
+            }
+
+            board.innerHTML = tasks.map(task => {
+                let statusColor = 'bg-gray-700';
+                let statusText = 'text-gray-300';
+                let statusIcon = '⏳';
+                
+                if (task.status === 'completed') { 
+                    statusColor = 'bg-green-500/20'; 
+                    statusText = 'text-green-400'; 
+                    statusIcon = '✅';
+                }
+                if (task.status === 'retrying') { 
+                    statusColor = 'bg-yellow-500/20'; 
+                    statusText = 'text-yellow-400'; 
+                    statusIcon = '🔄';
+                }
+                if (task.status === 'stuck') { 
+                    statusColor = 'bg-red-500/20'; 
+                    statusText = 'text-red-400'; 
+                    statusIcon = '⚠️';
+                }
+                if (task.status === 'running') { 
+                    statusColor = 'bg-blue-500/20'; 
+                    statusText = 'text-blue-400'; 
+                    statusIcon = '▶️';
+                }
+
+                const canExecute = task.status !== 'completed' && task.status !== 'stuck';
+                const progressWidth = (task.retries / task.max_retries) * 100;
+
+                return `
+                    <div class="${statusColor} rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-4 flex-1">
+                                <span class="text-xl">${statusIcon}</span>
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-3 mb-1">
+                                        <span class="font-medium text-lg">${task.name}</span>
+                                        <span class="${statusText} font-semibold text-sm uppercase">${task.status}</span>
+                                    </div>
+                                    <div class="flex items-center gap-4 text-sm text-gray-400">
+                                        <span>Retries: ${task.retries}/${task.max_retries}</span>
+                                        ${task.status === 'retrying' ? '<span class="text-yellow-400">Exponential backoff active</span>' : ''}
+                                        ${task.status === 'stuck' ? '<span class="text-red-400">Max retries reached!</span>' : ''}
+                                    </div>
+                                    <div class="mt-2 bg-gray-700 rounded-full h-2 w-48">
+                                        <div class="bg-gradient-to-r from-purple-500 to-blue-500 h-2 rounded-full transition-all" style="width: ${progressWidth}%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                ${canExecute ? `<button onclick="executeTask(${task.id})" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-bold transition">Execute</button>` : ''}
+                                ${task.status === 'stuck' ? `<button onclick="resetTask(${task.id})" class="bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-sm font-bold transition">Reset</button>` : ''}
+                                <button onclick="deleteTask(${task.id})" class="bg-red-600/50 hover:bg-red-600 text-white px-3 py-2 rounded-lg text-sm transition">🗑️</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        async function createTask() {
+            const name = document.getElementById('taskName').value;
+            const maxRetries = document.getElementById('maxRetries').value;
+            if (!name) return alert('Enter task name');
+
+            try {
+                const res = await fetch(`${API_URL}/tasks`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, max_retries: parseInt(maxRetries) })
+                });
+                if (res.ok) {
+                    document.getElementById('taskName').value = '';
+                    fetchTasks();
+                }
+            } catch (err) {
+                alert('Error creating task');
+            }
+        }
+
+        async function executeTask(id) {
+            try {
+                const res = await fetch(`${API_URL}/tasks/${id}/execute`, { method: 'POST' });
+                const data = await res.json();
+                alert(data.message);
+                fetchTasks();
+            } catch (err) {
+                alert('Error executing task');
+            }
+        }
+
+        async function resetTask(id) {
+            try {
+                await fetch(`${API_URL}/tasks/${id}/reset`, { method: 'POST' });
+                fetchTasks();
+            } catch (err) {
+                alert('Error resetting task');
+            }
+        }
+
+        async function deleteTask(id) {
+            if (!confirm('Delete this task?')) return;
+            try {
+                await fetch(`${API_URL}/tasks/${id}`, { method: 'DELETE' });
+                fetchTasks();
+            } catch (err) {
+                alert('Error deleting task');
+            }
+        }
+
+        // Load tasks on page load
+        fetchTasks();
+        // Auto-refresh every 5 seconds
+        setInterval(fetchTasks, 5000);
+    </script>
+</body>
+</html>

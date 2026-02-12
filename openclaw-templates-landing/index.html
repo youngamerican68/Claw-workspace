@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw Templates — Production-Ready AI Workflows</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>:root{--bg:#fafafa;--card:#fff;--primary:#2563eb;--primary-dark:#1d4ed8;--secondary:#7c3aed;--accent:#f59e0b;--text:#111827;--muted:#6b7280;--border:#e5e7eb;--success:#10b981}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}nav{position:fixed;top:0;left:0;right:0;padding:1.25rem 3rem;display:flex;justify-content:space-between;align-items:center;z-index:100;background:rgba(250,250,250,0.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}.logo{font-weight:700;font-size:1.25rem;text-decoration:none;color:var(--text);display:flex;align-items:center;gap:0.5rem}.logo-icon{width:32px;height:32px;background:linear-gradient(135deg,var(--primary),var(--secondary));border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem}.nav-links{display:flex;gap:2rem;align-items:center}.nav-links a{color:var(--muted);text-decoration:none;font-weight:500;font-size:0.9rem;transition:color 0.2s}.nav-links a:hover{color:var(--text)}.nav-cta{font-weight:600;padding:0.625rem 1.25rem;background:var(--primary);color:#fff;border-radius:6px;text-decoration:none;font-size:0.9rem;transition:background 0.2s}.nav-cta:hover{background:var(--primary-dark)}.hero{min-height:100vh;display:flex;align-items:center;padding:8rem 5% 4rem;position:relative;z-index:1}.hero-content{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}.badge{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.8rem;font-weight:600;color:var(--primary);margin-bottom:1.25rem;padding:0.375rem 0.875rem;background:rgba(37,99,235,0.1);border-radius:100px}h1{font-weight:700;font-size:clamp(2.25rem,4.5vw,3.5rem);line-height:1.1;margin-bottom:1.25rem;letter-spacing:-0.02em}.subtitle{font-size:1.15rem;color:var(--muted);margin-bottom:1.5rem;max-width:500px}.social-proof{display:flex;align-items:center;gap:1rem;margin-bottom:2rem}.avatars{display:flex}.avatars img{width:40px;height:40px;border-radius:50%;border:3px solid var(--bg);margin-left:-12px;object-fit:cover}.avatars img:first-child{margin-left:0}.social-text{font-size:0.875rem;color:var(--muted)}.social-text strong{color:var(--text)}.features{list-style:none;margin-bottom:2rem;display:grid;grid-template-columns:1fr 1fr;gap:0.75rem}.features li{display:flex;align-items:center;gap:0.5rem;color:var(--muted);font-size:0.9rem}.features li::before{content:'✓';width:18px;height:18px;background:var(--success);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.7rem;font-weight:700;flex-shrink:0}.btn-primary{font-weight:600;padding:0.875rem 1.75rem;background:var(--primary);color:#fff;border-radius:6px;text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;font-size:0.95rem;transition:all 0.2s;border:none;cursor:pointer}.btn-primary:hover{background:var(--primary-dark);transform:translateY(-1px);box-shadow:0 4px 12px rgba(37,99,235,0.25)}.btn-secondary{font-weight:600;padding:0.875rem 1.75rem;background:#fff;color:var(--text);border:1px solid var(--border);border-radius:6px;text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;margin-left:0.75rem;font-size:0.95rem;transition:all 0.2s}.btn-secondary:hover{border-color:var(--primary);color:var(--primary)}.hero-visual{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;box-shadow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06)}.code-header{display:flex;align-items:center;gap:0.5rem;margin-bottom:1rem;padding-bottom:0.75rem;border-bottom:1px solid var(--border)}.code-dot{width:12px;height:12px;border-radius:50%}.dot-red{background:#ef4444}.dot-yellow{background:#f59e0b}.dot-green{background:#10b981}.code-header-text{font-size:0.8rem;color:var(--muted);font-family:'JetBrains Mono',monospace}.code-content{font-family:'JetBrains Mono',monospace;font-size:0.8rem;line-height:1.6;overflow-x:auto}.code-line{display:flex}.code-line-num{color:var(--muted);width:2rem;text-align:right;margin-right:1rem;user-select:none}.code-content .keyword{color:#7c3aed}.code-content .string{color:#059669}.code-content .comment{color:var(--muted)}.code-content .function{color:#2563eb}.templates{padding:5rem 5%;position:relative;z-index:1}.section-header{text-align:center;max-width:600px;margin:0 auto 3rem}.section-label{font-size:0.75rem;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem}h2{font-weight:700;font-size:clamp(1.75rem,3.5vw,2.5rem);margin-bottom:0.75rem}.section-subtitle{color:var(--muted);font-size:1rem}.template-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;max-width:1100px;margin:0 auto}.template-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.5rem;transition:all 0.2s;position:relative}.template-card:hover{border-color:var(--primary);box-shadow:0 10px 25px -5px rgba(37,99,235,0.1);transform:translateY(-2px)}.template-badge{position:absolute;top:-1px;right:1.5rem;background:var(--accent);color:#fff;font-size:0.7rem;font-weight:700;padding:0.25rem 0.625rem;border-radius:0 0 4px 4px;text-transform:uppercase}.template-icon{width:48px;height:48px;background:linear-gradient(135deg,var(--primary),var(--secondary));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:1rem}.template-card h3{font-weight:600;font-size:1.1rem;margin-bottom:0.5rem}.template-card p{color:var(--muted);font-size:0.875rem;margin-bottom:1rem;line-height:1.5}.template-meta{display:flex;gap:1rem;font-size:0.8rem;color:var(--muted)}.template-meta span{display:flex;align-items:center;gap:0.25rem}.how-it-works{padding:5rem 5%;background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);position:relative;z-index:1}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;max-width:1000px;margin:2rem auto 0}.step{text-align:center}.step-icon{width:56px;height:56px;background:rgba(37,99,235,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin:0 auto 1rem}.step h4{font-weight:600;font-size:1rem;margin-bottom:0.5rem}.step p{color:var(--muted);font-size:0.875rem}.cta-section{padding:5rem 5%;text-align:center;position:relative;z-index:1;background:linear-gradient(180deg,var(--bg),rgba(37,99,235,0.03))}.cta-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:3rem;max-width:700px;margin:0 auto}.cta-section h2{margin-bottom:0.75rem}.cta-section p{color:var(--muted);margin-bottom:1.5rem}.guarantee{display:flex;align-items:center;justify-content:center;gap:0.5rem;margin-top:1.5rem;font-size:0.875rem;color:var(--muted)}.guarantee-icon{color:var(--success)}footer{padding:3rem 5%;text-align:center;color:var(--muted);font-size:0.875rem;border-top:1px solid var(--border)}footer a{color:var(--text);text-decoration:none}@media(max-width:968px){.hero-content{grid-template-columns:1fr;text-align:center}.features{grid-template-columns:1fr;text-align:left;max-width:400px;margin:0 auto 2rem}.template-grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.btn-secondary{margin-left:0;margin-top:0.75rem}.social-proof{justify-content:center}}</style>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">
+            <div class="logo-icon">◆</div>
+            OpenClaw Templates
+        </a>
+        <div class="nav-links">
+            <a href="#templates">Templates</a>
+            <a href="#how">How It Works</a>
+            <a href="#docs">Docs</a>
+        </div>
+        <a href="#get" class="nav-cta">Get All Templates — $199</a>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <div>
+                <div class="badge">Built by the OpenClaw Team</div>
+                <h1>Production-ready OpenClaw workflows. Copy, paste, deploy.</h1>
+                <p class="subtitle">Stop building from scratch. Start with battle-tested templates built by OpenClaw power users. Twitter scouts, content pipelines, research agents, and more.</p>
+                <div class="social-proof">
+                    <div class="avatars">
+                        <img src="https://i.pravatar.cc/100?img=1" alt="User">
+                        <img src="https://i.pravatar.cc/100?img=2" alt="User">
+                        <img src="https://i.pravatar.cc/100?img=3" alt="User">
+                        <img src="https://i.pravatar.cc/100?img=4" alt="User">
+                    </div>
+                    <div class="social-text"><strong>500+</strong> developers building with these templates</div>
+                </div>
+                <ul class="features">
+                    <li>Ready-to-run OpenClaw configs</li>
+                    <li>Built-in tool integrations</li>
+                    <li>Step-by-step setup guides</li>
+                    <li>Active Discord community</li>
+                </ul>
+                <div>
+                    <a href="#get" class="btn-primary">Get All Templates — $199</a>
+                    <a href="#templates" class="btn-secondary">View Templates</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-header">
+                    <div class="code-dot dot-red"></div>
+                    <div class="code-dot dot-yellow"></div>
+                    <div class="code-dot dot-green"></div>
+                    <div class="code-header-text">twitter-scout.yaml</div>
+                </div>
+                <div class="code-content">
+                    <div class="code-line"><span class="code-line-num">1</span><span class="keyword">name:</span> <span class="string">Twitter Scout</span></div>
+                    <div class="code-line"><span class="code-line-num">2</span><span class="keyword">version:</span> <span class="string">"1.0"</span></div>
+                    <div class="code-line"><span class="code-line-num">3</span><span class="keyword">schedule:</span> <span class="string">"0 9,21 * * *"</span></div>
+                    <div class="code-line"><span class="code-line-num">4</span><span class="comment"># Auto-detect trends & generate reports</span></div>
+                    <div class="code-line"><span class="code-line-num">5</span><span class="keyword">tools:</span></div>
+                    <div class="code-line"><span class="code-line-num">6</span>  - <span class="function">twitter_api</span></div>
+                    <div class="code-line"><span class="code-line-num">7</span>  - <span class="function">claude_analysis</span></div>
+                    <div class="code-line"><span class="code-line-num">8</span>  - <span class="function">telegram_notify</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="templates" id="templates">
+        <div class="section-header">
+            <div class="section-label">Template Library</div>
+            <h2>Start with a template, customize to your needs</h2>
+            <p class="section-subtitle">Each template includes full configuration, documentation, and a working example.</p>
+        </div>
+        <div class="template-grid">
+            <div class="template-card">
+                <div class="template-badge">Popular</div>
+                <div class="template-icon">🐦</div>
+                <h3>Twitter Scout</h3>
+                <p>Monitors your Following feed, detects signals, generates AI reports. Perfect for trend research.</p>
+                <div class="template-meta">
+                    <span>⚡ 5 min setup</span>
+                    <span>📊 500+ users</span>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-icon">📝</div>
+                <h3>Content Pipeline</h3>
+                <p>Research → Outline → Draft → Edit → Publish. Fully automated content creation workflow.</p>
+                <div class="template-meta">
+                    <span>⚡ 10 min setup</span>
+                    <span>🎯 SEO optimized</span>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-badge">New</div>
+                <div class="template-icon">🔍</div>
+                <h3>Research Agent</h3>
+                <p>Deep research on any topic. Aggregates sources, synthesizes findings, generates summaries.</p>
+                <div class="template-meta">
+                    <span>⚡ 3 min setup</span>
+                    <span>📚 Multi-source</span>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-icon">📧</div>
+                <h3>Email Processor</h3>
+                <p>Auto-categorize, draft responses, and manage your inbox with AI. Gmail/Outlook supported.</p>
+                <div class="template-meta">
+                    <span>⚡ 5 min setup</span>
+                    <span>🔒 Privacy first</span>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-icon">💬</div>
+                <h3>Discord Moderator</h3>
+                <p>AI-powered community management. Auto-respond, moderate, and engage 24/7.</p>
+                <div class="template-meta">
+                    <span>⚡ 7 min setup</span>
+                    <span>🛡️ Auto-moderation</span>
+                </div>
+            </div>
+            <div class="template-card">
+                <div class="template-icon">📊</div>
+                <h3>Data Analyzer</h3>
+                <p>Upload CSV/Excel, get instant insights. Automated charts, reports, and recommendations.</p>
+                <div class="template-meta">
+                    <span>⚡ 2 min setup</span>
+                    <span>📈 Auto-viz</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works" id="how">
+        <div class="section-header">
+            <div class="section-label">How It Works</div>
+            <h2>From template to production in 4 steps</h2>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-icon">1️⃣</div>
+                <h4>Download</h4>
+                <p>Get instant access to all templates after purchase</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">2️⃣</div>
+                <h4>Configure</h4>
+                <p>Add your API keys and customize settings</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">3️⃣</div>
+                <h4>Deploy</h4>
+                <p>One-click deploy to your OpenClaw instance</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">4️⃣</div>
+                <h4>Scale</h4>
+                <p>Join our Discord for support and updates</p>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section" id="get">
+        <div class="cta-box">
+            <h2>Get all 12 templates for $199</h2>
+            <p style="font-size:1.1rem;color:var(--muted);margin-bottom:1.5rem;">One-time purchase. Lifetime updates. Full source code. No subscription.</p>
+            <a href="#checkout" class="btn-primary" style="font-size:1.1rem;padding:1rem 2.5rem;">Buy Now — $199</a>
+            <div class="guarantee">
+                <span class="guarantee-icon">✓</span>
+                <span>30-day money-back guarantee • Instant download</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Built with ♥ by the OpenClaw community. Not affiliated with OpenClaw core team.</p>
+    </footer>
+</body>
+</html>

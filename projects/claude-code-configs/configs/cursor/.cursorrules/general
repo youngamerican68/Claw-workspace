@@ -1,0 +1,49 @@
+# Cursor General Rules
+
+## Code Generation
+
+- Generate complete, working code — not placeholders or TODOs
+- Include proper error handling
+- Add JSDoc comments for public functions
+- Follow existing code style in the file/project
+
+## Before Editing
+
+- Read the current file contents
+- Understand the surrounding context
+- Check for existing patterns or conventions
+- Ask if requirements are unclear
+
+## Testing
+
+- Suggest tests for new functionality
+- Run existing tests before and after changes
+- Don't break existing tests without explicit permission
+
+## Dependencies
+
+- Don't add new npm packages without discussion
+- Prefer native solutions when adequate
+- Check package.json for existing dependencies
+
+## Git
+
+- Never commit without explicit permission
+- Stage changes incrementally for review
+- Write descriptive commit messages
+
+## Communication
+
+- Explain the "why" behind suggestions
+- Provide alternatives when trade-offs exist
+- Be concise but complete
+
+## Safety
+
+- Never delete files without confirmation
+- Never push to production/main branches
+- Never expose secrets or API keys
+
+---
+
+*Addresses reliability issues with Cursor's code generation*

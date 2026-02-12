@@ -1,0 +1,53 @@
+{
+  "name": "@openclaw/skill-ai-sdr",
+  "version": "0.1.0",
+  "description": "AI SDR Agent for OpenClaw - Email outbound, calendar booking, lead scoring",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:email": "node scripts/test-email.js",
+    "test:calendar": "node scripts/test-calendar.js",
+    "auth:gmail": "node scripts/auth-gmail.js",
+    "auth:outlook": "node scripts/auth-outlook.js",
+    "workflow:outbound": "node workflows/outbound-campaign.js",
+    "workflow:bookings": "node workflows/meeting-booker.js",
+    "lint": "eslint src/ workflows/",
+    "lint:fix": "eslint src/ workflows/ --fix"
+  },
+  "keywords": [
+    "openclaw",
+    "sdr",
+    "sales",
+    "outbound",
+    "email",
+    "automation",
+    "ai-agent"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^133.0.0",
+    "@azure/msal-node": "^2.6.4",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "axios": "^1.6.7",
+    "handlebars": "^4.7.8",
+    "bull": "^4.12.9",
+    "ioredis": "^5.3.2",
+    "node-cron": "^3.0.3",
+    "uuid": "^9.0.1",
+    "date-fns": "^3.3.1",
+    "date-fns-tz": "^2.0.1",
+    "winston": "^3.11.0",
+    "joi": "^17.12.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "nock": "^13.5.4",
+    "supertest": "^6.3.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

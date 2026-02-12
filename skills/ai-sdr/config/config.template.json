@@ -1,0 +1,183 @@
+{
+  "_comment": "AI SDR Agent Configuration - Copy to config.json and fill in your values",
+  "version": "0.1.0",
+  
+  "email": {
+    "provider": "gmail",
+    "providers": {
+      "gmail": {
+        "credentialsPath": "./config/gmail-credentials.json",
+        "tokenPath": "./config/gmail-token.json",
+        "scopes": [
+          "https://www.googleapis.com/auth/gmail.send",
+          "https://www.googleapis.com/auth/gmail.readonly",
+          "https://www.googleapis.com/auth/gmail.modify"
+        ]
+      },
+      "outlook": {
+        "clientId": "YOUR_AZURE_CLIENT_ID",
+        "clientSecret": "YOUR_AZURE_CLIENT_SECRET",
+        "tenantId": "YOUR_AZURE_TENANT_ID",
+        "redirectUri": "http://localhost:3000/auth/outlook/callback"
+      }
+    },
+    "fromName": "Your Name",
+    "fromEmail": "you@yourcompany.com",
+    "replyTo": "replies@yourcompany.com",
+    "signature": "\n\nBest,\nYour Name\nYour Title | Your Company",
+    "rateLimit": {
+      "dailyMax": 200,
+      "hourlyMax": 50,
+      "delayMs": 2000
+    },
+    "tracking": {
+      "enabled": true,
+      "pixelDomain": "track.yourdomain.com",
+      "linkDomain": "go.yourdomain.com",
+      "webhookUrl": "https://your-domain.com/webhook/sdr"
+    }
+  },
+  
+  "calendar": {
+    "primaryProvider": "calcom",
+    "providers": {
+      "calcom": {
+        "apiKey": "cal_live_YOUR_API_KEY",
+        "baseUrl": "https://api.cal.com/v1",
+        "eventTypes": {
+          "15min": {
+            "id": 12345,
+            "slug": "15min-intro"
+          },
+          "30min": {
+            "id": 12346,
+            "slug": "30min-discovery"
+          },
+          "60min": {
+            "id": 12347,
+            "slug": "60min-demo"
+          }
+        }
+      },
+      "google": {
+        "credentialsPath": "./config/google-calendar-credentials.json",
+        "calendarId": "primary",
+        "timeZone": "America/New_York"
+      }
+    },
+    "availability": {
+      "bufferMinutes": 15,
+      "minNoticeHours": 4,
+      "maxDaysInFuture": 14
+    }
+  },
+  
+  "scoring": {
+    "model": "gpt-4",
+    "temperature": 0.3,
+    "weights": {
+      "companySize": 0.25,
+      "role": 0.25,
+      "intent": 0.35,
+      "engagement": 0.15
+    },
+    "thresholds": {
+      "A": { "min": 85, "label": "Hot" },
+      "B": { "min": 65, "label": "Warm" },
+      "C": { "min": 45, "label": "Cool" },
+      "D": { "min": 0, "label": "Cold" }
+    }
+  },
+  
+  "enrichment": {
+    "apollo": {
+      "apiKey": "YOUR_APOLLO_API_KEY",
+      "baseUrl": "https://api.apollo.io/v1"
+    },
+    "clearbit": {
+      "apiKey": "YOUR_CLEARBIT_API_KEY",
+      "baseUrl": "https://person.clearbit.com/v2"
+    },
+    "cacheTtlHours": 168
+  },
+  
+  "linkedin": {
+    "enabled": false,
+    "browser": {
+      "headless": true,
+      "slowMo": 100,
+      "viewport": { "width": 1920, "height": 1080 }
+    },
+    "rateLimit": {
+      "connectionsPerDay": 50,
+      "messagesPerDay": 100,
+      "delayBetweenActions": 5000
+    },
+    "sessionTimeout": 3600000
+  },
+  
+  "cadences": {
+    "default": "standard_5_touch",
+    "templatesDir": "./templates",
+    "checkInterval": "0 */2 * * *",
+    "maxRetries": 3,
+    "sequences": {
+      "standard_5_touch": {
+        "name": "Standard 5-Touch Sequence",
+        "steps": [
+          { "day": 0, "template": "outbound-v1", "subject": "A", "time": "08:00" },
+          { "day": 3, "template": "followup-day-3", "subject": "Re:", "time": "09:00" },
+          { "day": 7, "template": "followup-day-7", "subject": "Quick question", "time": "10:00" },
+          { "day": 14, "template": "followup-day-14", "subject": "Value add", "time": "08:00" },
+          { "day": 21, "template": "breakup", "subject": "Should I close your file?", "time": "09:00" }
+        ]
+      },
+      "aggressive_7_touch": {
+        "name": "Aggressive 7-Touch Sequence",
+        "steps": [
+          { "day": 0, "template": "outbound-v1", "subject": "A", "time": "08:00" },
+          { "day": 2, "template": "followup-day-3", "subject": "Re:", "time": "09:00" },
+          { "day": 4, "template": "followup-day-7", "subject": "Quick question", "time": "10:00" },
+          { "day": 7, "template": "value-add", "subject": "Resource for {{company}}", "time": "08:00" },
+          { "day": 10, "template": "social-proof", "subject": "How {{similar_company}} reduced costs", "time": "09:00" },
+          { "day": 14, "template": "followup-day-14", "subject": "One more try", "time": "10:00" },
+          { "day": 21, "template": "breakup", "subject": "Closing your file", "time": "09:00" }
+        ]
+      }
+    }
+  },
+  
+  "queue": {
+    "redis": {
+      "host": "localhost",
+      "port": 6379,
+      "db": 0
+    },
+    "bull": {
+      "defaultJobOptions": {
+        "attempts": 3,
+        "backoff": {
+          "type": "exponential",
+          "delay": 60000
+        }
+      }
+    }
+  },
+  
+  "logging": {
+    "level": "info",
+    "file": "./logs/ai-sdr.log",
+    "maxFiles": 7,
+    "maxSize": "10m"
+  },
+  
+  "compliance": {
+    "includeUnsubscribe": true,
+    "unsubscribeLink": "https://your-domain.com/unsubscribe",
+    "includePhysicalAddress": true,
+    "physicalAddress": "Your Company, 123 Main St, City, ST 12345",
+    "honorDoNotContact": true,
+    "respectBounces": true,
+    "maxEmailsPerDomainPerDay": 5
+  }
+}

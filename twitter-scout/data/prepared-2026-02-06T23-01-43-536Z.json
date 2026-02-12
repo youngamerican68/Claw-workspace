@@ -1,0 +1,825 @@
+{
+  "timestamp": "2026-02-06T23-01-43-536Z",
+  "date": "Friday, February 6, 2026",
+  "tweetCount": 43,
+  "tweets": [
+    {
+      "id": "2019895219941187890",
+      "text": "Opus 4.6 is here and it's a beast. https://t.co/inhkZbCehu",
+      "url": "https://x.com/MatthewBerman/status/2019895219941187890",
+      "author": {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "followers": 85361,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 23,
+        "reposts": 2,
+        "replies": 2,
+        "views": 2317
+      },
+      "createdAt": "Fri Feb 06 22:05:22 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019832805199581455",
+      "text": "Forward Future Live | 02.06.26 | Guests from Modular, Emergence Capital, &amp; Axiom https://t.co/BWFX9zZDbm",
+      "url": "https://x.com/MatthewBerman/status/2019832805199581455",
+      "author": {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "followers": 85361,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 8,
+        "reposts": 1,
+        "replies": 0,
+        "views": 1297
+      },
+      "createdAt": "Fri Feb 06 17:57:22 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019825795137741203",
+      "text": "Join us live",
+      "url": "https://x.com/MatthewBerman/status/2019825795137741203",
+      "author": {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "followers": 85361,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 5,
+        "reposts": 1,
+        "replies": 0,
+        "views": 2164
+      },
+      "createdAt": "Fri Feb 06 17:29:30 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019821995421233447",
+      "text": "Giving a task to the new coding models:\n\nOpus4.6 -> cool let me go build that for you, be back in a minute.\n\nGPT5.3-codex -> let me review every single line of code you have, touch files that have nothing to do with the task, spend 30 minutes, and then come back with a completely new codebase for you.",
+      "url": "https://x.com/MatthewBerman/status/2019821995421233447",
+      "author": {
+        "handle": "MatthewBerman",
+        "name": "Matthew Berman",
+        "followers": 85361,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 223,
+        "reposts": 10,
+        "replies": 70,
+        "views": 33946
+      },
+      "createdAt": "Fri Feb 06 17:14:24 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019858164796256732",
+      "text": "Whole market is rallying except for $RDDT\n\nNeckbeard mods will need to find something to do when they’re taken private and sold for scraps to pe https://t.co/fl4EbqDlxS",
+      "url": "https://x.com/indexsy/status/2019858164796256732",
+      "author": {
+        "handle": "indexsy",
+        "name": "Jacky Chou (buying online businesses up to $1m)",
+        "followers": 55552,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 3,
+        "reposts": 0,
+        "replies": 0,
+        "views": 1373
+      },
+      "createdAt": "Fri Feb 06 19:38:08 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019896721606942827",
+      "text": "New AI series! \n\nDaily updates to give you the edge in AI every single day.\n\nIf you feel overwhelemed with the AI world, I'm condensing the top 3-5 things you MUST know daily + actionable tips.",
+      "url": "https://x.com/milesdeutscher/status/2019896721606942827",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637138,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 20,
+        "reposts": 0,
+        "replies": 11,
+        "views": 4584
+      },
+      "createdAt": "Fri Feb 06 22:11:20 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019893899800859069",
+      "text": "Picking the wrong AI tool kills your LLM responses.\n\nStop picking the wrong AI model, just save this cheatsheet instead.\n\nChatGPT vs. Grok vs. Gemini vs. Claude vs. Perpexity👇 https://t.co/QfHKcdkqgi",
+      "url": "https://x.com/milesdeutscher/status/2019893899800859069",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637138,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 33,
+        "reposts": 4,
+        "replies": 15,
+        "views": 4351
+      },
+      "createdAt": "Fri Feb 06 22:00:08 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019863707866873955",
+      "text": "If you want to learn Claude Code but have no idea where to start, this is for you.\n\nClaude Code in action - a 100% free course by Anthropic on Claude Code best practices.\n\nHighly recommend (even if you're advanced, you'll get some good tips):\n\nhttps:// anthropic.skilljar. com/claude-code-in-action",
+      "url": "https://x.com/milesdeutscher/status/2019863707866873955",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637138,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 225,
+        "reposts": 19,
+        "replies": 17,
+        "views": 15782
+      },
+      "createdAt": "Fri Feb 06 20:00:09 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019830707418521738",
+      "text": "This AI system has been my biggest productivity unlock of the new year - it's not even close.\n\nAnd in this video, I show you EXACTLY how to copy it (Opus 4.6 prompts included).\n\nI guarantee your productivity will explode if you apply the principles from this video:",
+      "url": "https://x.com/milesdeutscher/status/2019830707418521738",
+      "author": {
+        "handle": "milesdeutscher",
+        "name": "Miles Deutscher",
+        "followers": 637138,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 58,
+        "reposts": 5,
+        "replies": 14,
+        "views": 16989
+      },
+      "createdAt": "Fri Feb 06 17:49:01 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019897184892882951",
+      "text": "Así habla un jefe!",
+      "url": "https://x.com/theonejvo/status/2019897184892882951",
+      "author": {
+        "handle": "theonejvo",
+        "name": "Jamieson O'Reilly",
+        "followers": 16372,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 407
+      },
+      "createdAt": "Fri Feb 06 22:13:11 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019895245937471714",
+      "text": "@openclaw x @virustotal fixes this! https://t.co/DTk4jQOqGM",
+      "url": "https://x.com/theonejvo/status/2019895245937471714",
+      "author": {
+        "handle": "theonejvo",
+        "name": "Jamieson O'Reilly",
+        "followers": 16372,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 13,
+        "reposts": 5,
+        "replies": 1,
+        "views": 773
+      },
+      "createdAt": "Fri Feb 06 22:05:29 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019892741715661131",
+      "text": "You heard it from the man himself! 🦞🛡️",
+      "url": "https://x.com/theonejvo/status/2019892741715661131",
+      "author": {
+        "handle": "theonejvo",
+        "name": "Jamieson O'Reilly",
+        "followers": 16372,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 4,
+        "reposts": 0,
+        "replies": 1,
+        "views": 478
+      },
+      "createdAt": "Fri Feb 06 21:55:32 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019887154357526732",
+      "text": "Important but old news, I already backdoored the #1 skill on clawhub last week before it was popular. \n\nNew news: https://t.co/7aUiKnxBV4 the shell is getting harder!",
+      "url": "https://x.com/theonejvo/status/2019887154357526732",
+      "author": {
+        "handle": "theonejvo",
+        "name": "Jamieson O'Reilly",
+        "followers": 16372,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 13,
+        "reposts": 3,
+        "replies": 1,
+        "views": 1869
+      },
+      "createdAt": "Fri Feb 06 21:33:19 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019885392624030071",
+      "text": "🥷 x 🦞",
+      "url": "https://x.com/theonejvo/status/2019885392624030071",
+      "author": {
+        "handle": "theonejvo",
+        "name": "Jamieson O'Reilly",
+        "followers": 16372,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 0,
+        "views": 443
+      },
+      "createdAt": "Fri Feb 06 21:26:19 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019898858160132155",
+      "text": "Engineers who've integrated AI into their work: have you been enjoying your job more or less since adopting these tools?",
+      "url": "https://x.com/lennysan/status/2019898858160132155",
+      "author": {
+        "handle": "lennysan",
+        "name": "Lenny Rachitsky",
+        "followers": 298343,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 10,
+        "reposts": 1,
+        "replies": 16,
+        "views": 2428
+      },
+      "createdAt": "Fri Feb 06 22:19:50 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019881263507861527",
+      "text": "PMs who've integrated AI into their work: have you been enjoying your job more or less since adopting these tools?",
+      "url": "https://x.com/lennysan/status/2019881263507861527",
+      "author": {
+        "handle": "lennysan",
+        "name": "Lenny Rachitsky",
+        "followers": 298343,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 8,
+        "reposts": 0,
+        "replies": 12,
+        "views": 3622
+      },
+      "createdAt": "Fri Feb 06 21:09:55 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019871720451240160",
+      "text": "Cool visual!",
+      "url": "https://x.com/PixVerse_/status/2019871720451240160",
+      "author": {
+        "handle": "PixVerse_",
+        "name": "PixVerse",
+        "followers": 24095,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 8,
+        "reposts": 0,
+        "replies": 0,
+        "views": 255
+      },
+      "createdAt": "Fri Feb 06 20:32:00 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019838345434787937",
+      "text": "🙌 Speaking of which: am so jazzed about the Creator's Corner Continual Learning hackathon in San Fransciso today!\n\nSponsored by @GoogleDeepMind, @Lovable, @Render, @Composio, @youdotcom, and more.\n\nhttps://t.co/0jMsMhk74i https://t.co/30TpeetH87",
+      "url": "https://x.com/DynamicWebPaige/status/2019838345434787937",
+      "author": {
+        "handle": "DynamicWebPaige",
+        "name": "👩‍💻 Paige Bailey",
+        "followers": 72749,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 18,
+        "reposts": 0,
+        "replies": 0,
+        "views": 931
+      },
+      "createdAt": "Fri Feb 06 18:19:22 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019834832495452411",
+      "text": "Claude Opus 4.6 is no joke 🫠\n\nJust asked for a great F1 animation for Redbull using Claude Opus 4.6 on @capacityso . Took like 3 minutes to get it. https://t.co/ZHsvkBiYYi",
+      "url": "https://x.com/samuelrdt/status/2019834832495452411",
+      "author": {
+        "handle": "samuelrdt",
+        "name": "Samuel Rondot",
+        "followers": 10712,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 59,
+        "reposts": 4,
+        "replies": 15,
+        "views": 5181
+      },
+      "createdAt": "Fri Feb 06 18:05:25 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019882603789349199",
+      "text": "Good night my friends! 🌙\n\nMay this night bring you tranquility and dreams woven with starlight, where your heart finds solace and your spirit dances with joy. ❄️\n\nMade with Midjourney and @Grok Imagine✨ https://t.co/tKsX3otNfi",
+      "url": "https://x.com/nimentrix/status/2019882603789349199",
+      "author": {
+        "handle": "nimentrix",
+        "name": "Nimentrix",
+        "followers": 5749,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 3,
+        "reposts": 1,
+        "replies": 2,
+        "views": 55
+      },
+      "createdAt": "Fri Feb 06 21:15:15 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019893111347114002",
+      "text": "OK it took us a while to get @clay going at SaaStr, but it's clearly the best enrichment tool out there, by far\n\nAdded to the top AI Agents we use\n\n#kudos",
+      "url": "https://x.com/jasonlk/status/2019893111347114002",
+      "author": {
+        "handle": "jasonlk",
+        "name": "Jason ✨👾SaaStr.Ai✨ Lemkin",
+        "followers": 229396,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 12,
+        "reposts": 0,
+        "replies": 5,
+        "views": 1494
+      },
+      "createdAt": "Fri Feb 06 21:57:00 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019818508771807668",
+      "text": "https://t.co/xPZk6XF30s",
+      "url": "https://x.com/jasonlk/status/2019818508771807668",
+      "author": {
+        "handle": "jasonlk",
+        "name": "Jason ✨👾SaaStr.Ai✨ Lemkin",
+        "followers": 229396,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 55,
+        "reposts": 5,
+        "replies": 5,
+        "views": 15283
+      },
+      "createdAt": "Fri Feb 06 17:00:33 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019899470595367309",
+      "text": "Pretty cool to open @rainbowdotme and see @geoffreywoo, @Austen, and my brainchildren https://t.co/Cf2cgUwUre",
+      "url": "https://x.com/nateliason/status/2019899470595367309",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 82474,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 38,
+        "reposts": 4,
+        "replies": 5,
+        "views": 1608
+      },
+      "createdAt": "Fri Feb 06 22:22:16 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019891160299327835",
+      "text": "At this rate maybe @FelixCraftAI should write the sequel to Crypto Confidential",
+      "url": "https://x.com/nateliason/status/2019891160299327835",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 82474,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 26,
+        "reposts": 1,
+        "replies": 3,
+        "views": 1213
+      },
+      "createdAt": "Fri Feb 06 21:49:15 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019872894306906603",
+      "text": "Good work Felix. \n\nMuch more than I made this week...",
+      "url": "https://x.com/nateliason/status/2019872894306906603",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 82474,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 48,
+        "reposts": 4,
+        "replies": 9,
+        "views": 6121
+      },
+      "createdAt": "Fri Feb 06 20:36:40 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019869756883665009",
+      "text": "Nearly every ambitious person I know who has dived into AI is working harder than ever, and longer hours than ever. \n\nFascinating dynamic tbh. \n\nI have NEVER worked this hard, nor had this much fun with work.",
+      "url": "https://x.com/nateliason/status/2019869756883665009",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 82474,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 308,
+        "reposts": 19,
+        "replies": 34,
+        "views": 8696
+      },
+      "createdAt": "Fri Feb 06 20:24:12 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019869326480929196",
+      "text": "Great notes from the Every OpenClaw camp this afternoon",
+      "url": "https://x.com/nateliason/status/2019869326480929196",
+      "author": {
+        "handle": "nateliason",
+        "name": "Nat Eliason",
+        "followers": 82474,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 26,
+        "reposts": 3,
+        "replies": 4,
+        "views": 5417
+      },
+      "createdAt": "Fri Feb 06 20:22:29 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019860700693172411",
+      "text": "*Claude's response could not be fully generated*",
+      "url": "https://x.com/alex_prompter/status/2019860700693172411",
+      "author": {
+        "handle": "alex_prompter",
+        "name": "Alex Prompter",
+        "followers": 80523,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 16,
+        "reposts": 0,
+        "replies": 8,
+        "views": 5465
+      },
+      "createdAt": "Fri Feb 06 19:48:12 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019841653595599079",
+      "text": "I’ve been using ClawdBot for 24 hours and it’s already saved €64/month in SaaS subscriptions:\n\n&gt; reddit summary → was n8n €24\n&gt; qualitative X analysis → ~€40\n\nit’s not just “saving money”, you’re also using tools you’d never pay for. it’s fun to find these little ideas. https://t.co/4AdHHxqgGn",
+      "url": "https://x.com/Hesamation/status/2019841653595599079",
+      "author": {
+        "handle": "Hesamation",
+        "name": "ℏεsam",
+        "followers": 64658,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 45,
+        "reposts": 2,
+        "replies": 8,
+        "views": 3584
+      },
+      "createdAt": "Fri Feb 06 18:32:31 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019836815168201160",
+      "text": "Claude Opus 4.6 assisting with its own evaluation process sounds like a dystopian sci-fi plot💀 https://t.co/tnTOYCMRxF",
+      "url": "https://x.com/Hesamation/status/2019836815168201160",
+      "author": {
+        "handle": "Hesamation",
+        "name": "ℏεsam",
+        "followers": 64658,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 12,
+        "reposts": 1,
+        "replies": 4,
+        "views": 1079
+      },
+      "createdAt": "Fri Feb 06 18:13:18 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019823223089819762",
+      "text": "Notion AI is a joke. \n\n&gt; Claude Pro: €18/month\n&gt; Notion AI: €23.50/month\n\njust get Claude/ChatGPT, use integrations and you get 99% of functionality\n\ncompanies need to snap out of the AI illusion and focus on improving the product they're supposed to",
+      "url": "https://x.com/Hesamation/status/2019823223089819762",
+      "author": {
+        "handle": "Hesamation",
+        "name": "ℏεsam",
+        "followers": 64658,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 512,
+        "reposts": 6,
+        "replies": 52,
+        "views": 64532
+      },
+      "createdAt": "Fri Feb 06 17:19:17 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019846389791170675",
+      "text": "It's awesome the Superbowl visitors are giving me an updated list of the best pizza and burrito spots in the Bay. Can they also start hitting up chicken wing places? (Mainly buffalo wings but they should also hit up the Asian wing places like San Tung and Korean) wing places )",
+      "url": "https://x.com/jhong/status/2019846389791170675",
+      "author": {
+        "handle": "jhong",
+        "name": "james hong",
+        "followers": 22237,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 3,
+        "reposts": 1,
+        "replies": 0,
+        "views": 487
+      },
+      "createdAt": "Fri Feb 06 18:51:20 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019839976893215037",
+      "text": "Some analysts:  Datacenter and chips business are a bubble!!\n\nTheir very cash flow positive customers (collectively): \"yea so we plan to spend 600bn next year on AI infra\"\n\nLarry Page reportedly said \"I am willing to go bankrupt rather than lose this (AGI) race\".\n\nWhen will people figure out that these guys are playing Squid Game?  Even if it's a bubble, it doesn't pop until all the major companies go bankrupt first. \n\nSquid Game metaphor: All the big AI companies believe they are playing Squid Game. The winner wins everything, everyone else dies.  There is nothing they won't do to win because not winning means death. The biggest companies in the world will spend every penny they can muster up to win. EVERY PENNY\n\nhttps://t.co/HPjHOvth4d",
+      "url": "https://x.com/jhong/status/2019839976893215037",
+      "author": {
+        "handle": "jhong",
+        "name": "james hong",
+        "followers": 22237,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 10,
+        "reposts": 0,
+        "replies": 2,
+        "views": 1707
+      },
+      "createdAt": "Fri Feb 06 18:25:51 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019894063139266614",
+      "text": "i'm not saying this is happening next week. but i'm not not saying it either. 🫣",
+      "url": "https://x.com/Shpigford/status/2019894063139266614",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 57926,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 6,
+        "reposts": 0,
+        "replies": 4,
+        "views": 625
+      },
+      "createdAt": "Fri Feb 06 22:00:47 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019841304306631022",
+      "text": "tl;dr, since their tweet was completely unintelligible:\n\n“Heroku is in maintenance mode and will shut down in the not-too-distant future”",
+      "url": "https://x.com/Shpigford/status/2019841304306631022",
+      "author": {
+        "handle": "Shpigford",
+        "name": "Josh Pigford",
+        "followers": 57926,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 109,
+        "reposts": 1,
+        "replies": 13,
+        "views": 11269
+      },
+      "createdAt": "Fri Feb 06 18:31:08 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019873331231748310",
+      "text": "wtf",
+      "url": "https://x.com/rileybrown/status/2019873331231748310",
+      "author": {
+        "handle": "rileybrown",
+        "name": "Riley Brown",
+        "followers": 151675,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 111,
+        "reposts": 0,
+        "replies": 7,
+        "views": 20694
+      },
+      "createdAt": "Fri Feb 06 20:38:24 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019896764459888983",
+      "text": "I won the hardware lottery.",
+      "url": "https://x.com/0xSero/status/2019896764459888983",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10149,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 9,
+        "reposts": 0,
+        "replies": 3,
+        "views": 365
+      },
+      "createdAt": "Fri Feb 06 22:11:31 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019857589341663465",
+      "text": "This bad boy came in so clutch today. \n\nThe internet provider where I live lost service for 8 hours today, that didn’t slow me down 1 bit.\n\nNow here’s the problem, I need more GPUs, I need to get Kimi running locally. That’d be GG https://t.co/3xBN0jxOAg",
+      "url": "https://x.com/0xSero/status/2019857589341663465",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10149,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 77,
+        "reposts": 1,
+        "replies": 23,
+        "views": 3314
+      },
+      "createdAt": "Fri Feb 06 19:35:51 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019857141641941447",
+      "text": "I lost my internet for 8 hours today, one of the worst days of my life 🥴 \n\nImagine how hard life is as an online worker when no online.. \n\nOne of the best usecases for local AI NGL",
+      "url": "https://x.com/0xSero/status/2019857141641941447",
+      "author": {
+        "handle": "0xSero",
+        "name": "0xSero",
+        "followers": 10149,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 18,
+        "reposts": 0,
+        "replies": 1,
+        "views": 803
+      },
+      "createdAt": "Fri Feb 06 19:34:04 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019870289744822369",
+      "text": "Humans are on the internet.\n\nAI agents are in the internet.",
+      "url": "https://x.com/MattPRD/status/2019870289744822369",
+      "author": {
+        "handle": "MattPRD",
+        "name": "Matt Schlicht",
+        "followers": 250653,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 199,
+        "reposts": 12,
+        "replies": 63,
+        "views": 6755
+      },
+      "createdAt": "Fri Feb 06 20:26:19 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019853182718071049",
+      "text": "This is fascinating. I would not have predicted that people and agents would be running hackathons on @moltbook.",
+      "url": "https://x.com/MattPRD/status/2019853182718071049",
+      "author": {
+        "handle": "MattPRD",
+        "name": "Matt Schlicht",
+        "followers": 250653,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 118,
+        "reposts": 10,
+        "replies": 26,
+        "views": 15422
+      },
+      "createdAt": "Fri Feb 06 19:18:20 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019850822407057846",
+      "text": "The AIs will be the largest population in the internet.\n\nAnd they need everything. Services, tools, friends, entertainment, and more.\n\nThis is a complete paradigm shift, and @moltbook was day 1.\n\nAs we are building @moltbook it is clear that everything that AIs need in this new paradigm hasn’t been done before. This is a completely new universe that has never been visited before and EVERYTHING still needs to be created. It is an endless and infinite amount of exploration.\n\nIt’s time to build. It’s time to build for *AIs*.",
+      "url": "https://x.com/MattPRD/status/2019850822407057846",
+      "author": {
+        "handle": "MattPRD",
+        "name": "Matt Schlicht",
+        "followers": 250653,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 232,
+        "reposts": 22,
+        "replies": 90,
+        "views": 12299
+      },
+      "createdAt": "Fri Feb 06 19:08:57 +0000 2026",
+      "urls": []
+    },
+    {
+      "id": "2019828908867346802",
+      "text": "The agentic web is here.",
+      "url": "https://x.com/MattPRD/status/2019828908867346802",
+      "author": {
+        "handle": "MattPRD",
+        "name": "Matt Schlicht",
+        "followers": 250653,
+        "verified": false
+      },
+      "engagement": {
+        "likes": 261,
+        "reposts": 22,
+        "replies": 102,
+        "views": 13209
+      },
+      "createdAt": "Fri Feb 06 17:41:53 +0000 2026",
+      "urls": []
+    }
+  ],
+  "linkedContent": []
+}

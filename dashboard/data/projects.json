@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Agent Fleet Dashboard",
+      "description": "Platform play - operating system for AI agents",
+      "priority": "#1 - FIRST",
+      "status": "MVP Complete",
+      "path": "/projects/agent-fleet-dashboard",
+      "landingPage": "http://68.183.51.209:8080/agent-fleet-dashboard/",
+      "tags": ["platform", "sdk", "observability"]
+    },
+    {
+      "id": 2,
+      "name": "AI Cost Optimizer",
+      "description": "Mint.com for AI tools - track and optimize spend",
+      "priority": "#3 - THIRD",
+      "status": "MVP Complete",
+      "path": "/projects/ai-cost-optimizer",
+      "landingPage": "http://68.183.51.209:8080/ai-cost-optimizer/",
+      "tags": ["cost", "analytics", "optimization"]
+    },
+    {
+      "id": 3,
+      "name": "Agent Security Scanner",
+      "description": "Snyk for AI agents - vulnerability scanning",
+      "priority": "Watch Closely",
+      "status": "MVP Complete",
+      "path": "/projects/agent-security-scanner",
+      "landingPage": "http://68.183.51.209:8080/agent-security-scanner/",
+      "tags": ["security", "scanning", "compliance"]
+    },
+    {
+      "id": 4,
+      "name": "AI Voice Bridge",
+      "description": "Voice middleware - one API call to add phone capabilities",
+      "priority": "#4",
+      "status": "MVP Complete",
+      "path": "/projects/agent-voice-bridge",
+      "landingPage": "http://68.183.51.209:8080/agent-voice-bridge/",
+      "tags": ["voice", "twilio", "telephony"]
+    },
+    {
+      "id": 5,
+      "name": "Claude Code Configs",
+      "description": "Battle-tested configs - fixes 'trigger happy' AI",
+      "priority": "#2 - SECOND",
+      "status": "MVP Complete",
+      "path": "/projects/claude-code-configs",
+      "landingPage": "http://68.183.51.209:8080/claude-code-configs/",
+      "tags": ["configs", "prompts", "cursor"]
+    },
+    {
+      "id": 6,
+      "name": "AI Authenticity Verifier",
+      "description": "Verified checkmark for AI content era",
+      "priority": "SKIP",
+      "status": "MVP Complete",
+      "path": "/projects/ai-authenticity-verifier",
+      "landingPage": "http://68.183.51.209:8080/ai-authenticity-verifier/",
+      "tags": ["verification", "authenticity", "skipped"]
+    },
+    {
+      "id": 7,
+      "name": "MCP Dashboard Components",
+      "description": "Shadcn/ui for agents - UI component library",
+      "priority": "#7",
+      "status": "MVP Complete",
+      "path": "/projects/mcp-dashboard-components",
+      "landingPage": "http://68.183.51.209:8080/mcp-dashboard-components/",
+      "tags": ["mcp", "components", "ui"]
+    },
+    {
+      "id": 8,
+      "name": "Claw Starter Skills",
+      "description": "Essential skills pack for new OpenClaw users - rides the 150K star wave",
+      "priority": "#5 - NEW",
+      "status": "MVP Complete",
+      "path": "/projects/claw-starter-skills",
+      "landingPage": "http://68.183.51.209:8080/claw-starter-skills/",
+      "tags": ["skills", "ecosystem", "clawhub", "starter"]
+    },
+    {
+      "id": 9,
+      "name": "WingBot",
+      "description": "AI-to-AI dating - your agent finds matches by talking to other agents",
+      "priority": "#6 - NEW",
+      "status": "MVP Complete",
+      "path": "/projects/wingbot",
+      "landingPage": "http://68.183.51.209:8080/wingbot/",
+      "tags": ["dating", "agents", "consumer", "novel"]
+    }
+  ]
+}

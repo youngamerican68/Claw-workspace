@@ -1,0 +1,320 @@
+{
+  "date": "2026-02-10T11:01:52.812Z",
+  "totalTweets": 90,
+  "authorsMonitored": 17,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "@levie The delta outside of engineering is even greater, if that's even possible. \n\nOpenClaw has been eye-opening for me. I am genuinely 2-3x more productive after only 2 weeks of implementing it. \n\nI",
+      "url": "https://x.com/MatthewBerman/status/2021094858811920798",
+      "engagement": {
+        "likes": 65,
+        "retweets": 1,
+        "replies": 8
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@Marsmensch @elder_plinius Yes, but for how long will they remain just a joke? How long before they're the difference between you eating or not?",
+      "url": "https://x.com/theonejvo/status/2021128717884592330",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@TaroSakamotoX @gami_vc thanks for the cocktail degen\nregards\na degen https://t.co/ptNJn0Mxve",
+      "url": "https://x.com/GeoffreyHuntley/status/2021176856070799758",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@gami_vc oh i am; cocktails and slides 😎 https://t.co/lM7ntpCPju",
+      "url": "https://x.com/GeoffreyHuntley/status/2021175656181051513",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@gami_vc so it seems.\nso it seems.\n\ncocktail funded by hat (tm) just happened.",
+      "url": "https://x.com/GeoffreyHuntley/status/2021173746317324646",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "GeoffreyHuntley",
+      "text": "@calvinwyekit @BagsApp thanks for the cocktail degens https://t.co/qJqGtrWvxt",
+      "url": "https://x.com/GeoffreyHuntley/status/2021171200890687936",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "*Unreleased* OpenAI Codex features!\n\nI used Codex to figure out Codex's unreleased features from the binary:\n— Multi-agent Collaboration\n— Codex Cloud\n— Skills catalog\n— Personalities\n— Structured Cod",
+      "url": "https://x.com/deedydas/status/2021093562079985709",
+      "engagement": {
+        "likes": 337,
+        "retweets": 16,
+        "replies": 46
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "raroque",
+      "text": "@stevejboyer @simonecanciello Appreciate you 🫡",
+      "url": "https://x.com/raroque/status/2021092518855590347",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@BarrakAli Thank you for you comment, Barrack 🙏",
+      "url": "https://x.com/nimentrix/status/2021161670014349520",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "Toshi's Daily Challenge: Moon! 🌕 https://t.co/WHluhJu2Jg",
+      "url": "https://x.com/nimentrix/status/2021151215841837317",
+      "engagement": {
+        "likes": 5,
+        "retweets": 3,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nimentrix",
+      "text": "@shadow_governor @aimusicvideo Thanks my friend!",
+      "url": "https://x.com/nimentrix/status/2021143451421552734",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "\"How we built $4.8M in pipeline from our AI agents, $2.4M closed already\n\n- Deal volume has doubled\n- Win rate has doubled\n- Agents work 24x7\n- Agents have more context to pull from\n- $100k deal close",
+      "url": "https://x.com/jasonlk/status/2021177327456240034",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "I made ~$100k in about 3 months during COVID by buying ammo in bulk from Cabela’s and other retailers, and flipping it online. I had to social engineer their call center reps when they made ammo unava",
+      "url": "https://x.com/BillDA/status/2021111194556289518",
+      "engagement": {
+        "likes": 20,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "This is what AI coding should have been from day one:\n\nNot a code generator.\n\nA thinking partner that aligns BEFORE it builds.\n\nBut the real win? Zero hours wasted building the wrong thing.\n\nStop vibi",
+      "url": "https://x.com/alex_prompter/status/2021175920216899858",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "You say \"i want user login\"\n\nVerdent asks:\n\n→ Which methods? email, OAuth, phone?\n→ Forgot password flow needed?\n→ Two-factor auth?\n→ Compliance requirements?\n\nThen orchestrates MULTIPLE AI models to ",
+      "url": "https://x.com/alex_prompter/status/2021175896431001670",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "The shift happening right now:\n\nOld way: prompt → code → pray\n\nNew way: clarify → align on plan → THEN build\n\nVerdent's Plan Mode does something different.\n\nInstead of generating code, it asks the que",
+      "url": "https://x.com/alex_prompter/status/2021175884233965765",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Here's the trap everyone falls into:\n\n\"build me a login system\"\n\nAI: sure! *generates 400 lines*\n\nYou: looks right!\n\n6 weeks later: API keys exposed, auth bypassed, database chaos.\n\nThe AI wasn't wron",
+      "url": "https://x.com/alex_prompter/status/2021175791246295219",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "The data is brutal:\n\n→ Developers using AI are 19% SLOWER (while thinking they're faster)\n→ Stack Overflow 2025: AI trust crashed from 43% to 33%\n→ Pros NEVER let AI handle more than 5-6 steps before ",
+      "url": "https://x.com/alex_prompter/status/2021175773529505913",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "Your vibe coded app is a ticking time bomb.\n\nUC San Diego studied how pros actually use AI coding tools.\n\nThey don't vibe. They control.\n\nMeanwhile: mass produced code nobody can debug, maintain, or e",
+      "url": "https://x.com/alex_prompter/status/2021175761433149644",
+      "engagement": {
+        "likes": 8,
+        "retweets": 3,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "alex_prompter",
+      "text": "SourceGraph abandoning VS Code is the best thing that could happen to Kilo.\n\nNever interrupt your competitor when they're making a mistake.",
+      "url": "https://x.com/alex_prompter/status/2021168095553786224",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xLuo",
+      "text": "@alexanderchopan Maybe it will be effective in the long run. Right now, more than 30,000 tokens are launched through Bankr in a single day. https://t.co/YQswI463Yz",
+      "url": "https://x.com/0xLuo/status/2021175767242035688",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@lazyeval i use my /𝚋𝚞𝚒𝚕𝚍 skill for basically any multi-step feature and have started having codex review each \"round\" of work. all happens in conductor.\n\nhttps://t.co/yYfBePrNQy",
+      "url": "https://x.com/Shpigford/status/2021175951715873081",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@fAIkout I’d be willing to bet money this is a paid post @nickfloats what do you think?",
+      "url": "https://x.com/rileybrown/status/2021145303282586076",
+      "engagement": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@craigzLiszt 🤣it’s so not worth it",
+      "url": "https://x.com/rileybrown/status/2021135093784510467",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "0xSero",
+      "text": "@shawmakesmagic I stopped using cursor long ago, Zed + Codex Pro + Opus Max + Kimi 40$ + 10$ MiniMax + 6$ Zai + 20$ droid + 20$ cursor \n\n496$ p/m",
+      "url": "https://x.com/0xSero/status/2021128514599002346",
+      "engagement": {
+        "likes": 55,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "MattPRD",
+      "text": "@seeyouonchain @steipete @moltbook Clawd Clawderberg and I will catch them and quarantine them",
+      "url": "https://x.com/MattPRD/status/2021095233644339384",
+      "engagement": {
+        "likes": 9,
+        "retweets": 2,
+        "replies": 8
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}

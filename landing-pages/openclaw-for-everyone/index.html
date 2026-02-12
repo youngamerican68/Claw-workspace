@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw — Your AI Assistant That Actually Works</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,400&family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-ink: #0a0a0f;
+            --warm-cream: #faf8f3;
+            --burnt-orange: #e85d04;
+            --electric-lime: #ccff00;
+            --muted-gold: #c9a227;
+            --soft-gray: #6b6b6b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--deep-ink);
+            color: var(--warm-cream);
+            overflow-x: hidden;
+        }
+        .hero-container {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100vh;
+            z-index: 100;
+            pointer-events: none;
+            overflow: hidden;
+            background: var(--deep-ink);
+        }
+        .hero-content {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%;
+            max-width: 1200px;
+            pointer-events: auto;
+        }
+        .hero-badge {
+            display: inline-block;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--electric-lime);
+            border: 1px solid var(--electric-lime);
+            padding: 0.5rem 1rem;
+            margin-bottom: 2rem;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { border-color: var(--electric-lime); }
+            50% { border-color: var(--burnt-orange); }
+        }
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3rem, 10vw, 8rem);
+            font-weight: 900;
+            line-height: 0.9;
+            margin-bottom: 1.5rem;
+        }
+        .hero-title .highlight { color: var(--burnt-orange); font-style: italic; }
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            color: var(--soft-gray);
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            line-height: 1.6;
+        }
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: var(--electric-lime);
+            color: var(--deep-ink);
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 1.25rem 2.5rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .hero-cta:hover { transform: translateY(-3px); box-shadow: 0 10px 40px rgba(204, 255, 0, 0.3); }
+        .floating-text {
+            position: absolute;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: rgba(250, 248, 243, 0.15);
+            animation: float 8s ease-in-out infinite;
+        }
+        .floating-text:nth-child(1) { top: 15%; left: 5%; }
+        .floating-text:nth-child(2) { top: 20%; right: 8%; animation-delay: 1s; }
+        .floating-text:nth-child(3) { bottom: 25%; left: 10%; animation-delay: 2s; }
+        .floating-text:nth-child(4) { bottom: 30%; right: 5%; animation-delay: 3s; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); opacity: 0.15; }
+            50% { transform: translateY(-20px); opacity: 0.4; }
+        }
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem; left: 50%;
+            transform: translateX(-50%);
+            color: var(--soft-gray);
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+        .main-content {
+            position: relative;
+            z-index: 200;
+            background: var(--deep-ink);
+            margin-top: 100vh;
+        }
+        section { padding: 6rem 2rem; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .social-proof {
+            background: linear-gradient(180deg, var(--deep-ink) 0%, #12121a 100%);
+            border-top: 1px solid rgba(250, 248, 243, 0.1);
+        }
+        .proof-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(250, 248, 243, 0.1);
+            padding: 3rem;
+            position: relative;
+        }
+        .proof-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 4px; height: 100%;
+            background: var(--burnt-orange);
+        }
+        .proof-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--muted-gold);
+            margin-bottom: 1.5rem;
+        }
+        .proof-quote {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-style: italic;
+            line-height: 1.4;
+            margin-bottom: 1.5rem;
+        }
+        .proof-attribution { display: flex; align-items: center; gap: 1rem; }
+        .proof-avatar {
+            width: 50px; height: 50px;
+            border-radius: 50%;
+            background: var(--burnt-orange);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+        .proof-name { font-weight: 700; font-size: 1.1rem; }
+        .proof-title { font-size: 0.9rem; color: var(--soft-gray); }
+        .problem {
+            background: var(--warm-cream);
+            color: var(--deep-ink);
+        }
+        .section-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--burnt-orange);
+            margin-bottom: 1rem;
+        }
+        .problem h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 3rem;
+            line-height: 1.2;
+        }
+        .pain-points {
+            display: grid;
+            gap: 2rem;
+        }
+        .pain-point {
+            display: flex;
+            gap: 1.5rem;
+            padding: 2rem;
+            background: rgba(10, 10, 15, 0.05);
+            border-left: 3px solid var(--burnt-orange);
+        }
+        .pain-number {
+            font-family: 'Space Mono', monospace;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--burnt-orange);
+            opacity: 0.5;
+        }
+        .pain-content h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .pain-content p { color: var(--soft-gray); line-height: 1.6; }
+        .solution { background: var(--deep-ink); }
+        .solution-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .solution-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(250, 248, 243, 0.1);
+            padding: 2.5rem;
+            transition: all 0.3s ease;
+        }
+        .solution-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--electric-lime);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        .solution-icon {
+            width: 60px; height: 60px;
+            background: var(--electric-lime);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        .solution-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .solution-card p { color: var(--soft-gray); line-height: 1.6; }
+        .cta-section {
+            background: linear-gradient(135deg, var(--burnt-orange) 0%, #d9480f 100%);
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 1rem;
+        }
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        .email-form {
+            display: flex;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .email-input {
+            flex: 1;
+            min-width: 250px;
+            padding: 1rem 1.5rem;
+            border: none;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 1rem;
+        }
+        .submit-btn {
+            background: var(--deep-ink);
+            color: var(--warm-cream);
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 1rem 2rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .submit-btn:hover {
+            background: var(--electric-lime);
+            color: var(--deep-ink);
+        }
+        footer {
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(250, 248, 243, 0.1);
+        }
+        .footer-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .footer-text {
+            font-size: 0.85rem;
+            color: var(--soft-gray);
+        }
+        @media (max-width: 768px) {
+            .pain-point { flex-direction: column; }
+            .email-form { flex-direction: column; }
+            .email-input { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Hero -->
+    <div class="hero-container">
+        <div class="floating-text">Email automation</div>
+        <div class="floating-text">Calendar sync</div>
+        <div class="floating-text">Research agent</div>
+        <div class="floating-text">Personal assistant</div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">Now Tier-1 AI Infrastructure</div>
+            <h1 class="hero-title">
+                OpenClaw<br>
+                <span class="highlight">for Everyone</span>
+            </h1>
+            <p class="hero-subtitle">
+                Your AI assistant that actually works. No coding required. 
+                Just tell it what you need, and it handles the rest.
+            </p>
+            <a href="#signup" class="hero-cta">
+                Get Early Access
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Social Proof -->
+        <section class="social-proof">
+            <div class="container">
+                <div class="proof-card">
+                    <div class="proof-label">Featured Recognition</div>
+                    <p class="proof-quote">
+                        "OpenClaw is one of the Top 5 AI tools you should be using right now. 
+                        Think of it as your personal AI assistant that can actually get things done."
+                    </p>
+                    <div class="proof-attribution">
+                        <div class="proof-avatar">MD</div>
+                        <div>
+                            <div class="proof-name">Miles Deutscher</div>
+                            <div class="proof-title">Crypto Analyst • 639K followers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem -->
+        <section class="problem">
+            <div class="container">
+                <div class="section-label">The Problem</div>
+                <h2>Other AI tools promise the world.<br>They deliver confusion.</h2>
+                <div class="pain-points">
+                    <div class="pain-point">
+                        <div class="pain-number">01</div>
+                        <div class="pain-content">
+                            <h3>Too Complicated</h3>
+                            <p>Endless prompts, complex interfaces, and features you'll never use. Most AI tools require a PhD in prompt engineering.</p>
+                        </div>
+                    </div>
+                    <div class="pain-point">
+                        <div class="pain-number">02</div>
+                        <div class="pain-content">
+                            <h3>Limited & Siloed</h3>
+                            <p>They can chat, but they can't DO. Your calendar, email, and tasks stay disconnected. You're still the middleman.</p>
+                        </div>
+                    </div>
+                    <div class="pain-point">
+                        <div class="pain-number">03</div>
+                        <div class="pain-content">
+                            <h3>Built for Developers</h3>
+                            <p>Most AI tools are made by engineers, for engineers. Where's the tool for everyone else?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution -->
+        <section class="solution">
+            <div class="container">
+                <div class="section-label">The Solution</div>
+                <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 1rem;">
+                    One assistant.<br>All your work.
+                </h2>
+                <p style="color: var(--soft-gray); font-size: 1.1rem; max-width: 600px;">
+                    OpenClaw connects to your email, calendar, and tools. Then it actually does the work for you.
+                </p>
+                <div class="solution-grid">
+                    <div class="solution-card">
+                        <div class="solution-icon">✉️</div>
+                        <h3>Email That Manages Itself</h3>
+                        <p>Prioritizes your inbox, drafts responses, and follows up on important threads. You just approve and send.</p>
+                    </div>
+                    <div class="solution-card">
+                        <div class="solution-icon">📅</div>
+                        <h3>Calendar Intelligence</h3>
+                        <p>Schedules meetings, finds the best times, and even prepares briefing docs before every call.</p>
+                    </div>
+                    <div class="solution-card">
+                        <div class="solution-icon">🔍</div>
+                        <h3>Research on Autopilot</h3>
+                        <p>Need competitive intel? Market research? Deep investigation? Just ask. OpenClaw does the digging.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section" id="signup">
+            <div class="container">
+                <h2>Ready to actually get things done?</h2>
+                <p>Join the early access list. Be among the first to experience AI that works for you.</p>
+                <form class="email-form" onsubmit="event.preventDefault(); alert('Thanks! We will be in touch soon.');">
+                    <input type="email" class="email-input" placeholder="Enter your email" required>
+                    <button type="submit" class="submit-btn">Get Early Access</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-logo">OpenClaw</div>
+            <p class="footer-text">Your AI assistant that actually works. © 2026</p>
+        </footer>
+    </div>
+</body>
+</html>

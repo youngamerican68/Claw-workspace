@@ -1,0 +1,440 @@
+{
+  "date": "2026-02-09T23:02:03.674Z",
+  "totalTweets": 145,
+  "authorsMonitored": 25,
+  "findings": [
+    {
+      "type": "business_signal",
+      "author": "MatthewBerman",
+      "text": "I can't figure out how to upgrade my Google AI Studio plan. \n\nI even tasked Gemini in Chrome to do it and IT COULDN'T.",
+      "url": "https://x.com/MatthewBerman/status/2020923648857837770",
+      "engagement": {
+        "likes": 61,
+        "retweets": 1,
+        "replies": 17
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Bitcoin has NEVER closed January and February red.\n\nDaily hopium. https://t.co/He9saRKSFD",
+      "url": "https://x.com/milesdeutscher/status/2020996173088407738",
+      "engagement": {
+        "likes": 0,
+        "retweets": 1,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "milesdeutscher",
+      "text": "Alright - my BEST AI coding guide ever.\n\nCodex 5.3 is live now, and I spent the weekend testing it.\n\nHere are my best 40 tips (from personal experience - no AI slop).\n\nIf you only bookmark one AI arti",
+      "url": "https://x.com/milesdeutscher/status/2020915857728426315",
+      "engagement": {
+        "likes": 69,
+        "retweets": 5,
+        "replies": 16
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Web3Aible",
+      "text": "@mark_k @OpenAI True. It has regressed down badly on quality.\nTry Kimi and you'll notice the difference at once.",
+      "url": "https://x.com/Web3Aible/status/2020987038485577740",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "theonejvo",
+      "text": "@keithofaptos Indeed Keith! Also it's only a base model, will require a lot of input from community to make it applicable to the widest range of real-world environments.",
+      "url": "https://x.com/theonejvo/status/2020906594876166421",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@jonnym1ller @AtlasForgeAI so cool",
+      "url": "https://x.com/lennysan/status/2020984218642420130",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "@JeremyNoronha @openclaw @SamgeeAI Hilarious",
+      "url": "https://x.com/lennysan/status/2020979495541588002",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "lennysan",
+      "text": "\"A bad trait of AI is that it does it's best not to hurt your feelings and never say to you're the dumb one. It says 'No, I'm the dumb one.' And then in the next request, instead of focusing on thinki",
+      "url": "https://x.com/lennysan/status/2020950337809768924",
+      "engagement": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 5
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "@Salmaaboukarr Usable by a small user group, not generally available",
+      "url": "https://x.com/deedydas/status/2020919624993485285",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "A software / product launch video with coherent text and animations\n\n3/ https://t.co/if1NTtZgiq",
+      "url": "https://x.com/deedydas/status/2020912981677072738",
+      "engagement": {
+        "likes": 17,
+        "retweets": 1,
+        "replies": 2
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "deedydas",
+      "text": "China's Bytedance just dropped the most advanced video generation model in the world.\n\nSeedance 2.0 has:\n— native audio gen (lipsynced speech + music)\n— drastic step up from Veo 3.1 / Sora 2 in qualit",
+      "url": "https://x.com/deedydas/status/2020911900968767976",
+      "engagement": {
+        "likes": 625,
+        "retweets": 76,
+        "replies": 57
+      },
+      "priority": "HIGH"
+    },
+    {
+      "type": "business_signal",
+      "author": "DynamicWebPaige",
+      "text": "happy birthday 🖤",
+      "url": "https://x.com/DynamicWebPaige/status/2020930931717255386",
+      "engagement": {
+        "likes": 4,
+        "retweets": 1,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "CalvinandNOBS",
+      "text": "Is anyone else having an issue where Amazon emails stopped flowing? https://t.co/GaveBf38zB",
+      "url": "https://x.com/CalvinandNOBS/status/2020973924620845555",
+      "engagement": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Super excited to have @Replit as a Diamond Partner for SaaStr AI 2026!!\n\n- Meet the team\n- Try the platform that powers SaaStr AI apps\n- Join the outdoor vibe coding platform, build your own app!\n- Ch",
+      "url": "https://x.com/jasonlk/status/2020992231822516406",
+      "engagement": {
+        "likes": 6,
+        "retweets": 2,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "jasonlk",
+      "text": "Databricks is accelerating at $5B+ ARR https://t.co/mxpqrBdLXA",
+      "url": "https://x.com/jasonlk/status/2020974708360200516",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "pbteja1998",
+      "text": "https://t.co/HMjWoQP8jq is 95% done.\n\nThe last 5% is taking so much time to get right. \n\nBut working to get it to early access customers as fast as I can...  \n\nAnd there are so many early access custo",
+      "url": "https://x.com/pbteja1998/status/2020947920053473296",
+      "engagement": {
+        "likes": 41,
+        "retweets": 0,
+        "replies": 7
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "@petergyang @openclaw more AI employees",
+      "url": "https://x.com/nateliason/status/2020987525318283586",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "nateliason",
+      "text": "The limiting factor with AI at this point is no longer intelligence, but desire.",
+      "url": "https://x.com/nateliason/status/2020961504707871015",
+      "engagement": {
+        "likes": 45,
+        "retweets": 2,
+        "replies": 14
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "BillDA",
+      "text": "Want to lead a chunky 8-figure ecom P&L across Shopify, Amazon, and retailer marketplaces?\n\nWe are hiring a VP of Ecommerce at FoodScience to own digital strategy for @NaturalDogCo, @VetriScience, @pe",
+      "url": "https://x.com/BillDA/status/2020932763537244352",
+      "engagement": {
+        "likes": 12,
+        "retweets": 3,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@JoePro Currently putting together a plan on how an Nvidia DGX Spark could super power my workflow. If Henry gives me the approval I could be moving forward.",
+      "url": "https://x.com/AlexFinn/status/2020944787227168916",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@TinaMBean @twistartups @openclaw @Jason 👀",
+      "url": "https://x.com/AlexFinn/status/2020944513456595081",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "You think I'm crazy. You call it a 'grift'\n\nI'm freeing you from the shackles of big AI. I'm pushing you to owning your own intelligence. I'm encouraging you to not give all your private data to corpo",
+      "url": "https://x.com/AlexFinn/status/2020935500903899232",
+      "engagement": {
+        "likes": 47,
+        "retweets": 0,
+        "replies": 17
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "AlexFinn",
+      "text": "@twistartups @openclaw showing off stuff that will blow your mind. join us",
+      "url": "https://x.com/AlexFinn/status/2020930925018874214",
+      "engagement": {
+        "likes": 32,
+        "retweets": 0,
+        "replies": 2
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "so many people aren’t often held back by a lack of opportunity, but by a lack of effort. it takes you long to realize this, even longer to digest it. most people know exactly what’s wrong with their l",
+      "url": "https://x.com/Hesamation/status/2020995435117134294",
+      "engagement": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "WHAT TO DO:\n\n1. disconnect https://t.co/AJNrFvVFv1 app integration immediately. go to Settings → security → connected apps and disconnect this malicious app.\n\n2. check your sessions in the security se",
+      "url": "https://x.com/Hesamation/status/2020969777158578596",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "https://t.co/GhBV8zr7wM has real security flaws enabling hackers to use their OAuth integration to gain access to connected accounts. https://t.co/EGNhIi8aaG",
+      "url": "https://x.com/Hesamation/status/2020969753075122339",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "the scammers reached out in disguise of a techcrunch employee, but this could happen in any other way. \n\nanyone sending you links to book a meeting from an apparently legit website, might use that vul",
+      "url": "https://x.com/Hesamation/status/2020969743092679160",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "this is exactly my question. I emailed @calcom to ask for an investigation. \n\ncomplete silence. \nno replies, no empathy.\n\nthere was a clear usage of their app when my account started posting malicious",
+      "url": "https://x.com/Hesamation/status/2020969733907152932",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "I checked the app, it was under the official @calcom domain. it was also a real https://t.co/VMAm76ija2 domain. the scammer didn’t make a fake OAuth app integration, it made a fake page to encourage t",
+      "url": "https://x.com/Hesamation/status/2020969722884542604",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "I was asked by a techcrunch editor (a scammer really) to book a meeting through @calcom. it was the real website (no phishing) in https://t.co/PuqQ07QcKT domain. after selecting the time slot and fill",
+      "url": "https://x.com/Hesamation/status/2020969713527099751",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Hesamation",
+      "text": "Anyone who has booked meetings from @calcom might be hacked and their X account exposed. \n\nMy account started posting 2-3 scam posts which I realized from a random reply notification and took down in ",
+      "url": "https://x.com/Hesamation/status/2020969703477477744",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "apple music: for people who love music\nspotify: for people who just want some sort of indiscriminate audio playing in their ear holes",
+      "url": "https://x.com/Shpigford/status/2020987432938733833",
+      "engagement": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 3
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "still need to do a few more rounds to feel comfortable with this setup, but so far loving using opus 4.6 as my main driver and then using codex 5.3 to review it.",
+      "url": "https://x.com/Shpigford/status/2020971207449842020",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "Shpigford",
+      "text": "@parterburn @Railway @hatchboxio @JustJake it's been a non-issue for me but 🤷‍♂️",
+      "url": "https://x.com/Shpigford/status/2020952179885080986",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "@vibecodeapp If you comment on this post you can try it for free. \n👇👇👇👇 \nhttps://t.co/eO2dnyOdq6",
+      "url": "https://x.com/rileybrown/status/2020980125211427073",
+      "engagement": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0
+      },
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "business_signal",
+      "author": "rileybrown",
+      "text": "You can now add Claude Code to any vibe coded app.\n\nWe just launched the new Claude Code integration on @vibecodeapp. \n\nWhich allows you to build fully Agentic Applications. \n\nIn a single prompt, with",
+      "url": "https://x.com/rileybrown/status/2020979522859041032",
+      "engagement": {
+        "likes": 35,
+        "retweets": 3,
+        "replies": 8
+      },
+      "priority": "MEDIUM"
+    }
+  ],
+  "summary": []
+}
