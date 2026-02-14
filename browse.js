@@ -9,6 +9,7 @@
  *   node browse.js <url> --full             # Text + links + metadata
  *   node browse.js <url> --wait 5000        # Wait ms before capture (for JS-heavy pages)
  *   node browse.js <url> --screenshot --out /path/to/file.png
+ *   node browse.js <url> --no-cookies           # Dismiss cookie banners before capture
  */
 
 const puppeteer = require('puppeteer-core');
@@ -29,12 +30,14 @@ function parseArgs() {
     wait: DEFAULT_WAIT,
     out: null,
     timeout: DEFAULT_TIMEOUT,
+    noCookies: false,
   };
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--screenshot') opts.screenshot = true;
     else if (args[i] === '--links') opts.links = true;
     else if (args[i] === '--full') opts.full = true;
+    else if (args[i] === '--no-cookies') opts.noCookies = true;
     else if (args[i] === '--wait' && args[i + 1]) opts.wait = parseInt(args[++i], 10);
     else if (args[i] === '--out' && args[i + 1]) opts.out = args[++i];
     else if (args[i] === '--timeout' && args[i + 1]) opts.timeout = parseInt(args[++i], 10);
@@ -54,11 +57,144 @@ function parseArgs() {
   return opts;
 }
 
+async function dismissCookies(page) {
+  // Common cookie consent button selectors
+  const selectors = [
+    // Generic accept/agree buttons
+    'button[id*="accept" i]',
+    'button[id*="agree" i]',
+    'button[id*="consent" i]',
+    'button[class*="accept" i]',
+    'button[class*="agree" i]',
+    'button[class*="consent" i]',
+    'a[id*="accept" i]',
+    'a[class*="accept" i]',
+    // Common cookie platforms
+    '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll', // Cookiebot
+    '#onetrust-accept-btn-handler',    // OneTrust
+    '.cc-accept-all',                   // CookieConsent
+    '.cc-btn.cc-dismiss',              // CookieConsent alt
+    '[data-cookiefirst-action="accept"]', // CookieFirst
+    '#gdpr-cookie-accept',             // Generic GDPR
+    '.cookie-notice-accept',           // Generic
+    '#cookie-accept',                  // Generic
+    '.js-cookie-accept',               // Generic
+    '[aria-label*="accept" i][aria-label*="cookie" i]',
+    '[aria-label*="Accept all" i]',
+    // Text-based matching via evaluate below
+  ];
+
+  for (const sel of selectors) {
+    try {
+      const btn = await page.$(sel);
+      if (btn) {
+        const visible = await btn.boundingBox();
+        if (visible) {
+          await btn.click();
+          await new Promise(r => setTimeout(r, 500));
+          return true;
+        }
+      }
+    } catch {}
+  }
+
+  // Fallback: find buttons by text content
+  const clicked = await page.evaluate(() => {
+    const patterns = [
+      /^accept\s*(all)?$/i,
+      /^agree$/i,
+      /^allow\s*(all)?$/i,
+      /^i\s*accept$/i,
+      /^ok$/i,
+      /^got\s*it$/i,
+      /^accept\s*(cookies?|all\s*cookies?)?$/i,
+      /^allow\s*(cookies?|all\s*cookies?)?$/i,
+      /^consent$/i,
+    ];
+    const candidates = document.querySelectorAll('button, a[role="button"], [class*="cookie"] a, [class*="consent"] a');
+    for (const el of candidates) {
+      const text = el.textContent.trim();
+      if (text.length > 50) continue;
+      for (const pat of patterns) {
+        if (pat.test(text)) {
+          el.click();
+          return true;
+        }
+      }
+    }
+    return false;
+  });
+
+  if (clicked) {
+    await new Promise(r => setTimeout(r, 500));
+    return true;
+  }
+
+  // Nuclear option: remove common cookie overlay elements from the DOM
+  await page.evaluate(() => {
+    const overlaySelectors = [
+      '#CybotCookiebotDialog',
+      '#onetrust-banner-sdk',
+      '#onetrust-consent-sdk',
+      '.cc-window',
+      '.cookie-banner',
+      '.cookie-consent',
+      '.cookie-notice',
+      '.cookie-popup',
+      '.gdpr-banner',
+      '[class*="cookiebot" i]',
+      '[class*="cookie-banner" i]',
+      '[class*="cookie-consent" i]',
+      '[class*="cookie-notice" i]',
+      '[id*="cookie-banner" i]',
+      '[id*="cookie-consent" i]',
+      '[id*="cookie-notice" i]',
+    ];
+    for (const sel of overlaySelectors) {
+      document.querySelectorAll(sel).forEach(el => el.remove());
+    }
+    // Also remove any fixed/sticky overlays that look like cookie banners
+    document.querySelectorAll('[style*="position: fixed"], [style*="position:fixed"]').forEach(el => {
+      const text = el.textContent.toLowerCase();
+      if (text.includes('cookie') || text.includes('consent') || text.includes('gdpr') || text.includes('privacy')) {
+        el.remove();
+      }
+    });
+  });
+
+  return false;
+}
+
 async function extractText(page) {
   return await page.evaluate(() => {
     // Remove script, style, nav, footer, header noise
     const remove = document.querySelectorAll('script, style, noscript, svg, iframe');
     remove.forEach(el => el.remove());
+
+    // Remove cookie/consent overlays from DOM before extraction
+    const cookieSelectors = [
+      '#CybotCookiebotDialog', '#CybotCookiebotDialogBodyUnderlay',
+      '#onetrust-banner-sdk', '#onetrust-consent-sdk',
+      '.cc-window', '.cookie-banner', '.cookie-consent', '.cookie-notice',
+      '.cookie-popup', '.gdpr-banner',
+      '[class*="cookiebot" i]', '[class*="cookie-banner" i]',
+      '[class*="cookie-consent" i]', '[class*="cookie-notice" i]',
+      '[id*="cookie-banner" i]', '[id*="cookie-consent" i]',
+      '[id*="CybotCookiebot" i]', '[id*="cookieconsent" i]',
+    ];
+    for (const sel of cookieSelectors) {
+      try { document.querySelectorAll(sel).forEach(el => el.remove()); } catch {}
+    }
+    // Remove fixed/sticky elements that mention cookies/consent/privacy
+    document.querySelectorAll('*').forEach(el => {
+      const style = window.getComputedStyle(el);
+      if (style.position === 'fixed' || style.position === 'sticky') {
+        const text = el.textContent.toLowerCase();
+        if (text.includes('cookie') || text.includes('consent') || text.includes('gdpr') || text.includes('we use cookies')) {
+          el.remove();
+        }
+      }
+    });
 
     function walk(node, depth) {
       let text = '';
@@ -171,9 +307,21 @@ async function main() {
       timeout: opts.timeout,
     });
 
-    // Wait for JS rendering
-    if (opts.wait > 0) {
+    // Dismiss cookie banners
+    if (opts.noCookies) {
+      // First attempt right after load
+      await dismissCookies(page);
+      // Wait for page to react to cookie acceptance
       await new Promise(r => setTimeout(r, opts.wait));
+      // Second pass to catch any stragglers
+      await dismissCookies(page);
+      // Extra wait for SPA content to load after cookie wall clears
+      await new Promise(r => setTimeout(r, 1500));
+    } else {
+      // Normal wait for JS rendering
+      if (opts.wait > 0) {
+        await new Promise(r => setTimeout(r, opts.wait));
+      }
     }
 
     // Screenshot mode
