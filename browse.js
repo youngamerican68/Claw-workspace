@@ -17,7 +17,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CHROMIUM_PATH = '/usr/bin/chromium-browser';
-const DEFAULT_TIMEOUT = 30000;
+const DEFAULT_TIMEOUT = 60000;
 const DEFAULT_WAIT = 2000;
 
 function parseArgs() {
@@ -30,7 +30,7 @@ function parseArgs() {
     wait: DEFAULT_WAIT,
     out: null,
     timeout: DEFAULT_TIMEOUT,
-    noCookies: false,
+    noCookies: true,
   };
 
   for (let i = 0; i < args.length; i++) {
