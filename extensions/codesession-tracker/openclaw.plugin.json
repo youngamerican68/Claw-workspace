@@ -1,0 +1,11 @@
+{
+  "id": "codesession-tracker",
+  "name": "Codesession Cost Tracker",
+  "description": "Tracks AI API usage costs via codesession-cli",
+  "version": "1.0.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
