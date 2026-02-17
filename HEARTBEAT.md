@@ -40,9 +40,23 @@ On Fridays (or when both scouts have fresh data):
 4. Prioritize convergent opportunities for build list
 5. **POST THE FULL CONVERGENCE REPORT in chat** (Telegram truncation is fine)
 
+## Scout-to-Build Workflow (AUTOMATIC)
+
+When scout reports identify 🔴 BUILD NOW opportunities:
+1. **IMMEDIATELY add to BUILD_QUEUE.md** with [pending] status
+2. **DO NOT wait for explicit approval** - start building within 1 hour
+3. **Use frontend-design skill** for all landing pages (never generic HTML)
+4. Deploy to preview system
+5. Update dashboard: `node /root/.openclaw/workspace/dashboard/add-project.js`
+6. Mark BUILD_QUEUE.md as [done]
+7. Message Paul with completion summary
+
+**CRITICAL:** Never end a scout session without either building the 🔴 item OR adding it to queue with clear ETA.
+
 ## Automated Actions
 - Analyze scout reports for build opportunities
-- Build MVPs from high-signal opportunities
+- Build MVPs from high-signal opportunities (🔴 = same day, 🟡 = within 48hrs)
+- Use frontend-design skill for ALL landing pages
 - Commit and push all builds to git
 - Update dashboard with new projects
 
@@ -59,3 +73,23 @@ If `/root/.openclaw/workspace/BUILD_QUEUE.md` contains pending items:
 ## Monitoring
 - Check server health daily
 - Monitor ClawHub for security alerts
+
+## Smol Scout Schedule (AI News / smol.ai)
+- Scraper runs daily at 13:00 UTC (8 AM EST)
+- Script: `node /root/.openclaw/workspace/smol-scout/smol-scout.js`
+- Fetches latest smol.ai newsletter, saves full content to data/
+
+## On Each Heartbeat - Check for NEW_SMOL_DATA
+If `/root/.openclaw/workspace/smol-scout/NEW_SMOL_DATA` exists:
+1. Read the data file path from NEW_SMOL_DATA
+2. Load the JSON (contains full newsletter content)
+3. Analyze using the **Vibe Architect prompt** from `/prompts/vibe-architect.md`
+4. Focus: Generate 5-7 creative, unique product ideas — NO boring tools
+5. Apply all 4 lenses: Salary Arbitrage, Vertical Integration, Invisible Goldmine, Distribution Hack
+6. Each idea must include: Name, Source DNA, Expensive Problem, Magic Button Workflow, Monetization, Build Estimate
+7. Save report to `/root/.openclaw/workspace/smol-scout/reports/vibe-report-[date].md`
+8. Delete the NEW_SMOL_DATA flag
+9. Sync to tracker: `node /root/.openclaw/workspace/smol-scout/smol-scout.js --sync <report-file>`
+10. **POST THE FULL VIBE REPORT in chat** — not a summary, the entire report
+
+**IMPORTANT:** This is NOT a typical scout report. Do NOT use SCOUT_REPORT_FORMAT.md. Use the Vibe Architect prompt exclusively. The output should be creative product ideas with "hmm" or "cool" factor, not signal analysis.
