@@ -1,89 +1,90 @@
-# Rook's AI Scout Report Format
+# Rook's Scout Report Format
 
-This is the definitive format for ALL scout reports (Twitter + Podcast).
-
-## Report Structure
-
-```markdown
-🪶 Rook's AI Scout Report — [Date]
-
-[Brief intro if needed]
+This format applies to Twitter and Podcast scout reports.
 
 ---
 
-## 1. [Emoji] [Catchy Title] — [Subtitle summarizing the signal]
+## Header (required, 2 lines)
 
-**What:** [1-2 paragraphs explaining what happened. Include specific numbers: follower counts, engagement, technical specs, funding amounts, user counts. Be concrete.]
-
-**How:** [1 paragraph on technical details or mechanism. How does it actually work? What's the implementation? Be specific.]
-
-**Links:** [Direct URLs to sources - tweets, blog posts, docs, announcements]
-
-**MY OPINION:** [2-3 paragraphs of direct, opinionated analysis. NOT generic templates. Connect to Paul's specific situation:
-- His OpenClaw/Clawdbot instance
-- His existing projects (Agent Fleet Dashboard, WingBot, etc.)
-- His skills and assets
-- What this means for HIM specifically
-Be direct — say "skip" if overhyped, call out hype without substance.]
-
-**Opportunity:** [One clear sentence describing the build opportunity]
-
-**What it would take:** [Concrete steps to build this. Not vague — specific technical approach, integrations needed, MVP scope.]
-
-**Difficulty:** [Time estimate: "2-3 weeks for basic version" or "Weekend hack" or "Multi-month if we want X"]
-
-**Priority:** [Emoji rating + reasoning]
-- 🔴 BUILD NOW — time-sensitive, validated demand
-- 🟡 Add to backlog — worth doing but not urgent  
-- ⚪ Monitor — watch how ecosystem evolves
-- ⛔ Skip — overhyped or not worth the effort
+- Scan window: [date range] | Sources: [number of tweets or podcast summaries scanned]
+- Excluded: [what was filtered out, e.g. "crypto, job posts, sub-5-like tweets"]
 
 ---
 
-[Repeat for each signal - aim for 5-10 quality items]
+## Section 1: What Happened (3-6 bullets)
+
+Each bullet has three parts:
+
+- **Signal:** One sentence. Who did what + specific numbers (followers, engagement, funding, specs). Must include a link where available.
+- **Why it matters** (one sentence, must be one of these four):
+  - Capability unlock: "This enables X that previously required Y."
+  - Distribution change: "This reaches buyer Z via channel C."
+  - Cost or latency drop: "This reduces cost/latency from A to B."
+  - Proof of demand: "Users paid / switched / complained at scale."
+- **Confidence:** High (primary source + numbers) / Med (credible secondary + partial numbers) / Low (rumor or vibes)
+
+Rules:
+- Twitter: minimum 10 likes OR from a verified/credible source regardless of likes
+- Podcasts: must contain a specific claim, metric, launch, or customer story
+- Rumors go here ONLY if corroborated by a second source. Label as "Unconfirmed."
 
 ---
 
-## 🧭 Pattern Summary
+## Section 2: Novel Tech and Tools (1-3 bullets)
 
-[What themes connect the signals? What's the underlying trend? 2-3 paragraphs of strategic analysis tying it together.]
+Each bullet has three parts:
+
+- **Name + link:** What it is in one sentence.
+- **What's genuinely new:** Must be a new primitive, new workflow, or new performance/cost frontier. Not a new UI for the same thing.
+- **Why it matters:** What becomes easier, cheaper, or faster. One sentence.
+
+Rules:
+- Skip well-known tools and incremental updates
+- If you can't articulate what's NEW (not just different), skip it
 
 ---
 
-*Report generated: [timestamp]*
-*Scanned by Rook for @PJStockbees*
-```
+## Section 3: Buildable Opportunity (if any)
 
-## Voice Guidelines
+If nothing qualifies: "Nothing actionable this scan."
 
-1. **Be direct and opinionated** — "This is overhyped" or "This is the real deal"
-2. **Connect to Paul's stack** — Always tie back to OpenClaw, his projects, his situation
-3. **Include real numbers** — Views, likes, followers, funding, users, parameters
-4. **"What it would take"** — Be specific about the build, not vague
-5. **No generic templates** — Every MY OPINION section should be unique analysis
-6. **Call out hype** — If something sounds good but isn't, say so
-7. **Prioritize actionable** — Skip interesting-but-useless signals
+If something qualifies (ALL must be true):
+- Targets a specific buyer (role + industry, not "developers")
+- Could generate revenue within 30 days of launch
+- Buildable in 2-3 weeks
+- Not on the Hard NO list
 
-## Priority Criteria
+Format:
+- **What:** One sentence
+- **Who pays:** Specific buyer, their role, their industry
+- **Why now:** Cite the signal(s) from Section 1 that create this opening
+- **Competitors:** Name funded and bootstrapped competitors. Confidence: High/Med/Low. If unknown, say "Unknown -- needs research."
+- **Quick test:** One specific action + pass/fail metric to validate in 48 hours
 
-**🔴 BUILD NOW:**
-- Multiple independent sources validate demand
-- Time-sensitive window (trend, launch, announcement)
-- Paul has existing assets that give him an edge
-- Clear revenue path
+Hard NO list:
+- OpenClaw plugins, guides, configs, or skills (we use it, we don't sell it)
+- AI code review or coding assistants
+- Chatbot builders
+- Prompt marketplaces
+- Generic AI writing tools
+- Local LLM runners
+- Agent orchestration frameworks
+- Anything requiring regulatory approval to ship
 
-**🟡 Add to backlog:**
-- Solid opportunity but not urgent
-- Needs more validation
-- Bigger build requiring planning
+---
 
-**⚪ Monitor:**
-- Emerging signal, not clear yet
-- Depends on ecosystem evolution
-- Wait and see
+## Pattern Summary (3-4 sentences max)
 
-**⛔ Skip:**
-- Overhyped with no substance
-- Crowded market with no differentiation
-- Doesn't fit Paul's skills/interests
-- Liability or regulatory concerns
+What connects the signals? What underlying trend do they point to?
+
+End with: **Watch next scan:** 1-2 specific things to look for that would confirm or invalidate this trend.
+
+---
+
+## Rules
+
+- Total length: under 800 words
+- Be direct -- "skip" if overhyped, flag if genuinely new
+- No elaborate build plans, pricing models, or TAM calculations
+- If a claim is self-reported and unverified, say so
+- Include links where available
