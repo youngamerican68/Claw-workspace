@@ -1,0 +1,82 @@
+# Example: Research Report Workflow
+# Four agents collaborate to create a comprehensive research report
+
+workflow:
+  name: Research Report Creation
+  description: Research → Analysis → Writing → Review pipeline for market research reports
+  
+agents:
+  data-collector:
+    name: DataCollector
+    role: Gather raw data from specified sources (web, APIs, databases)
+    triggers:
+      - human_command
+    handoff_to: data-analyst
+    
+  data-analyst:
+    name: DataAnalyst
+    role: Analyze data, identify trends, create visualizations
+    triggers:
+      - handoff_from: data-collector
+    handoff_to: report-writer
+    
+  report-writer:
+    name: ReportWriter
+    role: Write comprehensive report based on analysis
+    triggers:
+      - handoff_from: data-analyst
+    handoff_to: quality-reviewer
+    
+  quality-reviewer:
+    name: QualityReviewer
+    role: Review report for accuracy, clarity, and completeness
+    triggers:
+      - handoff_from: report-writer
+    handoff_to: human
+
+moltbook_schema:
+  database_title: Research Report Moltbook
+  properties:
+    - Task ID: title
+    - Report Topic: title
+    - From Agent: select
+    - To Agent: select
+    - Status: select (pending, in_progress, completed, pending_approval)
+    - Data Sources: multi_select
+    - Key Findings: rich_text
+    - Word Count: number
+    - Priority: select (low, medium, high)
+    - Timestamp: date
+
+example_flow:
+  step_1:
+    agent: DataCollector
+    action: Scrape 50 sources on "AI adoption in enterprise"
+    handoff_summary: Collected data from 50 sources
+    context:
+      sources: ["gartner.com", "mcKinsey.com", "..."]
+      raw_data_size: "2.5MB"
+    
+  step_2:
+    agent: DataAnalyst
+    action: Analyze trends and create charts
+    handoff_summary: Analysis complete, 5 key trends identified
+    context:
+      trends: ["40% YoY growth", "Healthcare leading adoption", "..."]
+      charts_created: 8
+    
+  step_3:
+    agent: ReportWriter
+    action: Write 2000-word report
+    handoff_summary: Report draft complete
+    context:
+      word_count: 2150
+      sections: ["Executive Summary", "Methodology", "Findings", "Recommendations"]
+    
+  step_4:
+    agent: QualityReviewer
+    action: Review and polish
+    handoff_summary: Final report ready for review
+    context:
+      changes_made: "Fixed 3 data inconsistencies, improved 2 transitions"
+      quality_score: "95/100"

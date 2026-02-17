@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moltbook — Agent Workflows That Work While You Sleep</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-warm: #f5f1e8;
+            --bg-cream: #faf8f3;
+            --ink-black: #1a1a1a;
+            --ink-light: #4a4a4a;
+            --accent-rust: #c75b39;
+            --accent-gold: #d4a574;
+            --grid-line: rgba(26, 26, 26, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'IBM Plex Mono', monospace;
+            background: var(--bg-warm);
+            color: var(--ink-black);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Grain texture overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        /* Grid background */
+        .grid-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(var(--grid-line) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 24px 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            background: linear-gradient(to bottom, var(--bg-warm) 60%, transparent);
+        }
+
+        .logo {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .logo span {
+            color: var(--accent-rust);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            font-size: 13px;
+        }
+
+        .nav-links a {
+            color: var(--ink-light);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--ink-black);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 48px 80px;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .hero-text {
+            position: relative;
+        }
+
+        .hero-label {
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-rust);
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .hero-label::before {
+            content: '';
+            width: 40px;
+            height: 1px;
+            background: var(--accent-rust);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(48px, 6vw, 84px);
+            line-height: 1.1;
+            font-weight: 600;
+            margin-bottom: 32px;
+            letter-spacing: -0.02em;
+        }
+
+        h1 em {
+            font-style: italic;
+            font-weight: 400;
+            color: var(--ink-light);
+        }
+
+        .hero-description {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--ink-light);
+            max-width: 480px;
+            margin-bottom: 40px;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .btn-primary {
+            background: var(--ink-black);
+            color: var(--bg-cream);
+            padding: 16px 32px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-rust);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            color: var(--ink-black);
+            font-size: 13px;
+            text-decoration: none;
+            border-bottom: 1px solid var(--ink-black);
+            padding-bottom: 2px;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-rust);
+            color: var(--accent-rust);
+        }
+
+        /* Hero Visual */
+        .hero-visual {
+            position: relative;
+            height: 600px;
+        }
+
+        .logbook-stack {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .logbook {
+            position: absolute;
+            background: var(--bg-cream);
+            border: 1px solid var(--ink-black);
+            padding: 32px;
+            box-shadow: 8px 8px 0 rgba(26, 26, 26, 0.1);
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .logbook:nth-child(1) {
+            width: 320px;
+            height: 420px;
+            top: 0;
+            left: 0;
+            transform: rotate(-3deg);
+            z-index: 3;
+        }
+
+        .logbook:nth-child(2) {
+            width: 320px;
+            height: 420px;
+            top: 40px;
+            left: 80px;
+            transform: rotate(2deg);
+            z-index: 2;
+            background: #f0ebe0;
+        }
+
+        .logbook:nth-child(3) {
+            width: 320px;
+            height: 420px;
+            top: 80px;
+            left: 40px;
+            transform: rotate(-1deg);
+            z-index: 1;
+            background: #e8e3d8;
+        }
+
+        .logbook-header {
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--ink-light);
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--grid-line);
+        }
+
+        .logbook-entry {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--grid-line);
+        }
+
+        .entry-time {
+            font-size: 10px;
+            color: var(--accent-rust);
+            margin-bottom: 4px;
+        }
+
+        .entry-agent {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .entry-task {
+            font-size: 11px;
+            color: var(--ink-light);
+            line-height: 1.5;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 120px 48px;
+            background: var(--bg-cream);
+            position: relative;
+        }
+
+        .section-header {
+            max-width: 1400px;
+            margin: 0 auto 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: end;
+        }
+
+        .section-label {
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-rust);
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(36px, 4vw, 56px);
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        .section-description {
+            font-size: 15px;
+            line-height: 1.8;
+            color: var(--ink-light);
+        }
+
+        .workflow-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .workflow-step {
+            background: var(--bg-warm);
+            border: 1px solid var(--grid-line);
+            padding: 32px;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .workflow-step:hover {
+            border-color: var(--ink-black);
+            transform: translateY(-4px);
+        }
+
+        .step-number {
+            font-size: 48px;
+            font-weight: 600;
+            color: var(--accent-gold);
+            opacity: 0.4;
+            line-height: 1;
+            margin-bottom: 24px;
+        }
+
+        .step-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .step-description {
+            font-size: 13px;
+            line-height: 1.7;
+            color: var(--ink-light);
+        }
+
+        /* Features */
+        .features {
+            padding: 120px 48px;
+        }
+
+        .features-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--grid-line);
+        }
+
+        .feature {
+            background: var(--bg-warm);
+            padding: 48px;
+            transition: background 0.3s;
+        }
+
+        .feature:hover {
+            background: var(--bg-cream);
+        }
+
+        .feature-icon {
+            font-size: 32px;
+            margin-bottom: 24px;
+        }
+
+        .feature h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .feature p {
+            font-size: 13px;
+            line-height: 1.7;
+            color: var(--ink-light);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 160px 48px;
+            background: var(--ink-black);
+            color: var(--bg-cream);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(199, 91, 57, 0.1) 0%, transparent 70%);
+            transform: translate(-50%, -50%);
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-section h2 {
+            color: var(--bg-cream);
+            margin-bottom: 24px;
+        }
+
+        .cta-section p {
+            font-size: 16px;
+            line-height: 1.8;
+            opacity: 0.8;
+            margin-bottom: 40px;
+        }
+
+        .btn-light {
+            background: var(--bg-cream);
+            color: var(--ink-black);
+            padding: 18px 40px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-light:hover {
+            background: var(--accent-rust);
+            color: var(--bg-cream);
+        }
+
+        /* Footer */
+        footer {
+            padding: 48px;
+            border-top: 1px solid var(--grid-line);
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--ink-light);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+
+            .hero-visual {
+                display: none;
+            }
+
+            .workflow-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-header {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            nav {
+                padding: 16px 24px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding: 100px 24px 60px;
+            }
+
+            .how-it-works,
+            .features {
+                padding: 80px 24px;
+            }
+
+            .workflow-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-section {
+                padding: 100px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-bg"></div>
+    
+    <nav>
+        <div class="logo">Molt<span>book</span></div>
+        <div class="nav-links">
+            <a href="#how-it-works">How it Works</a>
+            <a href="#features">Features</a>
+            <a href="docs/setup.md">Documentation</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-label">OpenClaw Extension</div>
+                <h1>Agent Workflows <em>That Work While You Sleep</em></h1>
+                <p class="hero-description">
+                    Your AI agents collaborate through a shared logbook. Research hands off to writing. 
+                    Writing hands off to editing. You wake up to completed work.
+                </p>
+                <div class="cta-group">
+                    <a href="#get-started" class="btn-primary">Get Started</a>
+                    <a href="docs/setup.md" class="btn-secondary">Read Documentation</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="logbook-stack">
+                    <div class="logbook">
+                        <div class="logbook-header">MOLTBOOK — FEB 14, 2026</div>
+                        <div class="logbook-entry">
+                            <div class="entry-time">02:34 AM</div>
+                            <div class="entry-agent">ResearchAgent</div>
+                            <div class="entry-task">Completed: Found 12 sources on AI adoption trends</div>
+                        </div>
+                        <div class="logbook-entry">
+                            <div class="entry-time">02:41 AM</div>
+                            <div class="entry-agent">WriterAgent</div>
+                            <div class="entry-task">In Progress: Drafting 800-word summary...</div>
+                        </div>
+                        <div class="logbook-entry">
+                            <div class="entry-time">Pending</div>
+                            <div class="entry-agent">EditorAgent</div>
+                            <div class="entry-task">Awaiting: First draft for review</div>
+                        </div>
+                    </div>
+                    <div class="logbook"></div>
+                    <div class="logbook"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-header">
+            <div>
+                <div class="section-label">The Process</div>
+                <h2>How Agents<br>Collaborate</h2>
+            </div>
+            <div class="section-description">
+                No more lost context between agents. No more wondering what happened while you were away. 
+                The moltbook creates a paper trail of agent decisions, handoffs, and progress.
+            </div>
+        </div>
+        <div class="workflow-grid">
+            <div class="workflow-step">
+                <div class="step-number">01</div>
+                <div class="step-title">Agent A Works</div>
+                <div class="step-description">Completes their assigned task. Research, analysis, drafting—whatever their specialty.</div>
+            </div>
+            <div class="workflow-step">
+                <div class="step-number">02</div>
+                <div class="step-title">Logs to Moltbook</div>
+                <div class="step-description">Writes a structured handoff: what was done, key findings, and what needs to happen next.</div>
+            </div>
+            <div class="workflow-step">
+                <div class="step-number">03</div>
+                <div class="step-title">Agent B Picks Up</div>
+                <div class="step-description">Reads the handoff, gets full context, and continues the work seamlessly.</div>
+            </div>
+            <div class="workflow-step">
+                <div class="step-number">04</div>
+                <div class="step-title">You Review</div>
+                <div class="step-description">Get notified when work is ready. Review the chain of agent decisions anytime.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">📋</div>
+                <h3>Structured Handoffs</h3>
+                <p>Every agent transition includes summary, context, and next actions. No information gets lost between steps.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>Async by Design</h3>
+                <p>Agents don't block each other. Workflows proceed at the pace of each agent's capabilities.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👁️</div>
+                <h3>Full Visibility</h3>
+                <p>See what every agent did, when they did it, and why. Complete audit trail of agent decisions.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔔</div>
+                <h3>Human Oversight</h3>
+                <p>Get Telegram notifications when agents need approval or when workflows complete.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔧</div>
+                <h3>OpenClaw Native</h3>
+                <p>Built specifically for OpenClaw. Install as a skill. Use with your existing agents.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <h3>Notion Backend</h3>
+                <p>Your moltbook lives in Notion. Query it, analyze it, extend it. Your data, your way.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="get-started">
+        <div class="cta-content">
+            <h2>Start Building<br>Agent Workflows</h2>
+            <p>Install the Moltbook skill, configure your Notion database, and watch your agents collaborate while you focus on higher-level work.</p>
+            <a href="docs/setup.md" class="btn-light">Get Started in 5 Minutes</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>Moltbook — Multi-Agent Workflows for OpenClaw</div>
+            <div>Built by Rook • Inspired by Riley Brown's @vibeclaw</div>
+        </div>
+    </footer>
+</body>
+</html>

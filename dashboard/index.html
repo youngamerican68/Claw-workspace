@@ -3,58 +3,334 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Dashboard</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 min-h-screen p-8">
-    <div class="max-w-7xl mx-auto">
-        <header class="mb-8">
-            <h1 class="text-4xl font-bold text-gray-900 mb-2">Project Dashboard</h1>
-            <p class="text-gray-600">Organize and track all AI opportunity projects</p>
-            <div class="mt-4 flex gap-4 text-sm">
-                <span class="bg-gray-200 px-3 py-1 rounded-full">15 Projects</span>
-                <span class="bg-green-200 px-3 py-1 rounded-full">15 Complete</span>
-            </div>
-        </header>
+    <title>Previews — Rook's Builds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #e8e6e1;
+            --bg-secondary: #d4d0c8;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --accent: #ff3300;
+            --border: #1a1a1a;
+        }
 
-        <div id="projects" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <!-- Projects will be inserted here -->
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Space Mono', monospace;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.4;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.04;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        header {
+            border-bottom: 2px solid var(--border);
+            padding: 40px;
+            position: relative;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+            align-items: end;
+        }
+
+        h1 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(64px, 10vw, 140px);
+            font-weight: 800;
+            line-height: 0.85;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            display: block;
+            color: var(--accent);
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: var(--text-secondary);
+            max-width: 400px;
+            line-height: 1.6;
+        }
+
+        .stats {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            border-left: 2px solid var(--border);
+            padding-left: 40px;
+        }
+
+        .stat {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-number {
+            font-family: 'Syne', sans-serif;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 1;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        main {
+            padding: 0 40px 80px;
+        }
+
+        .section-header {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 60px 0 40px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .section-title {
+            font-family: 'Syne', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .last-updated {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .projects {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .project {
+            display: grid;
+            grid-template-columns: 80px 1fr 120px 100px;
+            gap: 40px;
+            align-items: center;
+            padding: 32px 0;
+            border-bottom: 1px solid rgba(26, 26, 26, 0.2);
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .project::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            right: -20px;
+            top: 0;
+            bottom: 0;
+            background: var(--bg-secondary);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+
+        .project:hover::before {
+            opacity: 1;
+        }
+
+        .project:hover {
+            transform: translateX(8px);
+        }
+
+        .project-number {
+            font-size: 12px;
+            color: var(--text-secondary);
+            font-family: 'Syne', sans-serif;
+        }
+
+        .project-info h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .project-info p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            max-width: 500px;
+        }
+
+        .project-date {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-align: right;
+        }
+
+        .project-arrow {
+            font-size: 24px;
+            text-align: right;
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover .project-arrow {
+            transform: translateX(8px);
+        }
+
+        .new-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 4px 8px;
+            margin-left: 12px;
+            vertical-align: middle;
+        }
+
+        footer {
+            border-top: 2px solid var(--border);
+            padding: 40px;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 900px) {
+            .header-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .stats {
+                border-left: none;
+                border-top: 2px solid var(--border);
+                padding-left: 0;
+                padding-top: 40px;
+                flex-direction: row;
+            }
+
+            .project {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .project-date,
+            .project-arrow {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div>
+                <h1>Previews<span>.</span></h1>
+                <p class="subtitle">A collection of AI-powered tools, landing pages, and experiments built for OpenClaw.</p>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number" id="project-count">--</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+            </div>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <div class="section-header">
+            <span class="section-title">Latest Builds</span>
+            <span class="last-updated" id="last-updated">Loading...</span>
+        </div>
+
+        <div class="projects" id="projects-container">
+            <!-- Projects loaded dynamically from projects.json -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <span>Built by Rook for OpenClaw</span>
+            <span>68.183.51.209</span>
+        </div>
+    </footer>
 
     <script>
-        const projects = [
-            { id: 1, name: "Agent Fleet Dashboard", priority: "#1 - FIRST", status: "MVP Complete", desc: "Platform play - operating system for AI agents", url: "http://68.183.51.209:8080/agent-fleet-dashboard/", color: "bg-red-100 text-red-800" },
-            { id: 2, name: "AI Cost Optimizer", priority: "#3 - THIRD", status: "MVP Complete", desc: "Mint.com for AI tools - track and optimize spend", url: "http://68.183.51.209:8080/ai-cost-optimizer/", color: "bg-yellow-100 text-yellow-800" },
-            { id: 3, name: "Agent Security Scanner", priority: "Watch Closely", status: "MVP Complete", desc: "Snyk for AI agents - vulnerability scanning", url: "http://68.183.51.209:8080/agent-security-scanner/", color: "bg-blue-100 text-blue-800" },
-            { id: 4, name: "AI Voice Bridge", priority: "#4", status: "MVP Complete", desc: "Voice middleware - one API call to add phone capabilities", url: "http://68.183.51.209:8080/agent-voice-bridge/", color: "bg-green-100 text-green-800" },
-            { id: 5, name: "Claude Code Configs", priority: "#2 - SECOND", status: "MVP Complete", desc: "Battle-tested configs - fixes 'trigger happy' AI", url: "http://68.183.51.209:8080/claude-code-configs/", color: "bg-orange-100 text-orange-800" },
-            { id: 6, name: "AI Authenticity Verifier", priority: "SKIP", status: "MVP Complete", desc: "Verified checkmark for AI content era", url: "http://68.183.51.209:8080/ai-authenticity-verifier/", color: "bg-gray-100 text-gray-800" },
-            { id: 7, name: "MCP Dashboard Components", priority: "#7", status: "MVP Complete", desc: "Shadcn/ui for agents - UI component library", url: "http://68.183.51.209:8080/mcp-dashboard-components/", color: "bg-green-100 text-green-800" },
-            { id: 8, name: "Claw Task Tracker", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Smart task management with retry limits and stuck detection", url: "http://68.183.51.209:8080/claw-task-tracker/", color: "bg-purple-100 text-purple-800" },
-            { id: 9, name: "How I Use Claw", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Workflow showcase platform - real Claw walkthroughs", url: "http://68.183.51.209:8080/claw-workflow-showcase/", color: "bg-orange-100 text-orange-800" },
-            { id: 10, name: "ClawHub Security Scanner", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Supply chain attack protection for ClawHub packages", url: "http://68.183.51.209:8080/clawhub-security-scanner/", color: "bg-red-100 text-red-800" },
-            { id: 11, name: "Claw Cloud", priority: "Feb 2 Scout", status: "MVP Complete", desc: "Hosted OpenClaw deployment in 2 minutes", url: "http://68.183.51.209:8080/claw-hosted-deploy/", color: "bg-blue-100 text-blue-800" },
-            { id: 12, name: "Agent Fleet Dashboard v2", priority: "Feb 4 Scout", status: "MVP Complete", desc: "Datadog for AI agents - glass-morphism design", url: "http://68.183.51.209:8080/agent-fleet-dashboard-v2/", color: "bg-indigo-100 text-indigo-800" },
-            { id: 13, name: "AI SDR Agent", priority: "Feb 10 Scout 🔴", status: "MVP Complete", desc: "AI sales development rep - email, LinkedIn, calendar automation", url: "#", color: "bg-red-100 text-red-800" },
-            { id: 14, name: "Anti-Vibe Coding", priority: "Feb 10 Scout", status: "Content Ready", desc: "Positioning content - structured vs vibe coding", url: "#", color: "bg-blue-100 text-blue-800" },
-            { id: 15, name: "Coding Agent Fleet", priority: "Feb 10 Scout", status: "MVP Complete", desc: "Multi-agent coding workflow with GitHub Actions", url: "#", color: "bg-purple-100 text-purple-800" }
-        ];
-
-        const container = document.getElementById('projects');
-        projects.forEach(p => {
-            container.innerHTML += `
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                    <div class="flex justify-between items-start mb-3">
-                        <span class="text-xs font-semibold px-2 py-1 rounded ${p.color}">${p.priority}</span>
-                        <span class="text-xs font-semibold px-2 py-1 rounded bg-green-100 text-green-800">${p.status}</span>
-                    </div>
-                    <h2 class="text-xl font-bold text-gray-900 mb-2">${p.name}</h2>
-                    <p class="text-gray-600 text-sm mb-4">${p.desc}</p>
-                    <a href="${p.url}" target="_blank" class="inline-block w-full text-center bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition-colors">View Landing Page</a>
-                </div>
-            `;
-        });
+        // Load projects from JSON
+        fetch('projects.json')
+            .then(response => response.json())
+            .then(projects => {
+                // Update project count
+                document.getElementById('project-count').textContent = String(projects.length).padStart(2, '0');
+                
+                // Update last updated date
+                const now = new Date();
+                document.getElementById('last-updated').textContent = `Last updated: ${now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+                
+                // Render projects
+                const container = document.getElementById('projects-container');
+                container.innerHTML = projects.map(project => `
+                    <a href="${project.url}" class="project">
+                        <span class="project-number">${project.number}</span>
+                        <div class="project-info">
+                            <h2>${project.title}${project.isNew ? '<span class="new-badge">New</span>' : ''}</h2>
+                            <p>${project.description}</p>
+                        </div>
+                        <span class="project-date">${project.date}</span>
+                        <span class="project-arrow">→</span>
+                    </a>
+                `).join('');
+            })
+            .catch(error => {
+                console.error('Error loading projects:', error);
+                document.getElementById('projects-container').innerHTML = '<p style="padding: 40px 0; color: var(--text-secondary);">Error loading projects. Please refresh.</p>';
+            });
     </script>
 </body>
 </html>

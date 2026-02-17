@@ -8,6 +8,36 @@ This skill guides creation of distinctive, production-grade frontend interfaces 
 
 The user provides frontend requirements: a component, page, application, or interface to build. They may include context about the purpose, audience, or technical constraints.
 
+## Design Research (Using Browser Tool)
+
+Before designing, research current design trends and gather inspiration using the browser tool:
+
+```bash
+# Screenshot design inspiration from curated sites
+node browse.js https://readymag.com/examples --no-cookies --screenshot --timeout 60000
+node browse.js https://www.awwwards.com/websites/ --no-cookies --screenshot --timeout 60000
+
+# Research specific competitor or reference sites
+node browse.js https://competitor-site.com --no-cookies --screenshot --out /tmp/reference.png
+```
+
+**Key sites for inspiration:**
+- **Readymag** (readymag.com/examples) — Editorial, portfolio, landing page designs
+- **Awwwards** (awwwards.com) — Award-winning web design
+- **Land Book** (land-book.com) — Landing page inspiration
+- **Godly** (godly.website) — Best web design
+- **SiteInspire** (siteinspire.com) — Curated web design gallery
+
+**What to look for:**
+- Typography pairings and treatments
+- Color schemes and contrast ratios
+- Layout patterns (grid systems, asymmetry, whitespace)
+- Animation styles and timing
+- Visual textures and atmospheric details
+- Navigation patterns
+
+Screenshot 3-5 examples that match your intended aesthetic direction before starting to code.
+
 ## Design Thinking
 
 Before coding, understand the context and commit to a BOLD aesthetic direction:

@@ -76,3 +76,63 @@
 - Podcast sync: Mon/Thu
 - Target: 2+ landing pages per scout cycle
 - Current: 4 projects deployed
+
+---
+
+## OpenClaw Mega Cheatsheet (2026 Edition)
+
+*Source: MoltFounders community reference guide — added Feb 17, 2026*
+
+### Core CLI Commands
+- `openclaw gateway` — Manage gateway daemon (start/stop/restart/status)
+- `openclaw channels` — List/configure messaging channels
+- `openclaw onboard` — Set up new channel (WhatsApp, Telegram, etc.)
+- `openclaw doctor` — Diagnostics and health checks
+- `openclaw config` — View/edit configuration
+- `openclaw models` — List available models and aliases
+
+### Quick Installation
+```bash
+npm install -g openclaw
+```
+
+### Channel Management
+Supported: WhatsApp, Telegram, Discord, iMessage, Slack, IRC, Signal
+- Each channel requires separate onboarding
+- Bot tokens/API keys stored in config
+- Multiple channels can run simultaneously
+
+### In-Chat Slash Commands
+- `/status` — Show session status, model, costs
+- `/model [alias]` — Switch model (e.g., `/model opus`)
+- `/compact` — Compress conversation history
+- `/new` or `/reset` — Start fresh session
+- `/think` or `/reasoning` — Toggle reasoning mode
+- `/help` — List available commands
+
+### Essential Paths
+- Workspace: `/root/.openclaw/workspace/`
+- Memory: `/root/.openclaw/workspace/memory/`
+- Skills: `/root/.openclaw/workspace/skills/` or `/usr/lib/node_modules/openclaw/skills/`
+- Config: `~/.openclaw/config.json`
+- Logs: `~/.openclaw/logs/`
+
+### Voice & TTS
+- TTS tool available via `tts()` function
+- Supports multiple voices
+- Returns MEDIA: path for playback
+
+### Memory & Models
+- Memory files: `MEMORY.md`, `SOUL.md`, `USER.md`, `observations.md`
+- Daily logs: `memory/YYYY-MM-DD.md`
+- Model aliases: `opus`, `sonnet`, `haiku`, `default`
+
+### Hooks & Skills
+- Hooks: Pre/post processing for tool calls
+- Skills: Specialized capabilities in `skills/` directory
+- Custom skills: Add to `~/.openclaw/skills/`
+
+### Troubleshooting
+- `getUpdates conflict` = two instances with same bot token
+- `browser.noSandbox: true` for headless servers
+- Session recovery: `run-observer.sh --recover`

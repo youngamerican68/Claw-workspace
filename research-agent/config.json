@@ -1,0 +1,28 @@
+{
+  "model": "hf:MiniMaxAI/MiniMax-M2.1",
+  "max_llm_calls": 180,
+  "max_threads_per_sub": 4,
+  "max_outbound_links": 2,
+  "session_hours": 8,
+  "topics": [
+    "AI agents",
+    "autonomous agents",
+    "agent frameworks",
+    "OpenClaw",
+    "server security",
+    "VPS hardening",
+    "self-hosted AI",
+    "local LLMs",
+    "agent tools",
+    "landing pages",
+    "side projects",
+    "maker tools",
+    "prompt engineering",
+    "agent memory",
+    "MCP servers"
+  ],
+  "subreddits": [],
+  "include_hn": true,
+  "wait_between_llm_ms": 3000,
+  "wait_between_fetch_ms": 2000
+}

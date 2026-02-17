@@ -6,7 +6,7 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 
 Things like:
 - Camera names and locations
-- SSH hosts and aliases  
+- SSH hosts and aliases
 - Preferred voices for TTS
 - Speaker/room names
 - Device nicknames
@@ -60,13 +60,23 @@ node /root/.openclaw/workspace/browse.js https://example.com --links
 
 ### Options
 
+- `--no-cookies` — Auto-dismiss cookie consent banners before capture. **Always use this on unfamiliar sites.**
 - `--wait <ms>` — Extra wait for JS-heavy pages (default: 2000). Use 5000+ for SPAs.
 - `--timeout <ms>` — Navigation timeout (default: 30000). Use 60000 for slow sites.
 - `--out <path>` — Output path for screenshots.
+
+### Cookie Dismissal
+
+Use `--no-cookies` to auto-dismiss cookie consent banners. Works with Cookiebot, OneTrust, CookieConsent, and most standard cookie dialogs. Always use this when browsing sites you haven't visited before — most European sites have cookie walls that clutter output.
+
+```bash
+node /root/.openclaw/workspace/browse.js https://readymag.com --no-cookies --full --timeout 60000
+```
 
 ### Notes
 
 - This is a real browser — it renders JavaScript, handles cookies, follows redirects.
 - Text output is truncated at 20,000 chars.
 - Screenshots are full-page PNGs.
-- For cookie-banner-heavy sites, the text may include consent dialog content.
+- For design-heavy sites, use `--screenshot` instead of text extraction.
+- SPA sites may need `--wait 5000` or higher for content to render.

@@ -1,0 +1,65 @@
+# Example: Blog Post Creation Workflow
+# Three agents collaborate to create a blog post
+
+workflow:
+  name: Blog Post Creation
+  description: Research → Write → Edit pipeline for blog posts
+  
+agents:
+  research-agent:
+    name: ResearchAgent
+    role: Find and summarize sources on a topic
+    triggers:
+      - human_command
+      - scheduled
+    handoff_to: writer-agent
+    
+  writer-agent:
+    name: WriterAgent
+    role: Create first draft based on research
+    triggers:
+      - handoff_from: research-agent
+    handoff_to: editor-agent
+    
+  editor-agent:
+    name: EditorAgent
+    role: Polish and finalize the draft
+    triggers:
+      - handoff_from: writer-agent
+    handoff_to: human
+
+moltbook_schema:
+  database_title: Blog Post Moltbook
+  properties:
+    - Task ID: title
+    - From Agent: select
+    - To Agent: select
+    - Status: select (pending, in_progress, completed, pending_approval)
+    - Summary: rich_text
+    - Next Action: rich_text
+    - Priority: select (low, medium, high)
+    - Timestamp: date
+
+example_flow:
+  step_1:
+    agent: ResearchAgent
+    action: Search for 10 sources on "AI trends"
+    handoff_summary: Found 10 sources on AI trends
+    context:
+      sources: [...]
+      key_findings: "Enterprise AI adoption up 40%"
+    
+  step_2:
+    agent: WriterAgent
+    action: Write 500-word draft
+    handoff_summary: Draft complete, 500 words
+    context:
+      word_count: 500
+      tone: professional
+    
+  step_3:
+    agent: EditorAgent
+    action: Edit for clarity and style
+    handoff_summary: Final version ready for review
+    context:
+      changes_made: "Fixed transitions, added examples"

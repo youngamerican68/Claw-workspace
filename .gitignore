@@ -3,3 +3,36 @@ node_modules/
 out/
 *.pack
 .remotion/
+
+# Secrets
+.env
+
+# Runtime state
+.openclaw/
+.openclaw-memory/
+logs/
+
+# Generated data (scouts produce this daily, don't track)
+twitter-scout/data/
+twitter-scout/reports/
+twitter-scout/NEW_DATA_READY
+twitter-scout/.last-sync
+smol-scout/data/
+smol-scout/reports/
+smol-scout/NEW_SMOL_DATA
+discord-scout/data/
+discord-scout/cron.log
+journal-scout/data/
+journal-scout/reports/
+podcast-scout/reports/
+
+# Observer state
+memory/.observer-last-hash
+memory/.observer-last-run
+
+# Temp files
+size-test.txt
+fix_json.py
+debug-cookies.js
+run_shieldbot_audit.py
+shieldbot_*

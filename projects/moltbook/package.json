@@ -1,0 +1,25 @@
+{
+  "name": "moltbook-as-a-service",
+  "version": "1.0.0",
+  "description": "Multi-agent workspace template for OpenClaw",
+  "main": "src/orchestrator.js",
+  "scripts": {
+    "start": "node src/orchestrator.js examples/blog-workflow/agents.yaml",
+    "test": "node tests/test-suite.js",
+    "setup": "node scripts/setup-database.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "openclaw",
+    "agents",
+    "workflow",
+    "automation",
+    "notion"
+  ],
+  "author": "Rook for OpenClaw",
+  "license": "MIT"
+}

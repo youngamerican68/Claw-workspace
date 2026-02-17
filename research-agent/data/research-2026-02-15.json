@@ -1,0 +1,62 @@
+{
+  "date": "2026-02-15",
+  "duration_min": 2.1,
+  "llm_calls": 8,
+  "notes": [
+    {
+      "source": "r/openclaw",
+      "title": "r/openclaw overview",
+      "url": "https://reddit.com/r/openclaw",
+      "analysis": "**Most interesting posts (2):**\n\n1. **Hardened NixOS flake for OpenClaw** — Directly addresses the 135K+ exposed instances problem with production-ready security. Shows community is solving real infrastructure problems, not just chatting. [Link](https://github.com/始?security)\n\n2. **Give your OpenClaw permanent memory** — Tackles the core agent memory problem that #11 also highlights. Practical solution to agents forgetting context. [Link](https://github.com/JTH412/clawdbot)\n\n**Key themes:**\n- Security hardening is urgent (135K exposed instances is a real wake-up call)\n- Agent memory/permanence is a persistent pain point\n- Local-first movement gaining traction\n- Benchmarks and performance comparison becoming important\n\n**Tools/repos/products:**\n- NixOS flake for hardened OpenClaw deployments\n- Clawdbot (memory/permanent storage system)\n- Disclaw (Discord-style multi-agent coordination)\n- Local-first web client for OpenClaw\n\n**Links worth following:**\n1. OpenClaw Operating System layered guide: https://gist.github.com/behindthegarage/db5e15213a4daf566caccc9...\n2. Disclaw GitHub: https://github.com/Jonbuckles/disclaw"
+    },
+    {
+      "source": "r/openclaw → link",
+      "title": "https://github.com/始?security",
+      "url": "https://github.com/始?security",
+      "analysis": "This is a GitHub 404 error page indicating a broken or malformed link (the URL contains invalid characters and \"security\" parameters). Not useful - just a dead link you'd want to ignore."
+    },
+    {
+      "source": "r/openclaw → link",
+      "title": "https://github.com/JTH412/clawdbot",
+      "url": "https://github.com/JTH412/clawdbot",
+      "analysis": "This is a dead link to a GitHub repository (\"clawdbot\") that no longer exists or was removed. The intended project was likely a Discord bot or automation tool based on the name, but it cannot be accessed. Not useful as-is—try searching for similar claw/Discord bot projects on GitHub."
+    },
+    {
+      "source": "r/selfhosted",
+      "title": "r/selfhosted overview",
+      "url": "https://reddit.com/r/selfhosted",
+      "analysis": "## Analysis\n\n**Most interesting posts:**\n1. **\"MOD ANNOUNCEMENT: Introducing Vibe Code Friday\"** — Directly addresses the AI-assisted coding/maker movement. The \"vibe coding\" concept (AI helps you build, you guide) is exactly what agent frameworks aim to systematize. This signals community engagement with autonomous agent tools.\n\n2. **\"Securing my Pangolin instance\"** — Tangentially relevant to VPS hardening/security topics. Shows practical self-hosted security concerns, which applies to anyone running local LLMs or agent servers.\n\n**Key themes:**\n- Low-barrier entry to self-hosted projects (AI lowering friction)\n- Privacy-conscious alternatives to corporate platforms\n- Security hardening for self-hosted infrastructure\n- Maker-side-project culture is active\n\n**Tools/repos mentioned:**\n- Kuma (monitoring)\n- Portainer (Docker UI)\n- Komodo (deployment)\n- Gitea/Forgejo (self-hosted git)\n\n**Links worth following:**\n- sharemygit.com (private repo sharing)\n- Labelle-Web (Dymo LabelManager Web UI)\n- SoulSync (music discovery manager)\n\n**Verdict:** Low signal for direct AI agent topics. The community is self-hosted-focused generalists, not agent-specific. No mentions of OpenClaw, MCP servers, or local LLMs. Worth monitoring but not a high-yield feed for your specific interests."
+    },
+    {
+      "source": "Hacker News",
+      "title": "Show HN: Off Grid – Run AI text, image gen, vision offline on your phone",
+      "url": "https://github.com/alichherawalla/off-grid-mobile",
+      "hn_url": "https://news.ycombinator.com/item?id=47019133",
+      "score": 55,
+      "analysis": "This is a mobile app that runs AI models (text generation, vision, image generation) entirely offline on your phone. Everything stays local—no internet required, no data leaves your device. It's essentially a privacy-first AI Swiss Army knife for mobile."
+    }
+  ],
+  "log": [
+    "[04:21:55] === Research Agent ===",
+    "[04:21:55] Mode: QUICK",
+    "[04:21:55] Model: hf:MiniMaxAI/MiniMax-M2.1",
+    "[04:21:55] Budget: 50 LLM calls",
+    "[04:21:55] Subreddits: openclaw, selfhosted, LocalLLaMA",
+    "[04:21:55] Topics: AI agents, autonomous agents, agent frameworks, OpenClaw, server security, VPS hardening, self-hosted AI, local LLMs, agent tools, landing pages, side projects, maker tools, prompt engineering, agent memory, MCP servers",
+    "[04:21:55] \n📡 r/openclaw",
+    "[04:21:56]   25 posts from RSS",
+    "[04:22:05]   Found insights",
+    "[04:22:05]     🔗 https://github.com/始?security",
+    "[04:22:24]     🔗 https://github.com/JTH412/clawdbot",
+    "[04:22:43] \n📡 r/selfhosted",
+    "[04:22:44]   25 posts from RSS",
+    "[04:22:56]   Found insights",
+    "[04:22:58] \n📡 r/LocalLLaMA",
+    "[04:22:59]   25 posts from RSS",
+    "[04:23:12]   Nothing relevant",
+    "[04:23:14] \n📡 Hacker News",
+    "[04:23:31]   Selected: 15",
+    "[04:23:31]   📖 Show HN: Off Grid – Run AI text, image gen, vision offline on you",
+    "[04:24:13] \n📄 Report: /root/.openclaw/workspace/research-agent/reports/research-2026-02-15.md"
+  ]
+}

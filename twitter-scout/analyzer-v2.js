@@ -113,7 +113,22 @@ async function prepareTweetsForAnalysis(tweetFile) {
     preparedData.tweets.push(tweetData);
   }
 
-  // Fetch content from linked URLs (deduplicated)
+  // Save prepared data immediately (with just tweets, before URL fetching)
+  const preparedPath = path.join(DATA_DIR, `prepared-${timestamp}.json`);
+  fs.writeFileSync(preparedPath, JSON.stringify(preparedData, null, 2));
+  console.log(`Prepared data saved: ${preparedPath}`);
+
+  // Set the NEW_DATA_READY flag immediately so agent can start processing
+  // This happens BEFORE URL fetching so even if URL fetching fails/times out, 
+  // the agent still gets the tweet data and can generate the report
+  fs.writeFileSync(
+    path.join('/root/.openclaw/workspace/twitter-scout', 'NEW_DATA_READY'),
+    preparedPath
+  );
+  console.log('NEW_DATA_READY flag set');
+
+  // Fetch content from linked URLs (deduplicated) - NON-BLOCKING
+  // This happens AFTER the flag is set, so URL fetching failures don't break the workflow
   const allUrls = [...new Set(preparedData.tweets.flatMap(t => t.urls))];
   console.log(`Found ${allUrls.length} unique external URLs to fetch...`);
   
@@ -133,17 +148,9 @@ async function prepareTweetsForAnalysis(tweetFile) {
 
   console.log(`Fetched content from ${preparedData.linkedContent.length} URLs`);
 
-  // Save prepared data
-  const preparedPath = path.join(DATA_DIR, `prepared-${timestamp}.json`);
+  // Update the prepared file with linked content (optional enhancement)
   fs.writeFileSync(preparedPath, JSON.stringify(preparedData, null, 2));
-  console.log(`Prepared data saved: ${preparedPath}`);
-
-  // Update the NEW_DATA_READY flag with the path
-  fs.writeFileSync(
-    path.join('/root/.openclaw/workspace/twitter-scout', 'NEW_DATA_READY'),
-    preparedPath
-  );
-  console.log('NEW_DATA_READY flag set');
+  console.log('Updated prepared data with linked content');
 
   return preparedPath;
 }

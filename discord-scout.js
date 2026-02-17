@@ -12,7 +12,7 @@ const REPORTS_DIR = path.join(OUTPUT_DIR, 'reports');
 const DATA_DIR = path.join(OUTPUT_DIR, 'data');
 
 // Channels to skip (noise / low signal)
-const SKIP_CHANNELS = ['welcome', 'users-helping-users'];
+const SKIP_CHANNELS = ['welcome', 'users-helping-users', 'memes', 'pr-thunderdome-dangerzone', 'off-topic-and-ai', 'introductions', 'hardware'];
 
 // Ensure directories exist
 [OUTPUT_DIR, REPORTS_DIR, DATA_DIR].forEach(dir => {
