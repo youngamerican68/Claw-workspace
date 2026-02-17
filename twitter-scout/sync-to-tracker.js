@@ -74,7 +74,8 @@ function parseMarkdownReport(content) {
     (lowerTitle.includes('longevity') || lowerTitle.includes('health')) && lowerContent.includes('paper');
   const isPodcast = lowerTitle.includes('podcast') ||
     (lowerContent.includes('podcast scout') || lowerContent.includes('podcast transcripts'));
-  const source = isJournal ? 'journal' : isTwitter ? 'twitter' : isPodcast ? 'podcast' : lowerContent.includes('discord') ? 'discord' : 'twitter';
+  const isSmol = lowerTitle.includes("vibe architect") || lowerTitle.includes("smol.ai") || lowerContent.includes("smol.ai newsletter");
+  const source = isSmol ? "smol" : isJournal ? "journal" : isTwitter ? "twitter" : isPodcast ? "podcast" : lowerContent.includes("discord") ? "discord" : "twitter";
 
   // Count tweets/posts/transcripts mentioned
   const tweetMatch = content.match(/(\d+)\s*(tweets?|posts?|results?|transcripts?|episodes?|papers?)/i);
@@ -192,6 +193,7 @@ async function main() {
   if (fullPath.includes('podcast-scout')) parsed.source = 'podcast';
   else if (fullPath.includes('journal-scout')) parsed.source = 'journal';
   else if (fullPath.includes('twitter-scout')) parsed.source = 'twitter';
+  else if (fullPath.includes('smol-scout')) parsed.source = 'smol';
 
   console.log(`Syncing: "${parsed.title}" (${parsed.opportunities.length} opportunities)`);
 
