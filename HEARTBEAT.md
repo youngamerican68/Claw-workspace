@@ -102,7 +102,7 @@ If marketplace watches are configured (`/root/.openclaw/workspace/marketplace-sc
 
 **Use the watch run command — it handles delta detection automatically:**
 ```
-node /root/.openclaw/workspace/marketplace-scout.js watch run
+node /root/.openclaw/workspace/marketplace-scout.js watch run --vision --max-age 7
 ```
 
 **Pacing: Do NOT run every heartbeat.** Only run watches every 3rd heartbeat (~90 minutes). Skip if the last run was less than 60 minutes ago. Craigslist inventory changes slowly — scanning every 30 minutes wastes API calls on identical results.
