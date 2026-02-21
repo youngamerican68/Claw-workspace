@@ -96,3 +96,25 @@ If `/root/.openclaw/workspace/smol-scout/NEW_SMOL_DATA` exists:
 8. **POST THE FULL REPORT in chat**
 
 **IMPORTANT:** Use the Vibe Architect prompt from `/prompts/vibe-architect.md` exclusively. Do NOT use SCOUT_REPORT_FORMAT.md for smol reports.
+
+## On Each Heartbeat - Marketplace Watch Run (PERMANENT)
+If marketplace watches are configured (`/root/.openclaw/workspace/marketplace-scout/watches.json` exists and is non-empty):
+
+**Pacing rules (stay under 135 Synthetic API calls/day):**
+- Run **1-2 watches per heartbeat**, rotating through the list
+- Track which watch was last run and pick the next in rotation
+- Use `--max-listings 5 --vision --delay 5000` for each scan
+- This gives ~48 heartbeats/day x 1-2 watches x ~3 new listings = ~90 vision calls/day
+
+**How to run:**
+1. Pick the next 1-2 watches in rotation (check `lastRun` timestamps, run the oldest)
+2. For each watch, run: `node /root/.openclaw/workspace/marketplace-scout.js scan "<watch-url>" --pages 1 --max-listings 5 --delay 5000 --vision`
+3. Compare results against the watch's `knownListingUrls` to identify NEW listings only
+4. Update the watch's `knownListingUrls` and `lastRun` in watches.json
+
+**Reporting rules:**
+- ONLY message Paul about **great_deal** or **good_deal** vision ratings
+- Include: item name, price, estimated resale value, why it's a deal, link
+- Skip fair_price, overpriced, and unknown ratings -- these are noise
+- If nothing new or no good deals, stay silent (follow notification rules above)
+- Once per day (first heartbeat after 8 AM EST), post a brief daily summary of all deals found in last 24 hours
